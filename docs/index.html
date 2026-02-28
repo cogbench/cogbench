@@ -1065,14 +1065,14 @@
           <div class="caption"><strong>Fig 1.</strong> Adversarial Gap per model. Standard CSR (blue) vs. Adversarial CSR (orange). The gap between them reveals keyword reliance.</div>
         </div>
         <div class="fig-card fade-in">
-          <div style="padding:0.75rem 0.75rem 0.25rem; background:var(--white);">
-            <canvas id="chart-levels-std" height="180"></canvas>
+          <div style="padding:0.75rem 0.75rem 0.25rem; background:var(--white); position:relative;">
+            <canvas id="chart-levels-std"></canvas>
           </div>
           <div class="caption"><strong>Fig 2.</strong> Standard mode CSR by Bloom's level. Higher levels (Evaluate, Create) are typically harder.</div>
         </div>
         <div class="fig-card fade-in">
-          <div style="padding:0.75rem 0.75rem 0.25rem; background:var(--white);">
-            <canvas id="chart-levels-adv" height="180"></canvas>
+          <div style="padding:0.75rem 0.75rem 0.25rem; background:var(--white); position:relative;">
+            <canvas id="chart-levels-adv"></canvas>
           </div>
           <div class="caption"><strong>Fig 3.</strong> Adversarial mode CSR by Bloom's level. The drop from standard reveals which levels rely most on vocabulary cues.</div>
         </div>
@@ -1237,7 +1237,8 @@ cd cogbench && pip install -e .</div>
     try { renderTable(); } catch(e) { console.error('renderTable:', e); }
     try { setupSort(); } catch(e) { console.error('setupSort:', e); }
     try { renderGapChart(); } catch(e) { console.error('renderGapChart:', e); }
-    try { renderLevelCharts(); } catch(e) { console.error('renderLevelCharts:', e); }
+    try { renderStdLevelChart(); } catch(e) { console.error('renderStdLevelChart:', e); }
+    try { renderAdvLevelChart(); } catch(e) { console.error('renderAdvLevelChart:', e); }
     try { renderConstraintChart(); } catch(e) { console.error('renderConstraintChart:', e); }
     try { initAnimations(); } catch(e) { console.error('initAnimations:', e); }
     try { initNav(); } catch(e) { console.error('initNav:', e); }
@@ -1566,13 +1567,12 @@ cd cogbench && pip install -e .</div>
     });
   }
 
-  function renderLevelCharts() {
+  function renderStdLevelChart() {
     const perLevel = DATA.per_level || {};
     const models = Object.keys(perLevel);
     if (!models.length) return;
 
-    // Fig 2: Standard mode
-    const stdDatasets = models.slice(0, 7).map((model, i) => {
+    const datasets = models.slice(0, 7).map((model, i) => {
       const levels = perLevel[model];
       return {
         label: model,
@@ -1587,9 +1587,11 @@ cd cogbench && pip install -e .</div>
 
     new Chart(document.getElementById('chart-levels-std'), {
       type: 'line',
-      data: { labels: COLORS.levelNames, datasets: stdDatasets },
+      data: { labels: COLORS.levelNames, datasets: datasets },
       options: {
         responsive: true,
+        maintainAspectRatio: true,
+        aspectRatio: 1.6,
         plugins: {
           title: { display: true, text: 'Standard Mode: CSR by Bloom\'s Level', font: { family: 'Space Grotesk', size: 13, weight: 700 } },
           legend: { position: 'bottom', labels: { font: { size: 10 }, boxWidth: 12 } },
@@ -1599,13 +1601,14 @@ cd cogbench && pip install -e .</div>
         },
       }
     });
+  }
 
-    // Fig 3: Adversarial mode (from model_details)
+  function renderAdvLevelChart() {
     const details = DATA.model_details || {};
     const advModels = Object.keys(details).filter(m => details[m].per_level && details[m].per_level.adversarial);
     if (!advModels.length) return;
 
-    const advDatasets = advModels.slice(0, 7).map((model, i) => {
+    const datasets = advModels.slice(0, 7).map((model, i) => {
       const advLevels = details[model].per_level.adversarial;
       return {
         label: model,
@@ -1618,11 +1621,16 @@ cd cogbench && pip install -e .</div>
       };
     });
 
-    new Chart(document.getElementById('chart-levels-adv'), {
+    const canvas = document.getElementById('chart-levels-adv');
+    if (!canvas) { console.error('chart-levels-adv canvas not found'); return; }
+
+    new Chart(canvas, {
       type: 'line',
-      data: { labels: COLORS.levelNames, datasets: advDatasets },
+      data: { labels: COLORS.levelNames, datasets: datasets },
       options: {
         responsive: true,
+        maintainAspectRatio: true,
+        aspectRatio: 1.6,
         plugins: {
           title: { display: true, text: 'Adversarial Mode: CSR by Bloom\'s Level', font: { family: 'Space Grotesk', size: 13, weight: 700 } },
           legend: { position: 'bottom', labels: { font: { size: 10 }, boxWidth: 12 } },
