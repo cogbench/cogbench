@@ -81,9 +81,12 @@ class WordCount(Constraint):
     def check(self, data: QuestionData) -> ConstraintResult:
         n_words = len(data.question_words)
 
-        if n_words < U_MIN_WORDS:
-            return self._result(False, n_words / U_MIN_WORDS,
-                                f"Too short: {n_words} words (min {U_MIN_WORDS})")
+        # Remember questions are naturally shorter (factual recall)
+        min_words = 5 if data.target_level == 1 else U_MIN_WORDS
+
+        if n_words < min_words:
+            return self._result(False, n_words / min_words,
+                                f"Too short: {n_words} words (min {min_words})")
         if n_words > U_MAX_WORDS:
             return self._result(False, U_MAX_WORDS / n_words,
                                 f"Too long: {n_words} words (max {U_MAX_WORDS})")

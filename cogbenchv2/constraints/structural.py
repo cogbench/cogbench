@@ -70,39 +70,80 @@ def _find_concepts_in_text(text_lower, concepts):
 # ═══════════════════════════════════════════════════════════════════════════════
 
 class RememberVocabulary(Constraint):
-    """R1: Uses Remember-level vocabulary."""
+    """R1: Uses Remember-level vocabulary or natural recall framing."""
 
     constraint_id = "R1"
     constraint_name = "remember_vocabulary"
     tier = "structural"
 
+    # Natural interrogative patterns that signal factual recall
+    RECALL_PATTERNS = [
+        "what is", "what are", "what was", "what were", "what does", "what do",
+        "what did", "what type", "what kind", "what form", "what part",
+        "what vitamin", "what molecule", "what organ", "what structure",
+        "what process", "what function", "what role", "what term",
+        "what class", "what group", "what phylum", "what percentage",
+        "what number", "what year", "what region", "what stage",
+        "how many", "how much", "how long", "how old",
+        "when did", "when does", "when was", "when is", "when were",
+        "where is", "where are", "where does", "where do", "where did",
+        "who is", "who was", "who are", "who did", "who discovered",
+        "which is", "which are", "which was", "which of", "which type",
+    ]
+
     def check(self, data: QuestionData) -> ConstraintResult:
+        # Check canonical Bloom's verbs first
         found, verb = _contains_any(data.question_lower, BLOOM_VERBS[1])
         if found:
             return self._result(True, 1.0, f"Contains Remember verb: '{verb}'")
+
+        # Check natural interrogative patterns
+        found, pattern = _contains_any(data.question_lower, self.RECALL_PATTERNS)
+        if found:
+            return self._result(True, 0.9, f"Contains recall pattern: '{pattern}'")
+
         return self._result(False, 0.0,
-                            f"No Remember verbs found. Expected one of: {BLOOM_VERBS[1][:6]}...")
+                            f"No Remember verbs or recall patterns found. "
+                            f"Expected Bloom's verbs {BLOOM_VERBS[1][:4]}... "
+                            f"or patterns like 'What is', 'How many', 'When did'...")
 
 
 class RememberSingleConcept(Constraint):
-    """R2: Targets a single concept — only 1 key concept from passage appears."""
+    """R2: Targets a single concept — at most 2 key concepts from passage appear."""
 
     constraint_id = "R2"
     constraint_name = "single_concept"
     tier = "structural"
+
+    MAX_CONCEPTS = 2  # Allow up to 2 — some context is natural
+
+    @staticmethod
+    def _deduplicate_concepts(found):
+        """Remove concepts that are substrings of other found concepts.
+
+        E.g., if both 'cell' and 'cell cycle' are found, keep only 'cell cycle'.
+        """
+        deduped = []
+        for c in found:
+            # Skip if this concept is a substring of another found concept
+            if any(c != other and c.lower() in other.lower() for other in found):
+                continue
+            deduped.append(c)
+        return deduped
 
     def check(self, data: QuestionData) -> ConstraintResult:
         if not data.key_concepts:
             return self._result(True, 1.0, "No key concepts provided; skipped")
 
         found = _find_concepts_in_text(data.question_lower, data.key_concepts)
+        found = self._deduplicate_concepts(found)
         n = len(found)
 
-        if n <= R_MAX_CONCEPTS:
+        if n <= self.MAX_CONCEPTS:
             return self._result(True, 1.0,
-                                f"{n} concept(s) found: {found} (max {R_MAX_CONCEPTS})")
-        return self._result(False, R_MAX_CONCEPTS / n,
-                            f"{n} concepts found: {found} (max {R_MAX_CONCEPTS}). "
+                                f"{n} concept(s) found: {found} (max {self.MAX_CONCEPTS})")
+        return self._result(False, self.MAX_CONCEPTS / n,
+                            f"{n} concepts found: {found} (max {self.MAX_CONCEPTS}). "
                             "Remember questions should target a single concept.")
 
 
@@ -159,18 +200,43 @@ class RememberExtractable(Constraint):
 # ═══════════════════════════════════════════════════════════════════════════════
 
 class UnderstandVocabulary(Constraint):
-    """D1: Uses Understand-level vocabulary."""
+    """D1: Uses Understand-level vocabulary or natural comprehension framing."""
 
     constraint_id = "D1"
     constraint_name = "understand_vocabulary"
     tier = "structural"
 
+    # Natural patterns that signal comprehension-level thinking
+    UNDERSTAND_PATTERNS = [
+        "why is", "why are", "why does", "why do", "why did", "why was",
+        "why were", "why would", "why can", "why might",
+        "how does", "how do", "how is", "how are", "how did", "how was",
+        "how can", "how would", "how might",
+        "what is the difference", "what is the purpose", "what is the role",
+        "what is the function", "what is the significance", "what is the meaning",
+        "what is the relationship", "what is the importance",
+        "what happens when", "what happens if", "what would happen",
+        "what is the effect", "what is the impact", "what is the result",
+        "in what way", "in your own words",
+        "what does it mean", "what do you understand",
+        "given that", "considering that",
+    ]
+
     def check(self, data: QuestionData) -> ConstraintResult:
+        # Check canonical Bloom's verbs first
         found, verb = _contains_any(data.question_lower, BLOOM_VERBS[2])
         if found:
             return self._result(True, 1.0, f"Contains Understand verb: '{verb}'")
+
+        # Check natural comprehension patterns
+        found, pattern = _contains_any(data.question_lower, self.UNDERSTAND_PATTERNS)
+        if found:
+            return self._result(True, 0.9, f"Contains comprehension pattern: '{pattern}'")
+
         return self._result(False, 0.0,
-                            f"No Understand verbs found. Expected one of: {BLOOM_VERBS[2][:6]}...")
+                            f"No Understand verbs or comprehension patterns found. "
+                            f"Expected Bloom's verbs {BLOOM_VERBS[2][:4]}... "
+                            f"or patterns like 'Why is', 'How does', 'What is the purpose'...")
 
 
 class UnderstandNotCopied(Constraint):
@@ -240,26 +306,53 @@ class UnderstandMeaning(Constraint):
 # ═══════════════════════════════════════════════════════════════════════════════
 
 class ApplyVocabulary(Constraint):
-    """P1: Uses Apply-level vocabulary."""
+    """P1: Uses Apply-level vocabulary or scenario-based application framing."""
 
     constraint_id = "P1"
     constraint_name = "apply_vocabulary"
     tier = "structural"
 
+    # Natural patterns that signal application-level thinking
+    APPLY_PATTERNS = [
+        # Scenario framing (if/given/suppose/consider + problem)
+        "if a ", "if an ", "if the ", "if you ", "if we ",
+        "given that", "given a ", "given an ", "given the ",
+        "suppose ", "assuming ", "consider a ", "consider the ",
+        "imagine ", "say that ",
+        # Problem-solving cues
+        "how would you", "how could you", "how can you",
+        "what would happen if", "what would be the result",
+        "what steps", "what procedure", "what method",
+        "a researcher", "a student", "a scientist", "an engineer",
+        "a patient", "a doctor",
+        # Computation/procedure cues
+        "find the", "predict the", "estimate the",
+        "what is the value", "what would the",
+    ]
+
     def check(self, data: QuestionData) -> ConstraintResult:
+        # Check canonical Bloom's verbs first
         found, verb = _contains_any(data.question_lower, BLOOM_VERBS[3])
         if found:
             return self._result(True, 1.0, f"Contains Apply verb: '{verb}'")
+
+        # Check scenario-based application patterns
+        found, pattern = _contains_any(data.question_lower, self.APPLY_PATTERNS)
+        if found:
+            return self._result(True, 0.9, f"Contains application pattern: '{pattern}'")
+
         return self._result(False, 0.0,
-                            f"No Apply verbs found. Expected one of: {BLOOM_VERBS[3][:6]}...")
+                            f"No Apply verbs or application patterns found. "
+                            f"Expected Bloom's verbs {BLOOM_VERBS[3][:4]}... "
+                            f"or patterns like 'If a...', 'Given that...', 'How would you...'...")
 
 
 class ApplyMethodReference(Constraint):
-    """P3: References a method/principle FROM the passage in question or answer.
+    """P3: References a concept, method, or principle from the passage.
 
-    Checks both question and answer because Apply questions often use a method
-    implicitly in the question (e.g., "Calculate the force...") while the answer
-    names the method explicitly (e.g., "Using Newton's second law...").
+    Apply questions should ground their scenario in passage content.
+    Checks both question and answer, using key_concepts as the primary
+    source (methods_principles is often poorly extracted).
     """
 
     constraint_id = "P3"
@@ -269,29 +362,37 @@ class ApplyMethodReference(Constraint):
     def check(self, data: QuestionData) -> ConstraintResult:
         combined_lower = data.question_lower + " " + data.answer_lower
 
-        if not data.methods_principles:
-            # Fallback: check if at least 1 key concept is referenced in Q+A
-            if data.key_concepts:
-                found = _find_concepts_in_text(combined_lower, data.key_concepts)
+        # Use key_concepts as primary check (more reliable than methods_principles)
+        if data.key_concepts:
+            found = _find_concepts_in_text(combined_lower, data.key_concepts)
+            if found:
+                return self._result(True, 1.0,
+                                    f"References passage concept: {found[:3]}")
+
+        # Fallback to methods_principles if available
+        if data.methods_principles:
+            # Filter out garbage entries (too short or too generic)
+            good_methods = [m for m in data.methods_principles
+                           if len(m.split()) <= 5 and len(m) > 3]
+            if good_methods:
+                found = _find_concepts_in_text(combined_lower, good_methods)
                 if found:
                     return self._result(True, 1.0,
-                                        f"References concept from passage: {found[0]}")
-            return self._result(True, 1.0, "No methods/principles provided; skipped")
+                                        f"References method/principle: {found[0]}")
 
-        # Check question first, then answer
-        found_q = _find_concepts_in_text(data.question_lower, data.methods_principles)
-        if found_q:
-            return self._result(True, 1.0,
-                                f"Question references method: {found_q[0]}")
+        # Last resort: check stemmed word overlap between Q+A and passage
+        if data.passage_words:
+            combined_words = re.findall(r'[a-z]+', combined_lower)
+            overlap = _word_overlap(combined_words, data.passage_words)
+            if overlap >= 0.20:
+                return self._result(True, 0.8,
+                                    f"Q+A shares {overlap:.0%} vocabulary with passage")
 
-        found_a = _find_concepts_in_text(data.answer_lower, data.methods_principles)
-        if found_a:
-            return self._result(True, 0.9,
-                                f"Answer references method: {found_a[0]}")
+        if not data.key_concepts and not data.methods_principles:
+            return self._result(True, 1.0, "No concepts/methods provided; skipped")
 
         return self._result(False, 0.0,
-                            f"No methods/principles from passage in Q or A. "
-                            f"Available: {data.methods_principles[:3]}")
+                            "Q+A does not reference passage concepts or methods.")
 
 
 class ApplySpecificResult(Constraint):
@@ -301,16 +402,20 @@ class ApplySpecificResult(Constraint):
     constraint_name = "specific_result"
     tier = "structural"
 
-    # Patterns that indicate a specific result
+    # Patterns that indicate a specific result or concrete reasoning
     RESULT_PATTERNS = [
-        r'\d{2,}',        # Contains a multi-digit number (not just a single digit)
-        r'\d+\.\d+',      # Decimal number
-        r'\d+\s*%',       # Percentage
+        r'\d+',           # Any number
         r'step\s*\d',     # "step 1", "step 2"
-        r'first|second|third|finally',  # Procedural steps (not 'then'/'next' — too common)
-        r'result|outcome|solution|output',  # Result words (not 'answer' — too generic)
+        r'first|second|third|finally',  # Procedural steps
+        r'result|outcome|solution|output',  # Result words
         r'therefore|thus|hence|consequently',  # Conclusion markers
         r'equals?|yields?|produces?|gives?',   # Computation results
+        r'because|since|due to|as a result',   # Causal reasoning
+        r'would\s+(be|cause|lead|result|produce|increase|decrease)',  # Predicted outcomes
+        r'this\s+(means|indicates|suggests|shows|leads|causes|results)',  # Inference
+        r'the\s+(answer|solution|result|value|effect|consequence)\s+is',  # Direct answers
+        r'in\s+this\s+(case|scenario|situation)',  # Scenario application
+        r'by\s+(using|applying|following|performing)',  # Method application
     ]
 
     def check(self, data: QuestionData) -> ConstraintResult:
@@ -331,18 +436,44 @@ class ApplySpecificResult(Constraint):
 # ═══════════════════════════════════════════════════════════════════════════════
 
 class AnalyzeVocabulary(Constraint):
-    """A1: Uses Analyze-level vocabulary."""
+    """A1: Uses Analyze-level vocabulary or natural analytical framing."""
 
     constraint_id = "A1"
     constraint_name = "analyze_vocabulary"
     tier = "structural"
 
+    # Natural patterns that signal analysis-level thinking
+    ANALYZE_PATTERNS = [
+        "how do", "how does", "how is", "how are",
+        "what is the relationship", "what is the connection",
+        "what is the difference", "what are the differences",
+        "what is the similarity", "what are the similarities",
+        "in what way", "in what ways",
+        "what role does", "what role do",
+        "how do they differ", "how does it differ",
+        "differ from", "different from", "differs from",
+        "similar to", "compared to", "in comparison",
+        "what factors", "what causes", "what contributes",
+        "why does", "why do", "why is", "why are",
+        "the relationship between", "the connection between",
+        "the difference between", "the similarities between",
+    ]
+
     def check(self, data: QuestionData) -> ConstraintResult:
+        # Check canonical Bloom's verbs first
         found, verb = _contains_any(data.question_lower, BLOOM_VERBS[4])
         if found:
             return self._result(True, 1.0, f"Contains Analyze verb: '{verb}'")
+
+        # Check natural analytical patterns
+        found, pattern = _contains_any(data.question_lower, self.ANALYZE_PATTERNS)
+        if found:
+            return self._result(True, 0.9, f"Contains analytical pattern: '{pattern}'")
+
         return self._result(False, 0.0,
-                            f"No Analyze verbs found. Expected one of: {BLOOM_VERBS[4][:6]}...")
+                            f"No Analyze verbs or analytical patterns found. "
+                            f"Expected Bloom's verbs {BLOOM_VERBS[4][:4]}... "
+                            f"or patterns like 'How do X differ', 'What is the relationship'...")
 
 
 class AnalyzeMultipleConcepts(Constraint):
@@ -352,13 +483,54 @@ class AnalyzeMultipleConcepts(Constraint):
     constraint_name = "multiple_concepts"
     tier = "structural"
 
+    # Common acronym expansions in science textbooks
+    ACRONYM_MAP = {
+        "rer": "rough endoplasmic reticulum",
+        "ser": "smooth endoplasmic reticulum",
+        "er": "endoplasmic reticulum",
+        "dna": "deoxyribonucleic acid",
+        "rna": "ribonucleic acid",
+        "mrna": "messenger rna",
+        "trna": "transfer rna",
+        "atp": "adenosine triphosphate",
+        "adp": "adenosine diphosphate",
+        "nadh": "nicotinamide adenine dinucleotide",
+        "gdp": "gross domestic product",
+        "cns": "central nervous system",
+        "pns": "peripheral nervous system",
+    }
+
+    def _find_with_acronyms(self, text_lower, concepts):
+        """Find concepts in text, also matching acronyms."""
+        found = _find_concepts_in_text(text_lower, concepts)
+
+        # Also check if text contains acronyms that match concept expansions
+        for acronym, expansion in self.ACRONYM_MAP.items():
+            if re.search(r'\b' + re.escape(acronym) + r'\b', text_lower):
+                for c in concepts:
+                    if c.lower() not in [f.lower() for f in found]:
+                        if (acronym in c.lower() or c.lower() in expansion
+                                or expansion in c.lower()):
+                            found.append(c)
+
+        return found
+
     def check(self, data: QuestionData) -> ConstraintResult:
         if not data.key_concepts:
             return self._result(True, 1.0, "No key concepts provided; skipped")
 
-        found = _find_concepts_in_text(data.question_lower, data.key_concepts)
-        n = len(found)
+        # Check question + answer combined (analysis often names concepts in answer)
+        combined_lower = data.question_lower + " " + data.answer_lower
+        found = self._find_with_acronyms(combined_lower, data.key_concepts)
 
+        # Deduplicate substring matches
+        deduped = []
+        for c in found:
+            if not any(c != other and c.lower() in other.lower() for other in found):
+                deduped.append(c)
+        found = deduped if deduped else found
+
+        n = len(found)
         passed = n >= A_MIN_CONCEPTS
         score = min(n / A_MIN_CONCEPTS, 1.0)
 
@@ -458,17 +630,31 @@ class EvaluateClaim(Constraint):
         "assess whether", "some argue", "the claim",
         "it has been claimed", "one could argue", "is it fair to say",
         "claims that", "it is claimed", "the argument",
+        # Should/could/would judgment prompts
+        "should ", "should be", "should not",
+        "could be considered", "can be considered",
+        "would it be", "is it possible that",
+        "is it accurate", "is it correct", "is it fair",
+        # Justify/defend prompts
+        "justify your", "justify this", "provide reasons",
+        "give reasons", "support your",
+        "provide evidence", "provide your reasoning",
         # Broader evaluation phrasings
         "strengths and weaknesses", "strengths and limitations",
         "advantages and disadvantages", "pros and cons",
         "how effective", "how appropriate", "how adequate",
         "how justified", "how significant", "how valid",
+        "how important", "how well does", "how successful",
         "is there sufficient", "is there enough evidence",
         "what are the limitations", "what are the drawbacks",
-        "what are the implications",
+        "what are the implications", "what are the consequences",
         "evaluate whether", "evaluate how", "evaluate the",
         "critically assess", "critically evaluate", "critically analyze",
         "weigh the", "judge the", "merit of",
+        # Position-taking patterns
+        "your position", "your stance", "your opinion",
+        "your argument", "your view",
+        "take a position", "take a stance",
     ]
 
     def check(self, data: QuestionData) -> ConstraintResult:
@@ -510,9 +696,26 @@ class EvaluateArgumentation(Constraint):
     tier = "structural"
 
     CONTRASTIVE_MARKERS = [
+        # Classic contrastive markers
         "however", "although", "on the other hand", "nevertheless",
         "conversely", "in contrast", "despite", "whereas",
         "notwithstanding", "on the contrary", "nonetheless",
+        "but ", "yet ", "while ",
+        # Argumentation markers (supporting + concluding)
+        "therefore", "thus", "hence", "consequently",
+        "because", "since ", "as a result",
+        "this suggests", "this indicates", "this shows",
+        "the evidence", "the data",
+        # Evaluative language
+        "more effective", "less effective", "better", "worse",
+        "stronger", "weaker", "superior", "inferior",
+        "significant", "insufficient", "adequate", "inadequate",
+        "valid", "invalid", "justified", "unjustified",
+        # Reasoning structure
+        "on one hand", "first,", "second,", "finally,",
+        "in conclusion", "overall", "in summary",
+        "the strength", "the weakness", "the limitation",
+        "the advantage", "the disadvantage",
     ]
 
     def check(self, data: QuestionData) -> ConstraintResult:
