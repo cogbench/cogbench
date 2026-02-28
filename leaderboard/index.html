@@ -170,6 +170,16 @@
   }
   .nav__links a:hover { color: var(--dark); }
   .nav__links a:hover::after { width: 100%; }
+  .nav__divider {
+    width: 1px;
+    height: 16px;
+    background: var(--border);
+    align-self: center;
+  }
+  .nav__links a i {
+    font-size: 1rem;
+  }
+  .nav__links a i::after { display: none; }
 
   .nav__toggle {
     display: none;
@@ -257,6 +267,41 @@
     font-size: 0.78rem;
     font-weight: 600;
     color: #92400E;
+  }
+
+  .hero__install {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .hero__install-code {
+    display: inline-block;
+    background: var(--dark);
+    color: #E2E8F0;
+    padding: 0.5rem 1.25rem;
+    border-radius: var(--radius-sm);
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  .hero__badges {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hero__badge img {
+    height: 20px;
+    transition: transform var(--transition-fast);
+  }
+  .hero__badge:hover img {
+    transform: scale(1.05);
   }
 
   /* ── Content Sections ── */
@@ -792,6 +837,9 @@
       <li><a href="#methodology">Methodology</a></li>
       <li><a href="#submit">Submit</a></li>
       <li><a href="#citation">Citation</a></li>
+      <li class="nav__divider"></li>
+      <li><a href="https://pypi.org/project/cogbench/" target="_blank" rel="noopener" title="PyPI"><i class="fas fa-cube"></i></a></li>
+      <li><a href="https://github.com/cogbench/cogbench" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a></li>
     </ul>
   </div>
 </nav>
@@ -804,6 +852,20 @@
         <h1 class="hero__title">CogBench</h1>
         <p class="hero__subtitle">A verifiable constraint benchmark for evaluating cognitive-level control in LLM question generation using Bloom's Taxonomy</p>
         <div class="hero__stats" id="stats"></div>
+        <div class="hero__install fade-in">
+          <code class="hero__install-code">pip install cogbench</code>
+          <div class="hero__badges">
+            <a href="https://pypi.org/project/cogbench/" class="hero__badge" target="_blank" rel="noopener">
+              <img src="https://img.shields.io/pypi/v/cogbench?style=flat-square&color=2563EB&label=PyPI" alt="PyPI version">
+            </a>
+            <a href="https://github.com/cogbench/cogbench" class="hero__badge" target="_blank" rel="noopener">
+              <img src="https://img.shields.io/github/stars/cogbench/cogbench?style=flat-square&color=0F172A&label=GitHub" alt="GitHub stars">
+            </a>
+            <a href="https://pypi.org/project/cogbench/" class="hero__badge" target="_blank" rel="noopener">
+              <img src="https://img.shields.io/pypi/pyversions/cogbench?style=flat-square&color=059669&label=Python" alt="Python versions">
+            </a>
+          </div>
+        </div>
         <div class="hero__tagline">
           <i class="fas fa-check-circle"></i>
           Deterministic evaluation &mdash; no LLM judge, no trained classifier, same input &rarr; same score
@@ -1084,29 +1146,26 @@
       <div class="method-grid">
         <div class="method-card fade-in">
           <h3><i class="fas fa-download"></i> 1. Install CogBench</h3>
-          <div class="code-block">pip install cogbench
-cogbench --help</div>
-          <p>Or clone the repo and run directly:</p>
-          <div class="code-block">git clone https://github.com/cogbench/cogbench
-cd cogbench
-pip install -e .</div>
+          <div class="code-block">pip install cogbench</div>
+          <p>Verify the installation:</p>
+          <div class="code-block">cogbench info</div>
+          <p style="margin-top:0.5rem; font-size:0.78rem; color:var(--text-muted);">Or install from source:</p>
+          <div class="code-block" style="font-size:0.72rem;">git clone https://github.com/cogbench/cogbench
+cd cogbench && pip install -e .</div>
         </div>
         <div class="method-card fade-in">
           <h3><i class="fas fa-play"></i> 2. Run the Benchmark</h3>
-          <p>Generate questions from your model (standard + adversarial) across all 120 passages and 6 Bloom's levels:</p>
-          <div class="code-block">cogbench run --model your-model-name \
-  --backend ollama \
-  --output results/</div>
-          <p>This produces 1,440 questions (720 standard + 720 adversarial) and evaluates all constraints automatically.</p>
+          <p>Generate questions from your model across all 120 passages and 6 Bloom's levels in both standard and adversarial modes:</p>
+          <div class="code-block">cogbench run --model your-model:size \
+  --mode both</div>
+          <p style="margin-top:0.5rem;">This produces 1,440 questions (720 standard + 720 adversarial) and evaluates all 28 constraints automatically. Models are served via <a href="https://ollama.com" style="color:var(--primary);">Ollama</a>.</p>
         </div>
         <div class="method-card full-width fade-in">
           <h3><i class="fas fa-paper-plane"></i> 3. Submit Results</h3>
-          <p>Submit your evaluated results to appear on the leaderboard:</p>
-          <div class="code-block">cogbench submit --results results/ \
-  --model-name "Your Model 14B" \
-  --model-params "14B" \
-  --model-type local</div>
-          <p style="margin-top:0.5rem">Results are evaluated locally &mdash; no external API needed. All constraints run deterministically on your machine.</p>
+          <p>Submit your evaluated results to appear on the leaderboard. Requires the <a href="https://cli.github.com" style="color:var(--primary);">GitHub CLI</a> (<code style="font-size:0.78rem;">gh</code>):</p>
+          <div class="code-block">cogbench submit --name "Your Name"</div>
+          <p style="margin-top:0.5rem;">This packages your results, computes metrics, and creates a GitHub issue on the CogBench repo. The maintainers will review and add your model to the leaderboard.</p>
+          <p style="margin-top:0.25rem; font-size:0.78rem; color:var(--text-muted);">To submit a specific model: <code style="font-size:0.72rem;">cogbench submit --model qwen2.5:14b --name "Your Name"</code></p>
         </div>
       </div>
     </div>
@@ -1135,10 +1194,11 @@ pip install -e .</div>
   <div class="container">
     <div class="footer__inner">
       <div class="footer__social">
-        <a href="https://github.com/cogbench/cogbench" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://pypi.org/project/cogbench/" aria-label="PyPI" target="_blank" rel="noopener"><i class="fas fa-cube"></i></a>
+        <a href="https://github.com/cogbench/cogbench" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
         <a href="mailto:kunukumourya@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
       </div>
-      <p class="footer__copy">CogBench &mdash; Verifiable Cognitive Constraint Benchmark</p>
+      <p class="footer__copy">CogBench &mdash; Verifiable Cognitive Constraint Benchmark &mdash; <code style="font-size:0.7rem; background:rgba(255,255,255,0.1); padding:2px 6px; border-radius:3px;">pip install cogbench</code></p>
     </div>
   </div>
 </footer>
