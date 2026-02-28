@@ -25,5 +25,10 @@ Thumbs.db
 # Pytest
 .pytest_cache/
 
+# Plans / internal docs
+plans/
+proposal/
+AUDIT.md
+
 # Environment
 .env
