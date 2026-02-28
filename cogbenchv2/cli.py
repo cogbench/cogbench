@@ -360,7 +360,7 @@ def cmd_leaderboard(args):
 
     output_path = args.output or os.path.join(
         os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-        "leaderboard", "data.json")
+        "docs", "data.json")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w") as f:
         json.dump(data_json, f, indent=2)
