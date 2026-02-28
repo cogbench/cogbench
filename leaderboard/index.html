@@ -1571,7 +1571,8 @@ cd cogbench && pip install -e .</div>
     const models = Object.keys(perLevel);
     if (!models.length) return;
 
-    const datasets = models.slice(0, 6).map((model, i) => {
+    // Fig 2: Standard mode
+    const stdDatasets = models.slice(0, 7).map((model, i) => {
       const levels = perLevel[model];
       return {
         label: model,
@@ -1586,11 +1587,44 @@ cd cogbench && pip install -e .</div>
 
     new Chart(document.getElementById('chart-levels-std'), {
       type: 'line',
-      data: { labels: COLORS.levelNames, datasets },
+      data: { labels: COLORS.levelNames, datasets: stdDatasets },
       options: {
         responsive: true,
         plugins: {
           title: { display: true, text: 'Standard Mode: CSR by Bloom\'s Level', font: { family: 'Space Grotesk', size: 13, weight: 700 } },
+          legend: { position: 'bottom', labels: { font: { size: 10 }, boxWidth: 12 } },
+        },
+        scales: {
+          y: { beginAtZero: true, max: 100, title: { display: true, text: 'CSR (%)' } },
+        },
+      }
+    });
+
+    // Fig 3: Adversarial mode (from model_details)
+    const details = DATA.model_details || {};
+    const advModels = Object.keys(details).filter(m => details[m].per_level && details[m].per_level.adversarial);
+    if (!advModels.length) return;
+
+    const advDatasets = advModels.slice(0, 7).map((model, i) => {
+      const advLevels = details[model].per_level.adversarial;
+      return {
+        label: model,
+        data: [1,2,3,4,5,6].map(l => ((advLevels[String(l)] || 0) * 100)),
+        borderColor: COLORS.levels[i % 6],
+        backgroundColor: COLORS.levels[i % 6] + '44',
+        borderWidth: 2,
+        tension: 0.3,
+        pointRadius: 3,
+      };
+    });
+
+    new Chart(document.getElementById('chart-levels-adv'), {
+      type: 'line',
+      data: { labels: COLORS.levelNames, datasets: advDatasets },
+      options: {
+        responsive: true,
+        plugins: {
+          title: { display: true, text: 'Adversarial Mode: CSR by Bloom\'s Level', font: { family: 'Space Grotesk', size: 13, weight: 700 } },
           legend: { position: 'bottom', labels: { font: { size: 10 }, boxWidth: 12 } },
         },
         scales: {
