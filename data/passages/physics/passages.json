@@ -1,0 +1,335 @@
+[
+  {
+    "passage_id": "phy_001",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "1.2 Physical Quantities and Units",
+    "text": "The range of objects and phenomena studied in physics is immense. From the incredibly short lifetime of a nucleus to the age of the Earth, from the tiny sizes of sub-nuclear particles to the vast distance to the edges of the known universe, from the force exerted by a jumping flea to the force between Earth and the Sun, there are enough factors of 10 to challenge the imagination of even the most experienced scientist. Giving numerical values for physical quantities and equations for physical principles allows us to understand nature much more deeply than does qualitative description alone. To comprehend these vast ranges, we must also have accepted units in which to express them. And we shall find that (even in the potentially mundane discussion of meters, kilograms, and seconds) a profound simplicity of nature appears\u00e2\u0080\u0094most physical quantities can be expressed as combinations of only four fundamental physical quantities: length, mass, time, and electric current. We define a physical quantity either by specifying how it is measured or by stating how it is calculated from other measurements. For example, we define distance and time by specifying methods for measuring them, whereas we define average speed by stating that it is calculated as distance traveled divided by time of travel. Measurements of physical quantities are expressed in terms of units , which are standardized values. For example, the length of a race, which is a physical quantity, can be expressed in units of meters (for sprinters) or kilometers (for distance runners). Without standardized units, it would be extremely difficult for scientists to express and compare measured values in a meaningful way. (See Figure 1.16 .) There are two major systems of units used in the world: SI units (also known as the metric system) and English units (also known as the customary or imperial system). English units were historically used in nations once ruled by the British Empire and are still widely used in the United States. Virtually every other country in the world now uses SI units as the standard; the metric system is also the standard system agreed upon by scientists and mathematicians. The acronym \u00e2\u0080\u009cSI\u00e2\u0080\u009d is derived from the French Syst\u00c3\u00a8me International . It is an intriguing fact that some physical quantities are more fundamental than others and that the most fundamental physical quantities can be defined only in terms of the procedure used to measure them. The units in which they are measured are thus called fundamental units . In this textbook, the fundamental physical quantities are taken to be length, mass, time, and electric current. (Note that electric current will not be introduced until much later in this text.) All other physical quantities, such as force and electric charge, can be expressed as algebraic combinations of length, mass, time, and current (for example, speed is length divided by time); these units are called derived units . The SI unit for time, the second (abbreviated s), has a long history.",
+    "key_concepts": [
+      "units",
+      "length",
+      "earth",
+      "force",
+      "physical quantities",
+      "them",
+      "mass"
+    ],
+    "methods_principles": [
+      "and equation",
+      "physical principle",
+      "specifying method",
+      "once rule"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/1-2-physical-quantities-and-units",
+    "word_count": 494
+  },
+  {
+    "passage_id": "phy_002",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "4.1 Development of Force Concept",
+    "text": "Dynamics is the study of the forces that cause objects and systems to move. To understand this, we need a working definition of force. Our intuitive definition of force \u00e2\u0080\u0094that is, a push or a pull\u00e2\u0080\u0094is a good place to start. We know that a push or pull has both magnitude and direction (therefore, it is a vector quantity) and can vary considerably in each regard. For example, a cannon exerts a strong force on a cannonball that is launched into the air. In contrast, Earth exerts only a tiny downward pull on a flea. Our everyday experiences also give us a good idea of how multiple forces add. If two people push in different directions on a third person, as illustrated in Figure 4.3 , we might expect the total force to be in the direction shown. Since force is a vector, it adds just like other vectors, as illustrated in Figure 4.3 (a) for two ice skaters. Forces, like other vectors, are represented by arrows and can be added using the familiar head-to-tail method or by trigonometric methods. These ideas were developed in Two-Dimensional Kinematics . A more quantitative definition of force can be based on some standard force, just as distance is measured in units relative to a standard distance. One possibility is to stretch a spring a certain fixed distance, as illustrated in Figure 4.4 , and use the force it exerts to pull itself back to its relaxed shape\u00e2\u0080\u0094called a restoring force \u00e2\u0080\u0094as a standard. The magnitude of all other forces can be stated as multiples of this standard unit of force. Many other possibilities exist for standard forces. (One that we will encounter in Magnetism is the magnetic force between two wires carrying electric current.) Some alternative definitions of force will be given later in this chapter. To investigate force standards and cause and effect, get two identical rubber bands. Hang one rubber band vertically on a hook. Find a small household item that could be attached to the rubber band using a paper clip, and use this item as a weight to investigate the stretch of the rubber band. Measure the amount of stretch produced in the rubber band with one, two, and four of these (identical) items suspended from the rubber band. What is the relationship between the number of items and the amount of stretch? How large a stretch would you expect for the same number of items suspended from two rubber bands? What happens to the amount of stretch of the rubber band (with the weights attached) if the weights are also pushed to the side with a pencil?",
+    "key_concepts": [
+      "force",
+      "rubber band",
+      "stretch",
+      "amount",
+      "push"
+    ],
+    "methods_principles": [
+      "tail method",
+      "trigonometric method",
+      "and effect",
+      "tail",
+      "or by trigonometric"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/4-1-development-of-force-concept",
+    "word_count": 439
+  },
+  {
+    "passage_id": "phy_003",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "7.1 Work: The Scientific Definition",
+    "text": "The scientific definition of work differs in some ways from its everyday meaning. Certain things we think of as hard work, such as writing an exam or carrying a heavy load on level ground, are not work as defined by a scientist. The scientific definition of work reveals its relationship to energy\u00e2\u0080\u0094whenever work is done, energy is transferred. For work, in the scientific sense, to be done, a force must be exerted and there must be displacement in the direction of the force. Formally, the work done on a system by a constant force is defined to be the product of the component of the force in the direction of motion times the distance through which the force acts . For one-way motion in one dimension, this is expressed in equation form as where is work, is the displacement of the system, and is the angle between the force vector and the displacement vector , as in Figure 7.2 . We can also write this as To find the work done on a system that undergoes motion that is not one-way or that is in two or three dimensions, we divide the motion into one-way one-dimensional segments and add up the work done over each segment. The work done on a system by a constant force is the product of the component of the force in the direction of motion times the distance through which the force acts . For one-way motion in one dimension, this is expressed in equation form as where is work, is the magnitude of the force on the system, is the magnitude of the displacement of the system, and is the angle between the force vector and the displacement vector . To examine what the definition of work means, let us consider the other situations shown in Figure 7.2 . The person holding the briefcase in Figure 7.2 (b) does no work, for example. Here , so . Why is it you get tired just holding a load? The answer is that your muscles are doing work against one another, but they are doing no work on the system of interest (the \u00e2\u0080\u009cbriefcase-Earth system\u00e2\u0080\u009d\u00e2\u0080\u0094see Gravitational Potential Energy for more details). There must be displacement for work to be done, and there must be a component of the force in the direction of the motion. For example, the person carrying the briefcase on level ground in Figure 7.2 (c) does no work on it, because the force is perpendicular to the motion. That is, , and so . In contrast, when a force exerted on the system has a component in the direction of motion, such as in Figure 7.2 (d), work is done\u00e2\u0080\u0094energy is transferred to the briefcase. Finally, in Figure 7.2 (e), energy is transferred from the briefcase to a generator. There are two good ways to interpret this energy transfer. One interpretation is that the briefcase\u00e2\u0080\u0099s weight does work on the generator, giving it energy.",
+    "key_concepts": [
+      "work",
+      "force",
+      "motion",
+      "7.2",
+      "direction",
+      "component",
+      "briefcase"
+    ],
+    "methods_principles": [
+      "in equation",
+      "this is expressed in"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+    "word_count": 492
+  },
+  {
+    "passage_id": "phy_004",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "9.2 The Second Condition for Equilibrium",
+    "text": "The second condition necessary to achieve equilibrium involves avoiding accelerated rotation (maintaining a constant angular velocity). A rotating body or system can be in equilibrium if its rate of rotation is constant and remains unchanged by the forces acting on it. To understand what factors affect rotation, let us think about what happens when you open an ordinary door by rotating it on its hinges. Several familiar factors determine how effective you are in opening the door. See Figure 9.6 . First of all, the larger the force, the more effective it is in opening the door\u00e2\u0080\u0094obviously, the harder you push, the more rapidly the door opens. Also, the point at which you push is crucial. If you apply your force too close to the hinges, the door will open slowly, if at all. Most people have been embarrassed by making this mistake and bumping up against a door when it did not open as quickly as expected. Finally, the direction in which you push is also important. The most effective direction is perpendicular to the door\u00e2\u0080\u0094we push in this direction almost instinctively. The magnitude, direction, and point of application of the force are incorporated into the definition of the physical quantity called torque. Torque is the rotational equivalent of a force. It is a measure of the effectiveness of a force in changing or accelerating a rotation (changing the angular velocity over a period of time). In equation form, the magnitude of torque is defined to be where (the Greek letter tau) is the symbol for torque, is the distance from the pivot point to the point where the force is applied, is the magnitude of the force, and is the angle between the force and the vector directed from the point of application to the pivot point, as seen in Figure 9.6 and Figure 9.7 . An alternative expression for torque is given in terms of the perpendicular lever arm as shown in Figure 9.6 and Figure 9.7 , which is defined as The perpendicular lever arm is the shortest distance from the pivot point to the line along which acts; it is shown as a dashed line in Figure 9.6 and Figure 9.7 . Note that the line segment that defines the distance is perpendicular to , as its name implies. It is sometimes easier to find or visualize than to find both and . In such cases, it may be more convenient to use rather than for torque, but both are equally valid. The SI unit of torque is newtons times meters, usually written as . For example, if you push perpendicular to the door with a force of 40 N at a distance of 0.800 m from the hinges, you exert a torque of 32 N\u00c2\u00b7m(0.800 m \u00c3\u0097 40 N \u00c3\u0097 sin 90\u00c2\u00ba) relative to the hinges. If you reduce the force to 20 N, the torque is reduced to , and so on.",
+    "key_concepts": [
+      "torque",
+      "force",
+      "door",
+      "hinges",
+      "9.6",
+      "rotation",
+      "direction"
+    ],
+    "methods_principles": [
+      "is constant",
+      "how effect",
+      "more effect",
+      "most effect",
+      "the effect",
+      "in equation"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium",
+    "word_count": 489
+  },
+  {
+    "passage_id": "phy_005",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "11.5 Pascal\u2019s Principle",
+    "text": "Pressure is defined as force per unit area. Can pressure be increased in a fluid by pushing directly on the fluid? Yes, but it is much easier if the fluid is enclosed. The heart, for example, increases blood pressure by pushing directly on the blood in an enclosed system (valves closed in a chamber). If you try to push on a fluid in an open system, such as a river, the fluid flows away. An enclosed fluid cannot flow away, and so pressure is more easily increased by an applied force. What happens to a pressure in an enclosed fluid? Since atoms in a fluid are free to move about, they transmit the pressure to all parts of the fluid and to the walls of the container. Remarkably, the pressure is transmitted undiminished . This phenomenon is called Pascal\u00e2\u0080\u0099s principle , because it was first clearly stated by the French philosopher and scientist Blaise Pascal (1623\u00e2\u0080\u00931662): A change in pressure applied to an enclosed fluid is transmitted undiminished to all portions of the fluid and to the walls of its container. A change in pressure applied to an enclosed fluid is transmitted undiminished to all portions of the fluid and to the walls of its container. Pascal\u00e2\u0080\u0099s principle, an experimentally verified fact, is what makes pressure so important in fluids. Since a change in pressure is transmitted undiminished in an enclosed fluid, we often know more about pressure than other physical quantities in fluids. Moreover, Pascal\u00e2\u0080\u0099s principle implies that the total pressure in a fluid is the sum of the pressures from different sources . We shall find this fact\u00e2\u0080\u0094that pressures add\u00e2\u0080\u0094very useful. Blaise Pascal had an interesting life in that he was home-schooled by his father who removed all of the mathematics textbooks from his house and forbade him to study mathematics until the age of 15. This, of course, raised the boy\u00e2\u0080\u0099s curiosity, and by the age of 12, he started to teach himself geometry. Despite this early deprivation, Pascal went on to make major contributions in the mathematical fields of probability theory, number theory, and geometry. He is also well known for being the inventor of the first mechanical digital calculator, in addition to his contributions in the field of fluid statics. One of the most important technological applications of Pascal\u00e2\u0080\u0099s principle is found in a hydraulic system , which is an enclosed fluid system used to exert forces. The most common hydraulic systems are those that operate car brakes. Let us first consider the simple hydraulic system shown in Figure 11.11 . We can derive a relationship between the forces in the simple hydraulic system shown in Figure 11.11 by applying Pascal\u00e2\u0080\u0099s principle. Note first that the two pistons in the system are at the same height, and so there will be no difference in pressure due to a difference in depth. Now the pressure due to acting on area is simply , as defined by .",
+    "key_concepts": [
+      "pressure",
+      "fluid",
+      "enclosed fluid",
+      "pascal\u00e2\u0080\u0099s principle",
+      "first",
+      "walls",
+      "container",
+      "change"
+    ],
+    "methods_principles": [
+      "probability theory",
+      "number theory"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/11-5-pascals-principle",
+    "word_count": 491
+  },
+  {
+    "passage_id": "phy_006",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "13.5 Phase Changes",
+    "text": "Up to now, we have considered the behavior of ideal gases. Real gases are like ideal gases at high temperatures. At lower temperatures, however, the interactions between the molecules and their volumes cannot be ignored. The molecules are very close (condensation occurs) and there is a dramatic decrease in volume, as seen in Figure 13.27 . The substance changes from a gas to a liquid. When a liquid is cooled to even lower temperatures, it becomes a solid. The volume never reaches zero because of the finite volume of the molecules. High pressure may also cause a gas to change phase to a liquid. Carbon dioxide, for example, is a gas at room temperature and atmospheric pressure, but becomes a liquid under sufficiently high pressure. If the pressure is reduced, the temperature drops and the liquid carbon dioxide solidifies into a snow-like substance at the temperature . Solid is called \u00e2\u0080\u009cdry ice.\u00e2\u0080\u009d Another example of a gas that can be in a liquid phase is liquid nitrogen . is made by liquefaction of atmospheric air (through compression and cooling). It boils at 77 K at atmospheric pressure. is useful as a refrigerant and allows for the preservation of blood, sperm, and other biological materials. It is also used to reduce noise in electronic sensors and equipment, and to help cool down their current-carrying wires. In dermatology, is used to freeze and painlessly remove warts and other growths from the skin. We can examine aspects of the behavior of a substance by plotting a graph of pressure versus volume, called a PV diagram . When the substance behaves like an ideal gas, the ideal gas law describes the relationship between its pressure and volume. That is, Now, assuming the number of molecules and the temperature are fixed, For example, the volume of the gas will decrease as the pressure increases. If you plot the relationship on a diagram, you find a hyperbola. Figure 13.28 shows a graph of pressure versus volume. The hyperbolas represent ideal-gas behavior at various fixed temperatures, and are called isotherms . At lower temperatures, the curves begin to look less like hyperbolas\u00e2\u0080\u0094the gas is not behaving ideally and may even contain liquid. There is a critical point \u00e2\u0080\u0094that is, a critical temperature \u00e2\u0080\u0094above which liquid cannot exist. At sufficiently high pressure above the critical point, the gas will have the density of a liquid but will not condense. Carbon dioxide, for example, cannot be liquefied at a temperature above . Critical pressure is the minimum pressure needed for liquid to exist at the critical temperature. Table 13.3 lists representative critical temperatures and pressures. The plots of pressure versus temperatures provide considerable insight into thermal properties of substances. There are well-defined regions on these graphs that correspond to various phases of matter, so graphs are called phase diagrams . Figure 13.29 shows the phase diagram for water. Using the graph, if you know the pressure and temperature you can determine the phase of water.",
+    "key_concepts": [
+      "liquid",
+      "volume",
+      "gas",
+      "pressure",
+      "molecules",
+      "temperature",
+      "graph",
+      "behavior"
+    ],
+    "methods_principles": [
+      "gas law"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/13-5-phase-changes",
+    "word_count": 496
+  },
+  {
+    "passage_id": "phy_007",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "16.2 Period and Frequency in Oscillations",
+    "text": "When you pluck a guitar string, the resulting sound has a steady tone and lasts a long time. Each successive vibration of the string takes the same time as the previous one. We define periodic motion to be a motion that repeats itself at regular time intervals, such as exhibited by the guitar string or by an object on a spring moving up and down. The time to complete one oscillation remains constant and is called the period . Its units are usually seconds, but may be any convenient unit of time. The word period refers to the time for some event whether repetitive or not; but we shall be primarily interested in periodic motion, which is by definition repetitive. A concept closely related to period is the frequency of an event. For example, if you get a paycheck twice a month, the frequency of payment is two per month and the period between checks is half a month. Frequency is defined to be the number of events per unit time. For periodic motion, frequency is the number of oscillations per unit time. The relationship between frequency and period is The SI unit for frequency is the cycle per second , which is defined to be a hertz (Hz): A cycle is one complete oscillation. Note that a vibration can be a single or multiple event, whereas oscillations are usually repetitive for a significant number of cycles. We can use the formulas presented in this module to determine both the frequency based on known oscillations and the oscillation based on a known frequency. Let\u00e2\u0080\u0099s try one example of each. (a) A medical imaging device produces ultrasound by oscillating with a period of 0.400 \u00c2\u00b5s. What is the frequency of this oscillation? (b) The frequency of middle C on a typical musical instrument is 264 Hz. What is the time for one complete oscillation? Both questions (a) and (b) can be answered using the relationship between period and frequency. In question (a), the period is given and we are asked to find frequency . In question (b), the frequency is given and we are asked to find the period . The frequency of sound found in (a) is much higher than the highest frequency that humans can hear and, therefore, is called ultrasound. Appropriate oscillations at this frequency generate ultrasound used for noninvasive medical diagnoses, such as observations of a fetus in the womb. The time for one complete oscillation is the period : The period found in (b) is the time per cycle, but this value is often quoted as simply the time in convenient units (ms or milliseconds in this case).",
+    "key_concepts": [
+      "frequency",
+      "period",
+      "periodic motion",
+      "cycle",
+      "one complete oscillation",
+      "guitar string",
+      "half a month"
+    ],
+    "methods_principles": [
+      "remains constant",
+      "we can use the"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/16-2-period-and-frequency-in-oscillations",
+    "word_count": 442
+  },
+  {
+    "passage_id": "phy_008",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "17.7 Ultrasound",
+    "text": "Any sound with a frequency above 20,000 Hz (or 20 kHz)\u00e2\u0080\u0094that is, above the highest audible frequency\u00e2\u0080\u0094is defined to be ultrasound. In practice, it is possible to create ultrasound frequencies up to more than a gigahertz. (Higher frequencies are difficult to create; furthermore, they propagate poorly because they are very strongly absorbed.) Ultrasound has a tremendous number of applications, which range from burglar alarms to use in cleaning delicate objects to the guidance systems of bats. We begin our discussion of ultrasound with some of its applications in medicine, in which it is used extensively both for diagnosis and for therapy. The characteristics of ultrasound, such as frequency and intensity, are wave properties common to all types of waves. Ultrasound also has a wavelength that limits the fineness of detail it can detect. This characteristic is true of all waves. We can never observe details significantly smaller than the wavelength of our probe; for example, we will never see individual atoms with visible light, because the atoms are so small compared with the wavelength of light. Ultrasound, like any wave, carries energy that can be absorbed by the medium carrying it, producing effects that vary with intensity. When focused to intensities of to , ultrasound can be used to shatter gallstones or pulverize cancerous tissue in surgical procedures. (See Figure 17.41 .) Intensities this great can damage individual cells, variously causing their protoplasm to stream inside them, altering their permeability, or rupturing their walls through cavitation . Cavitation is the creation of vapor cavities in a fluid\u00e2\u0080\u0094the longitudinal vibrations in ultrasound alternatively compress and expand the medium, and at sufficient amplitudes the expansion separates molecules. Most cavitation damage is done when the cavities collapse, producing even greater shock pressures. Most of the energy carried by high-intensity ultrasound in tissue is converted to thermal energy. In fact, intensities of to are commonly used for deep-heat treatments called ultrasound diathermy. Frequencies of 0.8 to 1 MHz are typical. In both athletics and physical therapy, ultrasound diathermy is most often applied to injured or overworked muscles to relieve pain and improve flexibility. Skill is needed by the therapist to avoid \u00e2\u0080\u009cbone burns\u00e2\u0080\u009d and other tissue damage caused by overheating and cavitation, sometimes made worse by reflection and focusing of the ultrasound by joint and bone tissue. In some instances, you may encounter a different decibel scale, called the sound pressure level, when ultrasound travels in water or in human and other biological tissues. We shall not use the scale here, but it is notable that numbers for sound pressure levels range 60 to 70 dB higher than you would quote for , the sound intensity level used in this text. Should you encounter a sound pressure level of 220 decibels, then, it is not an astronomically high intensity, but equivalent to about 155 dB\u00e2\u0080\u0094high enough to destroy tissue, but not as unreasonably high as it might seem at first.",
+    "key_concepts": [
+      "ultrasound",
+      "wavelength",
+      "intensities",
+      "cavitation",
+      "frequency",
+      "applications"
+    ],
+    "methods_principles": [
+      "producing effect"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/17-7-ultrasound",
+    "word_count": 486
+  },
+  {
+    "passage_id": "phy_009",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "20.1 Current",
+    "text": "Electric current is defined to be the rate at which charge flows. A large current, such as that used to start a truck engine, moves a large amount of charge in a small time, whereas a small current, such as that used to operate a hand-held calculator, moves a small amount of charge over a long period of time. In equation form, electric current is defined to be where is the amount of charge passing through a given area in time . (As in previous chapters, initial time is often taken to be zero, in which case .) (See Figure 20.2 .) The SI unit for current is the ampere (A), named for the French physicist Andr\u00c3\u00a9-Marie Amp\u00c3\u00a8re (1775\u00e2\u0080\u00931836). Since , we see that an ampere is one coulomb per second: Not only are fuses and circuit breakers rated in amperes (or amps), so are many electrical appliances. (a) What is the current involved when a truck battery sets in motion 720 C of charge in 4.00 s while starting an engine? (b) How long does it take 1.00 C of charge to flow through a handheld calculator if a 0.300-mA current is flowing? We can use the definition of current in the equation to find the current in part (a), since charge and time are given. In part (b), we rearrange the definition of current and use the given values of charge and current to find the time required. Entering the given values for charge and time into the definition of current gives This large value for current illustrates the fact that a large charge is moved in a small amount of time. The currents in these \u00e2\u0080\u009cstarter motors\u00e2\u0080\u009d are fairly large because large frictional forces need to be overcome when setting something in motion. Solving the relationship for time , and entering the known values for charge and current gives This time is slightly less than an hour. The small current used by the hand-held calculator takes a much longer time to move a smaller charge than the large current of the truck starter. So why can we operate our calculators only seconds after turning them on? It\u00e2\u0080\u0099s because calculators require very little energy. Such small current and energy demands allow handheld calculators to operate from solar cells or to get many hours of use out of small batteries. Remember, calculators do not have moving parts in the same way that a truck engine has with cylinders and pistons, so the technology requires smaller currents. Note that the direction of current flow in Figure 20.3 is from positive to negative. The direction of conventional current is the direction that positive charge would flow . Depending on the situation, positive charges, negative charges, or both may move. In metal wires, for example, current is carried by electrons\u00e2\u0080\u0094that is, negative charges move. In ionic solutions, such as salt water, both positive and negative charges move. This is also true in nerve cells.",
+    "key_concepts": [
+      "charge",
+      "definition",
+      "calculators",
+      "direction",
+      "electric current",
+      "large current",
+      "truck engine"
+    ],
+    "methods_principles": [
+      "in equation",
+      "the equation"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+    "word_count": 492
+  },
+  {
+    "passage_id": "phy_010",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "22.4 Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field",
+    "text": "What is the mechanism by which one magnet exerts a force on another? The answer is related to the fact that all magnetism is caused by current, the flow of charge. Magnetic fields exert forces on moving charges , and so they exert forces on other magnets, all of which have moving charges. The magnetic force on a moving charge is one of the most fundamental known. Magnetic force is as important as the electrostatic or Coulomb force. Yet the magnetic force is more complex, in both the number of factors that affects it and in its direction, than the relatively simple Coulomb force. The magnitude of the magnetic force on a charge moving at a speed in a magnetic field of strength is given by where is the angle between the directions of and This force is often called the Lorentz force . In fact, this is how we define the magnetic field strength \u00e2\u0080\u0094in terms of the force on a charged particle moving in a magnetic field. The SI unit for magnetic field strength is called the tesla (T) after the eccentric but brilliant inventor Nikola Tesla (1856\u00e2\u0080\u00931943). To determine how the tesla relates to other SI units, we solve for . Another smaller unit, called the gauss (G), where , is sometimes used. The strongest permanent magnets have fields near 2 T; superconducting electromagnets may attain 10 T or more. The Earth\u00e2\u0080\u0099s magnetic field on its surface is only about , or 0.5 G. The direction of the magnetic force is perpendicular to the plane formed by and , as determined by the right hand rule 1 (or RHR-1), which is illustrated in Figure 22.16 . RHR-1 states that, to determine the direction of the magnetic force on a positive moving charge, you point the thumb of the right hand in the direction of , the fingers in the direction of , and a perpendicular to the palm points in the direction of . One way to remember this is that there is one velocity, and so the thumb represents it. There are many field lines, and so the fingers represent them. The force is in the direction you would push with your palm. The force on a negative charge is in exactly the opposite direction to that on a positive charge. There is no magnetic force on static charges. However, there is a magnetic force on moving charges. When charges are stationary, their electric fields do not affect magnets. But, when charges move, they produce magnetic fields that exert forces on other magnets. When there is relative motion, a connection between electric and magnetic fields emerges\u00e2\u0080\u0094each affects the other. With the exception of compasses, you seldom see or personally experience forces due to the Earth\u00e2\u0080\u0099s small magnetic field. To illustrate this, suppose that in a physics lab you rub a glass rod with silk, placing a 20-nC positive charge on it. Calculate the force on the rod due to the Earth\u00e2\u0080\u0099s magnetic field, if you throw it with a horizontal velocity of 10 m/s due west in a place where the Earth\u00e2\u0080\u0099s field is due north parallel to the ground. (The direction of the force is determined with right hand rule 1 as shown in Figure 22.17 .) We are given the charge, its velocity, and the magnetic field strength and direction. We can thus use the equation to find the force. We see that , since the angle between the velocity and the direction of the field is . Entering the other given quantities yields This force is completely negligible on any macroscopic object, consistent with experience. (It is calculated to only one digit, since the Earth\u00e2\u0080\u0099s field varies with location and is given to only one digit.) The Earth\u00e2\u0080\u0099s magnetic field, however, does produce very important effects, particularly on submicroscopic particles. Some of these are explored in Force on a Moving Charge in a Magnetic Field: Examples and Applications .",
+    "key_concepts": [
+      "force",
+      "direction",
+      "magnetic force",
+      "charges",
+      "magnetic field"
+    ],
+    "methods_principles": [
+      "hand rule",
+      "the equation",
+      "important effect",
+      "we can thus use the"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/22-4-magnetic-field-strength-force-on-a-moving-charge-in-a-magnetic-field",
+    "word_count": 656
+  },
+  {
+    "passage_id": "phy_011",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "23.9 Inductance",
+    "text": "Induction is the process in which an emf is induced by changing magnetic flux. Many examples have been discussed so far, some more effective than others. Transformers, for example, are designed to be particularly effective at inducing a desired voltage and current with very little loss of energy to other forms. Is there a useful physical quantity related to how \u00e2\u0080\u009ceffective\u00e2\u0080\u009d a given device is? The answer is yes, and that physical quantity is called inductance . Mutual inductance is the effect of Faraday\u00e2\u0080\u0099s law of induction for one device upon another, such as the primary coil in transmitting energy to the secondary in a transformer. See Figure 23.37 , where simple coils induce emfs in one another. In the many cases where the geometry of the devices is fixed, flux is changed by varying current. We therefore concentrate on the rate of change of current, , as the cause of induction. A change in the current in one device, coil 1 in the figure, induces an in the other. We express this in equation form as where is defined to be the mutual inductance between the two devices. The minus sign is an expression of Lenz\u00e2\u0080\u0099s law. The larger the mutual inductance , the more effective the coupling. For example, the coils in Figure 23.37 have a small compared with the transformer coils in Figure 23.27 . Units for are , which is named a henry (H), after Joseph Henry. That is, . Nature is symmetric here. If we change the current in coil 2, we induce an in coil 1, which is given by where is the same as for the reverse process. Transformers run backward with the same effectiveness, or mutual inductance . A large mutual inductance may or may not be desirable. We want a transformer to have a large mutual inductance. But an appliance, such as an electric clothes dryer, can induce a dangerous emf on its case if the mutual inductance between its coils and the case is large. One way to reduce mutual inductance is to counterwind coils to cancel the magnetic field produced. (See Figure 23.38 .) Self-inductance , the effect of Faraday\u00e2\u0080\u0099s law of induction of a device on itself, also exists. When, for example, current through a coil is increased, the magnetic field and flux also increase, inducing a counter emf, as required by Lenz\u00e2\u0080\u0099s law. Conversely, if the current is decreased, an emf is induced that opposes the decrease. Most devices have a fixed geometry, and so the change in flux is due entirely to the change in current through the device. The induced emf is related to the physical geometry of the device and the rate of change of current. It is given by where is the self-inductance of the device. A device that exhibits significant self-inductance is called an inductor , and given the symbol in Figure 23.39 . The minus sign is an expression of Lenz\u00e2\u0080\u0099s law, indicating that emf opposes the change in current.",
+    "key_concepts": [
+      "change",
+      "mutual inductance",
+      "current",
+      "device",
+      "induction",
+      "coil",
+      "emf"
+    ],
+    "methods_principles": [
+      "more effect",
+      "particularly effect",
+      "the effect",
+      "in equation",
+      "same effect",
+      "induction is the"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/23-9-inductance",
+    "word_count": 499
+  },
+  {
+    "passage_id": "phy_012",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "26.2 Vision Correction",
+    "text": "The need for some type of vision correction is very common. Common vision defects are easy to understand, and some are simple to correct. Figure 26.5 illustrates two common vision defects. Nearsightedness , or myopia , is the inability to see distant objects clearly while close objects are clear. The eye overconverges the nearly parallel rays from a distant object, and the rays cross in front of the retina. More divergent rays from a close object are converged on the retina for a clear image. The distance to the farthest object that can be seen clearly is called the far point of the eye (normally infinity). Farsightedness , or hyperopia , is the inability to see close objects clearly while distant objects may be clear. A farsighted eye does not converge sufficient rays from a close object to make the rays meet on the retina. Less diverging rays from a distant object can be converged for a clear image. The distance to the closest object that can be seen clearly is called the near point of the eye (normally 25 cm). Since the nearsighted eye over converges light rays, the correction for nearsightedness is to place a diverging spectacle lens in front of the eye. This reduces the power of an eye that is too powerful. Another way of thinking about this is that a diverging spectacle lens produces a case 3 image, which is closer to the eye than the object (see Figure 26.6 ). To determine the spectacle power needed for correction, you must know the person\u00e2\u0080\u0099s far point\u00e2\u0080\u0094that is, you must know the greatest distance at which the person can see clearly. Then the image produced by a spectacle lens must be at this distance or closer for the nearsighted person to be able to see it clearly. It is worth noting that wearing glasses does not change the eye in any way. The eyeglass lens is simply used to create an image of the object at a distance where the nearsighted person can see it clearly. Whereas someone not wearing glasses can see clearly objects that fall between their near point and their far point, someone wearing glasses can see images that fall between their near point and their far point. What power of spectacle lens is needed to correct the vision of a nearsighted person whose far point is 30.0 cm? Assume the spectacle (corrective) lens is held 1.50 cm away from the eye by eyeglass frames. You want this nearsighted person to be able to see very distant objects clearly. That means the spectacle lens must produce an image 30.0 cm from the eye for an object very far away. An image 30.0 cm from the eye will be 28.5 cm to the left of the spectacle lens (see Figure 26.6 ). Therefore, we must get when . The image distance is negative, because it is on the same side of the spectacle as the object.",
+    "key_concepts": [
+      "eye",
+      "30.0 cm",
+      "distance",
+      "object",
+      "image",
+      "spectacle lens",
+      "nearsighted person"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/college-physics-2e/pages/26-2-vision-correction",
+    "word_count": 492
+  },
+  {
+    "passage_id": "phy_013",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "28.3 Length Contraction",
+    "text": "Have you ever driven on a road that seems like it goes on forever? If you look ahead, you might say you have about 10 km left to go. Another traveler might say the road ahead looks like it\u00e2\u0080\u0099s about 15 km long. If you both measured the road, however, you would agree. Traveling at everyday speeds, the distance you both measure would be the same. You will read in this section, however, that this is not true at relativistic speeds. Close to the speed of light, distances measured are not the same when measured by different observers. One thing all observers agree upon is relative speed. Even though clocks measure different elapsed times for the same process, they still agree that relative speed, which is distance divided by elapsed time, is the same. This implies that distance, too, depends on the observer\u00e2\u0080\u0099s relative motion. If two observers see different times, then they must also see different distances for relative speed to be the same to each of them. The muon discussed in Example 28.1 illustrates this concept. To an observer on the Earth, the muon travels at for from the time it is produced until it decays. Thus it travels a distance relative to the Earth. In the muon\u00e2\u0080\u0099s frame of reference, its lifetime is only . It has enough time to travel only The distance between the same two events (production and decay of a muon) depends on who measures it and how they are moving relative to it. Proper length is the distance between two points measured by an observer who is at rest relative to both of the points. The Earth-bound observer measures the proper length , because the points at which the muon is produced and decays are stationary relative to the Earth. To the muon, the Earth, air, and clouds are moving, and so the distance it sees is not the proper length. To develop an equation relating distances measured by different observers, we note that the velocity relative to the Earth-bound observer in our muon example is given by The time relative to the Earth-bound observer is , since the object being timed is moving relative to this observer. The velocity relative to the moving observer is given by The moving observer travels with the muon and therefore observes the proper time . The two velocities are identical; thus, We know that . Substituting this equation into the relationship above gives Substituting for gives an equation relating the distances measured by different observers. Length contraction is the shortening of the measured length of an object moving relative to the observer\u00e2\u0080\u0099s frame. If we measure the length of anything moving relative to our frame, we find its length to be smaller than the proper length that would be measured if the object were stationary. For example, in the muon\u00e2\u0080\u0099s reference frame, the distance between the points where it was produced and where it decayed is shorter.",
+    "key_concepts": [
+      "earth",
+      "distance",
+      "muon",
+      "proper length",
+      "road"
+    ],
+    "methods_principles": [
+      "an equation",
+      "this equation",
+      "to develop an",
+      "substituting this"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/28-3-length-contraction",
+    "word_count": 492
+  },
+  {
+    "passage_id": "phy_014",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "30.5 Applications of Atomic Excitations and De-Excitations",
+    "text": "Many properties of matter and phenomena in nature are directly related to atomic energy levels and their associated excitations and de-excitations. The color of a rose, the output of a laser, and the transparency of air are but a few examples. (See Figure 30.28 .) While it may not appear that glow-in-the-dark pajamas and lasers have much in common, they are in fact different applications of similar atomic de-excitations. The color of a material is due to the ability of its atoms to absorb certain wavelengths while reflecting or reemitting others. A simple red material, for example a tomato, absorbs all visible wavelengths except red. This is because the atoms of its hydrocarbon pigment (lycopene) have levels separated by a variety of energies corresponding to all visible photon energies except red. Air is another interesting example. It is transparent to visible light, because there are few energy levels that visible photons can excite in air molecules and atoms. Visible light, thus, cannot be absorbed. Furthermore, visible light is only weakly scattered by air, because visible wavelengths are so much greater than the sizes of the air molecules and atoms. Light must pass through kilometers of air to scatter enough to cause red sunsets and blue skies. The ability of a material to emit various wavelengths of light is similarly related to its atomic energy levels. Figure 30.29 shows a scorpion illuminated by a UV lamp, sometimes called a black light. Some rocks also glow in black light, the particular colors being a function of the rock\u00e2\u0080\u0099s mineral composition. Black lights are also used to make certain posters glow. In the fluorescence process, an atom is excited to a level several steps above its ground state by the absorption of a relatively high-energy UV photon. This is called atomic excitation . Once it is excited, the atom can de-excite in several ways, one of which is to re-emit a photon of the same energy as excited it, a single step back to the ground state. This is called atomic de-excitation . All other paths of de-excitation involve smaller steps, in which lower-energy (longer wavelength) photons are emitted. Some of these may be in the visible range, such as for the scorpion in Figure 30.29 . Fluorescence is defined to be any process in which an atom or molecule, excited by a photon of a given energy, and de-excites by emission of a lower-energy photon. Fluorescence can be induced by many types of energy input. Fluorescent paint, dyes, and even soap residues in clothes make colors seem brighter in sunlight by converting some UV into visible light. X rays can induce fluorescence, as is done in x-ray fluoroscopy to make brighter visible images. Electric discharges can induce fluorescence, as in so-called neon lights and in gas-discharge tubes that produce atomic and molecular spectra. Common fluorescent lights use an electric discharge in mercury vapor to cause atomic emissions from mercury atoms.",
+    "key_concepts": [
+      "air",
+      "atoms",
+      "visible light",
+      "fluorescence",
+      "atomic energy levels",
+      "excitations"
+    ],
+    "methods_principles": [
+      "in the fluorescence"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/30-5-applications-of-atomic-excitations-and-de-excitations",
+    "word_count": 488
+  },
+  {
+    "passage_id": "phy_015",
+    "subject": "physics",
+    "source": "openstax_college-physics-2e",
+    "section": "32.5 Fusion",
+    "text": "While basking in the warmth of the summer sun, a student reads of the latest breakthrough in achieving sustained thermonuclear power and vaguely recalls hearing about the cold fusion controversy. The three are connected. The Sun\u00e2\u0080\u0099s energy is produced by nuclear fusion (see Figure 32.11 ). Thermonuclear power is the name given to the use of controlled nuclear fusion as an energy source. While research in the area of thermonuclear power is progressing, high temperatures and containment difficulties remain. The cold fusion controversy centered around unsubstantiated claims of practical fusion power at room temperatures. Nuclear fusion is a reaction in which two nuclei are combined, or fused , to form a larger nucleus. We know that all nuclei have less mass than the sum of the masses of the protons and neutrons that form them. The missing mass times equals the binding energy of the nucleus\u00e2\u0080\u0094the greater the binding energy, the greater the missing mass. We also know that , the binding energy per nucleon, is greater for medium-mass nuclei and has a maximum at Fe (iron). This means that if two low-mass nuclei can be fused together to form a larger nucleus, energy can be released. The larger nucleus has a greater binding energy and less mass per nucleon than the two that combined. Thus mass is destroyed in the fusion reaction, and energy is released (see Figure 32.12 ). On average, fusion of low-mass nuclei releases energy, but the details depend on the actual nuclides involved. The major obstruction to fusion is the Coulomb repulsion between nuclei. Since the attractive nuclear force that can fuse nuclei together is short ranged, the repulsion of like positive charges must be overcome to get nuclei close enough to induce fusion. Figure 32.13 shows an approximate graph of the potential energy between two nuclei as a function of the distance between their centers. The graph is analogous to a hill with a well in its center. A ball rolled from the right must have enough kinetic energy to get over the hump before it falls into the deeper well with a net gain in energy. So it is with fusion. If the nuclei are given enough kinetic energy to overcome the electric potential energy due to repulsion, then they can combine, release energy, and fall into a deep well. One way to accomplish this is to heat fusion fuel to high temperatures so that the kinetic energy of thermal motion is sufficient to get the nuclei together. You might think that, in the core of our Sun, nuclei are coming into contact and fusing. However, in fact, temperatures on the order of are needed to actually get the nuclei in contact, exceeding the core temperature of the Sun. Quantum mechanical tunneling is what makes fusion in the Sun possible, and tunneling is an important process in most other practical applications of fusion, too.",
+    "key_concepts": [
+      "nuclei",
+      "energy",
+      "fusion",
+      "sun",
+      "thermonuclear power",
+      "larger nucleus"
+    ],
+    "methods_principles": [
+      "and tunneling is an important"
+    ],
+    "url": "https://openstax.org/books/college-physics-2e/pages/32-5-fusion",
+    "word_count": 481
+  }
+]

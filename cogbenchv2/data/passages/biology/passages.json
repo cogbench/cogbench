@@ -1,0 +1,318 @@
+[
+  {
+    "passage_id": "bio_001",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "1.1 The Science of Biology",
+    "text": "By the end of this section, you will be able to do the following: What is biology? In simple terms, biology is the study of life. This is a very broad definition because the scope of biology is vast. Biologists may study anything from the microscopic or submicroscopic view of a cell to ecosystems and the whole living planet ( Figure 1.2 ). Listening to the daily news, you will quickly realize how many aspects of biology we discuss every day. For example, recent news topics include Escherichia coli ( Figure 1.3 ) outbreaks in spinach and Salmonella contamination in peanut butter. Other subjects include efforts toward finding a cure for AIDS, Alzheimer\u00e2\u0080\u0099s disease, and cancer. On a global scale, many researchers are committed to finding ways to protect the planet, solve environmental issues, and reduce the effects of climate change. All of these diverse endeavors are related to different facets of the discipline of biology. Biology is a science, but what exactly is science? What does the study of biology share with other scientific disciplines? We can define science (from the Latin scientia , meaning \u00e2\u0080\u009cknowledge\u00e2\u0080\u009d) as knowledge that covers general truths or the operation of general laws, especially when acquired and tested by the scientific method. It becomes clear from this definition that applying scientific method plays a major role in science. The scientific method is a method of research with defined steps that include experiments and careful observation. We will examine scientific method steps in detail later, but one of the most important aspects of this method is the testing of hypotheses by means of repeatable experiments. A hypothesis is a suggested explanation for an event, which one can test. Although using the scientific method is inherent to science, it is inadequate in determining what science is. This is because it is relatively easy to apply the scientific method to disciplines such as physics and chemistry, but when it comes to disciplines like archaeology, psychology, and geology, the scientific method becomes less applicable as repeating experiments becomes more difficult. These areas of study are still sciences, however. Consider archaeology\u00e2\u0080\u0094even though one cannot perform repeatable experiments, hypotheses may still be supported. For instance, archaeologists can hypothesize that an ancient culture existed based on finding a piece of pottery. They could make further hypotheses about various characteristics of this culture, which could be correct or false through continued support or contradictions from other findings. A hypothesis may become a verified theory. A theory is a tested and confirmed explanation for observations or phenomena. Therefore, we may be better off to define science as fields of study that attempt to comprehend the nature of the universe. What would you expect to see in a museum of natural sciences? Frogs? Plants? Dinosaur skeletons? Exhibits about how the brain functions? A planetarium? Gems and minerals? Maybe all of the above? Science includes such diverse fields as astronomy, biology, computer sciences, geology, logic, physics, chemistry, and mathematics ( Figure 1.4 ).",
+    "key_concepts": [
+      "biology",
+      "science",
+      "scientific method",
+      "study",
+      "method"
+    ],
+    "methods_principles": [
+      "the effect",
+      "general law",
+      "scientific method",
+      "this method",
+      "verified theory",
+      "the scientific"
+    ],
+    "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology",
+    "word_count": 498
+  },
+  {
+    "passage_id": "bio_002",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "4.4 The Endomembrane System and Proteins",
+    "text": "By the end of this section, you will be able to do the following: The endomembrane system (endo = \u00e2\u0080\u009cwithin\u00e2\u0080\u009d) is a group of membranes and organelles ( Figure 4.18 ) in eukaryotic cells that works together to modify, package, and transport lipids and proteins. It includes the nuclear envelope, lysosomes, and vesicles, which we have already mentioned, and the endoplasmic reticulum and Golgi apparatus, which we will cover shortly. Although not technically within the cell, the plasma membrane is included in the endomembrane system because, as you will see, it interacts with the other endomembranous organelles. The endomembrane system does not include either mitochondria or chloroplast membranes. If a peripheral membrane protein were synthesized in the lumen (inside) of the ER, would it end up on the inside or outside of the plasma membrane? The endoplasmic reticulum (ER) ( Figure 4.18 ) is a series of interconnected membranous sacs and tubules that collectively modifies proteins and synthesizes lipids. However, these two functions take place in separate areas of the ER: the rough ER and the smooth ER, respectively. We call the ER tubules' hollow portion the lumen or cisternal space. The ER's membrane, which is a phospholipid bilayer embedded with proteins, is continuous with the nuclear envelope. Scientists have named the rough endoplasmic reticulum (RER) as such because the ribosomes attached to its cytoplasmic surface give it a studded appearance when viewing it through an electron microscope ( Figure 4.19 ). Ribosomes transfer their newly synthesized proteins into the RER's lumen where they undergo structural modifications, such as folding or acquiring side chains. These modified proteins incorporate into cellular membranes\u00e2\u0080\u0094the ER or the ER's or other organelles' membranes. The proteins can also secrete from the cell (such as protein hormones, enzymes). The RER also makes phospholipids for cellular membranes. If the phospholipids or modified proteins are not destined to stay in the RER, they will reach their destinations via transport vesicles that bud from the RER\u00e2\u0080\u0099s membrane ( Figure 4.18 ). Since the RER is engaged in modifying proteins (such as enzymes, for example) that secrete from the cell, you would be correct in assuming that the RER is abundant in cells that secrete proteins. This is the case with liver cells, for example. The smooth endoplasmic reticulum (SER) is continuous with the RER but has few or no ribosomes on its cytoplasmic surface ( Figure 4.18 ). SER functions include synthesis of carbohydrates, lipids, and steroid hormones; detoxification of medications and poisons; and storing calcium ions. In muscle cells, a specialized SER, the sarcoplasmic reticulum, is responsible for storing calcium ions that are needed to trigger the muscle cells' coordinated contractions. You can watch an excellent animation of the endomembrane system here . At the end of the animation, there is a short self-assessment. Heart disease is the leading cause of death in the United States. This is primarily due to our sedentary lifestyle and our high trans-fat diets.",
+    "key_concepts": [
+      "rer",
+      "endomembrane system",
+      "4.18",
+      "( figure",
+      "cell",
+      "proteins"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+    "word_count": 491
+  },
+  {
+    "passage_id": "bio_003",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "7.3 Oxidation of Pyruvate and the Citric Acid Cycle",
+    "text": "By the end of this section, you will be able to do the following: If oxygen is available, aerobic respiration will go forward. In eukaryotic cells, the pyruvate molecules produced at the end of glycolysis are transported into the mitochondria, which are the sites of cellular respiration. There, pyruvate is transformed into an acetyl group that will be picked up and activated by a carrier compound called coenzyme A (CoA). The resulting compound is called acetyl CoA . CoA is derived from vitamin B5, pantothenic acid. Acetyl CoA can be used in a variety of ways by the cell, but its major function is to deliver the acetyl group derived from pyruvate to the next stage of the pathway in glucose catabolism. In order for pyruvate, the product of glycolysis, to enter the next pathway, it must undergo several changes. The conversion is a three-step process ( Figure 7.10 ). Step 1. A carboxyl group is removed from pyruvate, releasing a molecule of carbon dioxide into the surrounding medium. This reaction creates a two-carbon hydroxyethyl group bound to the enzyme (pyruvate dehydrogenase). We should note that this is the first of the six carbons from the original glucose molecule to be removed. (This step proceeds twice because there are two pyruvate molecules produced at the end of glycolsis for every molecule of glucose metabolized anaerobically; thus, two of the six carbons will have been removed at the end of both steps.) Step 2. The hydroxyethyl group is oxidized to an acetyl group, and the electrons are picked up by NAD + , forming NADH. The high-energy electrons from NADH will be used later to generate ATP. Step 3. The enzyme-bound acetyl group is transferred to CoA, producing a molecule of acetyl CoA. Note that during the second stage of glucose metabolism, whenever a carbon atom is removed, it is bound to two oxygen atoms, producing carbon dioxide, one of the major end products of cellular respiration. In the presence of oxygen, acetyl CoA delivers its acetyl (2C) group to a four-carbon molecule, oxaloacetate, to form citrate, a six-carbon molecule with three carboxyl groups; this pathway will harvest the remainder of the extractable energy from what began as a glucose molecule and release the remaining four CO 2 molecules. This single pathway is called by different names: the citric acid cycle (for the first intermediate formed\u00e2\u0080\u0094citric acid, or citrate\u00e2\u0080\u0094when acetate joins to the oxaloacetate), the TCA cycle (because citric acid or citrate and isocitrate are tricarboxylic acids), and the Krebs cycle , after Hans Krebs, who first identified the steps in the pathway in the 1930s in pigeon flight muscles. Like the conversion of pyruvate to acetyl CoA, the citric acid cycle takes place in the matrix of mitochondria. Almost all of the enzymes of the citric acid cycle are soluble, with the single exception of the enzyme succinate dehydrogenase, which is embedded in the inner membrane of the mitochondrion.",
+    "key_concepts": [
+      "pyruvate",
+      "coa",
+      "step",
+      "acetyl group",
+      "pathway",
+      "citric acid cycle",
+      "first"
+    ],
+    "methods_principles": [
+      "step"
+    ],
+    "url": "https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle",
+    "word_count": 489
+  },
+  {
+    "passage_id": "bio_004",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "10.3 Control of the Cell Cycle",
+    "text": "By the end of this section, you will be able to do the following: The length of the cell cycle is highly variable, even within the cells of a single organism. In humans, the frequency of cell turnover ranges from a few hours in early embryonic development, to an average of two to five days for epithelial cells, and to an entire human lifetime spent in G 0 by specialized cells, such as cortical neurons or cardiac muscle cells. There is also variation in the time that a cell spends in each phase of the cell cycle. When rapidly dividing mammalian cells are grown in a culture (outside the body under optimal growing conditions), the length of the cell cycle is about 24 hours. In rapidly dividing human cells with a 24-hour cell cycle, the G 1 phase lasts approximately nine hours, the S phase lasts 10 hours, the G 2 phase lasts about four and one-half hours, and the M phase lasts approximately one-half hour. By comparison, in fertilized eggs (and early embryos) of fruit flies, the cell cycle is completed in about eight minutes. This is because the nucleus of the fertilized egg divides many times by mitosis but does not go through cytokinesis until a multinucleate \u00e2\u0080\u009czygote\u00e2\u0080\u009d has been produced, with many nuclei located along the periphery of the cell membrane, thereby shortening the time of the cell division cycle. The timing of events in the cell cycle of both \u00e2\u0080\u009cinvertebrates\u00e2\u0080\u009d and \u00e2\u0080\u009cvertebrates\u00e2\u0080\u009d is controlled by mechanisms that are both internal and external to the cell. Both the initiation and inhibition of cell division are triggered by events external to the cell when it is about to begin the replication process. An event may be as simple as the death of nearby cells or as sweeping as the release of growth-promoting hormones, such as human growth hormone (HGH or hGH) . A lack of HGH can inhibit cell division, resulting in dwarfism, whereas too much HGH can result in gigantism. Crowding of cells can also inhibit cell division. In contrast, a factor that can initiate cell division is the size of the cell: As a cell grows, it becomes physiologically inefficient due to its decreasing surface-to-volume ratio. The solution to this problem is to divide. Whatever the source of the message, the cell receives the signal, and a series of events within the cell allows it to proceed into interphase. Moving forward from this initiation point, every parameter required during each cell cycle phase must be met or the cycle cannot progress. It is essential that the daughter cells produced be exact duplicates of the parent cell. Mistakes in the duplication or distribution of the chromosomes lead to mutations that may be passed forward to every new cell produced from an abnormal cell.",
+    "key_concepts": [
+      "cell",
+      "cell cycle",
+      "cell division",
+      "events",
+      "hgh",
+      "length"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/biology-2e/pages/10-3-control-of-the-cell-cycle",
+    "word_count": 466
+  },
+  {
+    "passage_id": "bio_005",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "14.5 DNA Replication in Eukaryotes",
+    "text": "By the end of this section, you will be able to do the following: Eukaryotic genomes are much more complex and larger in size than prokaryotic genomes. Eukaryotes also have a number of different linear chromosomes. The human genome has 3 billion base pairs per haploid set of chromosomes, and 6 billion base pairs are replicated during the S phase of the cell cycle. There are multiple origins of replication on each eukaryotic chromosome; humans can have up to 100,000 origins of replication across the genome. The rate of replication is approximately 100 nucleotides per second, much slower than prokaryotic replication. In yeast, which is a eukaryote, special sequences known as autonomously replicating sequences (ARS) are found on the chromosomes. These are equivalent to the origin of replication in E. coli . The number of DNA polymerases in eukaryotes is much more than in prokaryotes: 14 are known, of which five are known to have major roles during replication and have been well studied. They are known as pol \u00ce\u00b1 , pol \u00ce\u00b2 , pol \u00ce\u00b3 , pol \u00ce\u00b4 , and pol \u00ce\u00b5 . The essential steps of replication are the same as in prokaryotes. Before replication can start, the DNA has to be made available as a template. Eukaryotic DNA is bound to basic proteins known as histones to form structures called nucleosomes. Histones must be removed and then replaced during the replication process, which helps to account for the lower replication rate in eukaryotes. The chromatin (the complex between DNA and proteins) may undergo some chemical modifications, so that the DNA may be able to slide off the proteins or be accessible to the enzymes of the DNA replication machinery. At the origin of replication, a pre-replication complex is made with other initiator proteins. Helicase and other proteins are then recruited to start the replication process ( Table 14.2 ). A helicase using the energy from ATP hydrolysis opens up the DNA helix. Replication forks are formed at each replication origin as the DNA unwinds. The opening of the double helix causes over-winding, or supercoiling, in the DNA ahead of the replication fork. These are resolved with the action of topoisomerases. Primers are formed by the enzyme primase, and using the primer, DNA pol can start synthesis. Three major DNA polymerases are then involved: \u00ce\u00b1, \u00ce\u00b4 and \u00ce\u00b5. DNA pol \u00ce\u00b1 adds a short (20 to 30 nucleotides) DNA fragment to the RNA primer on both strands, and then hands off to a second polymerase. While the leading strand is continuously synthesized by the enzyme pol \u00ce\u00b5 , the lagging strand is synthesized by pol \u00ce\u00b4 . A sliding clamp protein known as PCNA (proliferating cell nuclear antigen) holds the DNA pol in place so that it does not slide off the DNA. As pol \u00ce\u00b4 runs into the primer RNA on the lagging strand, it displaces it from the DNA template.",
+    "key_concepts": [
+      "replication",
+      "dna",
+      "eukaryotes",
+      "chromosomes",
+      "origin",
+      "prokaryotes"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/biology-2e/pages/14-5-dna-replication-in-eukaryotes",
+    "word_count": 484
+  },
+  {
+    "passage_id": "bio_006",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "17.1 Biotechnology",
+    "text": "By the end of this section, you will be able to do the following: Biotechnology is the use of biological agents for technological advancement. Biotechnology was used for breeding livestock and crops long before people understood the scientific basis of these techniques. Since the discovery of the structure of DNA in 1953, the biotechnology field has grown rapidly through both academic research and private companies. The primary applications of this technology are in medicine (vaccine and antibiotic production) and agriculture (crop genetic modification in order to increase yields). Biotechnology also has many industrial applications, such as fermentation, treating oil spills, and producing biofuels ( Figure 17.2 ). To understand the basic techniques used to work with nucleic acids, remember that nucleic acids are macromolecules made of nucleotides (a sugar, a phosphate, and a nitrogenous base) linked by phosphodiester bonds. The phosphate groups on these molecules each have a net negative charge. An entire set of DNA molecules in the nucleus is called the genome. DNA has two complementary strands linked by hydrogen bonds between the paired bases. Exposure to high temperatures (DNA denaturation) can separate the two strands and cooling can reanneal them. The DNA polymerase enzyme can replicate the DNA. Unlike DNA, which is located in the eukaryotic cells' nucleus, RNA molecules leave the nucleus. The most common type of RNA that researchers analyze is the messenger RNA (mRNA) because it represents the protein-coding genes that are actively expressed. However, RNA molecules present some other challenges to analysis, as they are often less stable than DNA. To study or manipulate nucleic acids, one must first isolate or extract the DNA or RNA from the cells. Researchers use various techniques to extract different types of DNA ( Figure 17.3 ). Most nucleic acid extraction techniques involve steps to break open the cell and use enzymatic reactions to destroy all macromolecules that are not desired (such as unwanted molecule degradation and separation from the DNA sample). A lysis buffer (a solution which is mostly a detergent) breaks cells. Note that lysis means \"to split\". These enzymes break apart lipid molecules in the cell membranes and nuclear membranes. Enzymes such as proteases and ribonucleases (RNases) break down proteins and RNA, respectively. Using alcohol precipitates the DNA. Human genomic DNA is usually visible as a gelatinous, white mass. One can store the DNA samples frozen at \u00e2\u0080\u009380\u00c2\u00b0C for several years. Scientists perform RNA analysis to study gene expression patterns in cells. RNA is naturally very unstable because RNAses are commonly present in nature and very difficult to inactivate. Similar to DNA, RNA extraction involves using various buffers and enzymes to inactivate macromolecules and preserve the RNA. Because nucleic acids are negatively charged ions at neutral or basic pH in an aqueous environment, an electric field can mobilize them. Gel electrophoresis is a technique that scientists use to separate molecules on the basis of size, using this charge. One can separate the nucleic acids as whole chromosomes or fragments.",
+    "key_concepts": [
+      "dna",
+      "rna",
+      "nucleic acids",
+      "biotechnology",
+      "cells",
+      "enzymes",
+      "macromolecules"
+    ],
+    "methods_principles": [
+      "to understand the basic",
+      "researchers use various",
+      "most nucleic acid extraction",
+      "gel electrophoresis is a"
+    ],
+    "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+    "word_count": 495
+  },
+  {
+    "passage_id": "bio_007",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "21.1 Viral Evolution, Morphology, and Classification",
+    "text": "By the end of this section, you will be able to do the following: Viruses are diverse entities: They vary in structure, methods of replication, and the hosts they infect. Nearly all forms of life\u00e2\u0080\u0094from prokaryotic bacteria and archaeans, to eukaryotes such as plants, animals, and fungi\u00e2\u0080\u0094have viruses that infect them. While most biological diversity can be understood through evolutionary history (such as how species have adapted to changing environmental conditions and how different species are related to one another through common descent), much about virus origins and evolution remains unknown. Viruses were first discovered after the development of a porcelain filter\u00e2\u0080\u0094the Chamberland-Pasteur filter\u00e2\u0080\u0094that could remove all bacteria visible in the microscope from any liquid sample. In 1886, Adolph Meyer demonstrated that a disease of tobacco plants\u00e2\u0080\u0094 tobacco mosaic disease \u00e2\u0080\u0094could be transferred from a diseased plant to a healthy one via liquid plant extracts. In 1892, Dmitri Ivanowski showed that this disease could be transmitted in this way even after the Chamberland-Pasteur filter had removed all viable bacteria from the extract. Still, it was many years before it was proved that these \u00e2\u0080\u009cfilterable\u00e2\u0080\u009d infectious agents were not simply very small bacteria but were a new type of very small, disease-causing particle. Most virions , or single virus particles, are very small, about 20 to 250 nanometers in diameter. However, some recently discovered viruses from amoebae range up to 1000 nm in diameter. With the exception of large virions, like the poxvirus and other large DNA viruses, viruses cannot be seen with a light microscope. It was not until the development of the electron microscope in the late 1930s that scientists got their first good view of the structure of the tobacco mosaic virus (TMV) ( Figure 21.1 ), discussed above, and other viruses ( Figure 21.2 ). The surface structure of virions can be observed by both scanning and transmission electron microscopy, whereas the internal structures of the virus can only be observed in images from a transmission electron microscope. The use of electron microscopy and other technologies has allowed for the discovery of many viruses of all types of living organisms. Although biologists have a significant amount of knowledge about how present-day viruses mutate and adapt, much less is known about how viruses originated in the first place. When exploring the evolutionary history of most organisms, scientists can look at fossil records and similar historic evidence. However, viruses do not fossilize, as far as we know, so researchers must extrapolate from investigations of how today\u00e2\u0080\u0099s viruses evolve and by using biochemical and genetic information to create speculative virus histories. Most scholars agree that viruses don\u00e2\u0080\u0099t have a single common ancestor, nor is there a single reasonable hypothesis about virus origins. There are current evolutionary scenarios that may explain the origin of viruses. One such hypothesis, the \u00e2\u0080\u009cdevolution\u00e2\u0080\u009d or the regressive hypothesis , suggests that viruses evolved from free-living cells, or from intracellular prokaryotic parasites. However, many components of how this process might have occurred remain a mystery.",
+    "key_concepts": [
+      "viruses",
+      "first",
+      "structure",
+      "evolutionary history",
+      "virus origins",
+      "development",
+      "disease"
+    ],
+    "methods_principles": [
+      "reasonable hypothesis",
+      "such hypothesis",
+      "regressive hypothesis",
+      "many components of how this"
+    ],
+    "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+    "word_count": 499
+  },
+  {
+    "passage_id": "bio_008",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "24.2 Classifications of Fungi",
+    "text": "By the end of this section, you will be able to do the following: The kingdom Fungi contains five major phyla that were established according to their mode of sexual reproduction or using molecular data. Unrelated fungi that reproduce without a sexual cycle, were once placed for convenience in a sixth group, the Deuteromycota, called a \u00e2\u0080\u009cform phylum,\u00e2\u0080\u009d because superficially they appeared to be similar, a polyphyletic group (group of organisms that is of mixed evolutionary origin). However, most mycologists have discontinued this practice. Rapid advances in molecular biology and the sequencing of 18S rRNA (ribosomal RNA) continue to show new and different relationships among the various categories of fungi. The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota ( Figure 24.10 ). The only class in the Phylum Chytridiomycota is the Chytridiomycetes . The chytrids are the simplest and most primitive Eumycota, or true fungi. The evolutionary record shows that the first recognizable chytrids appeared during the late pre-Cambrian period, more than 500 million years ago. Like all fungi, chytrids have chitin in their cell walls, but one group of chytrids has both cellulose and chitin in the cell wall. Most chytrids are unicellular; however, a few form multicellular organisms and hyphae, which have no septa between cells (coenocytic). The Chytrids are the only fungi that have retained flagella. They produce both gametes and diploid zoospores that swim with the help of a single flagellum. An unusual feature of the chytrids is that both male and female gametes are flagellated. The ecological habitat and cell structure of chytrids have much in common with protists. Chytrids usually live in aquatic environments, although some species live on land. Some species thrive as parasites on plants, insects, or amphibians ( Figure 24.11 ), while others are saprobes. The chytrid species Allomyces is well characterized as an experimental organism. Its reproductive cycle includes both asexual and sexual phases. Allomyces produces diploid or haploid flagellated zoospores in a sporangium. The zygomycetes are a relatively small group of fungi belonging to the Phylum Zygomycota . They include the familiar bread mold, Rhizopus stolonifer , which rapidly propagates on the surfaces of breads, fruits, and vegetables. Most species are saprobes, living off decaying organic material; a few are parasites, particularly of insects. Zygomycetes play a considerable commercial role. For example, the metabolic products of some species of Rhizopus are intermediates in the synthesis of semi-synthetic steroid hormones. Zygomycetes have a thallus of coenocytic hyphae in which the nuclei are haploid when the organism is in the vegetative stage. The fungi usually reproduce asexually by producing sporangiospores ( Figure 24.12 ). The black tips of bread mold are the swollen sporangia packed with black spores ( Figure 24.13 ). When spores land on a suitable substrate, they germinate and produce a new mycelium. Sexual reproduction starts when environmental conditions become unfavorable.",
+    "key_concepts": [
+      "chytrids",
+      "fungi",
+      "some species",
+      "zygomycetes",
+      "sexual reproduction",
+      "land"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi",
+    "word_count": 493
+  },
+  {
+    "passage_id": "bio_009",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "27.2 Features Used to Classify Animals",
+    "text": "By the end of this section, you will be able to do the following: Scientists have developed a classification scheme that categorizes all members of the animal kingdom, although there are exceptions to most \u00e2\u0080\u009crules\u00e2\u0080\u009d governing animal classification ( Figure 27.6 ). Animals have been traditionally classified according to two characteristics: body plan and developmental pathway. The major feature of the body plan is its symmetry: how the body parts are distributed along the major body axis. Symmetrical animals can be divided into roughly equivalent halves along at least one axis. Developmental characteristics include the number of germ tissue layers formed during development, the origin of the mouth and anus, the presence or absence of an internal body cavity, and other features of embryological development, such as larval types or whether or not periods of growth are interspersed with molting. Which of the following statements is false? At a very basic level of classification, true animals can be largely divided into three groups based on the type of symmetry of their body plan: radially symmetrical, bilaterally symmetrical, and asymmetrical. Asymmetry is seen in two modern clades, the Parazoa ( Figure 27.7 a) and Placozoa. (Although we should note that the ancestral fossils of the Parazoa apparently exhibited bilateral symmetry.) One clade, the Cnidaria ( Figure 27.7 b,c), exhibits radial or biradial symmetry: Ctenophores have rotational symmetry ( Figure 27.7 e). Bilateral symmetry is seen in the largest of the clades, the Bilateria ( Figure 27.7 d); however the Echinodermata are bilateral as larvae and metamorphose secondarily into radial adults. All types of symmetry are well suited to meet the unique demands of a particular animal\u00e2\u0080\u0099s lifestyle. Radial symmetry is the arrangement of body parts around a central axis, as is seen in a bicycle wheel or pie. It results in animals having top and bottom surfaces but no left and right sides, nor front or back. If a radially symmetrical animal is divided in any direction along the oral/aboral axis (the side with a mouth is \u00e2\u0080\u009coral side,\u00e2\u0080\u009d and the side without a mouth is the \u00e2\u0080\u009caboral side\u00e2\u0080\u009d), the two halves will be mirror images. This form of symmetry marks the body plans of many animals in the phyla Cnidaria, including jellyfish and adult sea anemones ( Figure 27.7 b, c). Radial symmetry equips these sea creatures (which may be sedentary or only capable of slow movement or floating) to experience the environment equally from all directions. Bilaterally symmetrical animals, like butterflies ( Figure 27.7 d) have only a single plane along which the body can be divided into equivalent halves. The Ctenophora ( Figure 27.7 e), although they look similar to jellyfish, are considered to have rotational symmetry rather than radial or biradial symmetry because division of the body into two halves along the oral/aboral axis divides them into two copies of the same half, with one copy rotated 180 o , rather than two mirror images.",
+    "key_concepts": [
+      "( figure",
+      "27.7",
+      "symmetry",
+      "body plan",
+      "mouth",
+      "animals"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/biology-2e/pages/27-2-features-used-to-classify-animals",
+    "word_count": 488
+  },
+  {
+    "passage_id": "bio_010",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "29.5 Birds",
+    "text": "By the end of this section, you will be able to do the following: With over 10,000 identified species, the birds are the most speciose of the land vertebrate classes. Abundant research has shown that birds are really an extant clade that evolved from maniraptoran theropod dinosaurs about 150 million years ago. Thus, even though the most obvious characteristic that seems to set birds apart from other extant vertebrates is the presence of feathers, we now know that feathers probably appeared in the common ancestor of both ornithischian and saurischian lineages of dinosaurs. Feathers in these clades are also homologous to reptilian scales and mammalian hair, according to the most recent research. While the wings of vertebrates like bats function without feathers, birds rely on feathers, and wings, along with other modifications of body structure and physiology, for flight, as we shall see. Birds are endothermic, and more specifically, homeothermic \u00e2\u0080\u0094meaning that they usually maintain an elevated and constant body temperature, which is significantly above the average body temperature of most mammals. This is, in part, due to the fact that active flight\u00e2\u0080\u0094especially the hovering skills of birds such as hummingbirds\u00e2\u0080\u0094requires enormous amounts of energy, which in turn necessitates a high metabolic rate. Like mammals (which are also endothermic and homeothermic and covered with an insulating pelage), birds have several different types of feathers that together keep \u00e2\u0080\u009cheat\u00e2\u0080\u009d (infrared energy) within the core of the body, away from the surface where it can be lost by radiation and convection to the environment. Modern birds produce two main types of feathers: contour feathers and down feathers . Contour feathers have a number of parallel barbs that branch from a central shaft . The barbs in turn have microscopic branches called barbules that are linked together by minute hooks, making the vane of a feather a strong, flexible, and uninterrupted surface. In contrast, the barbules of down feathers do not interlock, making these feathers especially good for insulation, trapping air in spaces between the loose, interlocking barbules of adjacent feathers to decrease the rate of heat loss by convection and radiation. Certain parts of a bird\u00e2\u0080\u0099s body are covered in down feathers, and the base of other feathers has a downy portion, whereas newly hatched birds are covered almost entirely in down, which serves as an excellent coat of insulation, increasing the thermal boundary layer between the skin and the outside environment. Feathers not only provide insulation, but also allow for flight, producing the lift and thrust necessary for flying birds to become and stay airborne. The feathers on a wing are flexible, so the feathers at the end of the wing separate as air moves over them, reducing the drag on the wing. Flight feathers are also asymmetrical and curved, so that air flowing over them generates lift. Two types of flight feathers are found on the wings, primary feathers and secondary feathers ( Figure 29.32 ).",
+    "key_concepts": [
+      "feathers",
+      "birds",
+      "wings",
+      "barbules",
+      "insulation",
+      "flight"
+    ],
+    "methods_principles": [
+      "and constant"
+    ],
+    "url": "https://openstax.org/books/biology-2e/pages/29-5-birds",
+    "word_count": 486
+  },
+  {
+    "passage_id": "bio_011",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "32.3 Asexual Reproduction",
+    "text": "By the end of this section, you will be able to do the following: Many plants are able to propagate themselves using asexual reproduction. This method does not require the investment required to produce a flower, attract pollinators, or find a means of seed dispersal. Asexual reproduction produces plants that are genetically identical to the parent plant because no mixing of male and female gametes takes place. Traditionally, these plants survive well under stable environmental conditions when compared with plants produced from sexual reproduction because they carry genes identical to those of their parents. Many different types of roots exhibit asexual reproduction ( Figure 32.24 ). The corm is used by gladiolus and garlic. Bulbs, such as a scaly bulb in lilies and a tunicate bulb in daffodils, are other common examples. A potato is a stem tuber, while parsnip propagates from a taproot. Ginger and iris produce rhizomes, while ivy uses an adventitious root (a root arising from a plant part other than the main or primary root), and the strawberry plant has a stolon, which is also called a runner. Some plants can produce seeds without fertilization. Either the ovule or part of the ovary, which is diploid in nature, gives rise to a new seed. This method of reproduction is known as apomixis . An advantage of asexual reproduction is that the resulting plant will reach maturity faster. Since the new plant is arising from an adult plant or plant parts, it will also be sturdier than a seedling. Asexual reproduction can take place by natural or artificial (assisted by humans) means. Natural methods of asexual reproduction include strategies that plants have developed to self-propagate. Many plants\u00e2\u0080\u0094like ginger, onion, gladioli, and dahlia\u00e2\u0080\u0094continue to grow from buds that are present on the surface of the stem. In some plants, such as the sweet potato, adventitious roots or runners can give rise to new plants ( Figure 32.25 ). In Bryophyllum and kalanchoe, the leaves have small buds on their margins. When these are detached from the plant, they grow into independent plants; or, they may start growing into independent plants if the leaf touches the soil. Some plants can be propagated through cuttings alone. These methods are frequently employed to give rise to new, and sometimes novel, plants. They include grafting, cutting, layering, and micropropagation. Grafting has long been used to produce novel varieties of roses, citrus species, and other plants. In grafting , two plant species are used; part of the stem of the desirable plant is grafted onto a rooted plant called the stock. The part that is grafted or attached is called the scion . Both are cut at an oblique angle (any angle other than a right angle), placed in close contact with each other, and are then held together ( Figure 32.26 ). Matching up these two surfaces as closely as possible is extremely important because these will be holding the plant together.",
+    "key_concepts": [
+      "asexual reproduction",
+      "plants",
+      "some plants",
+      "rise",
+      "grafting",
+      "method",
+      "place"
+    ],
+    "methods_principles": [
+      "this method",
+      "natural method",
+      "these method",
+      "this",
+      "natural",
+      "these"
+    ],
+    "url": "https://openstax.org/books/biology-2e/pages/32-3-asexual-reproduction",
+    "word_count": 490
+  },
+  {
+    "passage_id": "bio_012",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "36.2 Somatosensation",
+    "text": "By the end of this section, you will be able to do the following: Somatosensation is a mixed sensory category and includes all sensation received from the skin and mucous membranes, as well from as the limbs and joints. Somatosensation is also known as tactile sense, or more familiarly, as the sense of touch. Somatosensation occurs all over the exterior of the body and at some interior locations as well. A variety of receptor types\u00e2\u0080\u0094embedded in the skin, mucous membranes, muscles, joints, internal organs, and cardiovascular system\u00e2\u0080\u0094play a role. Recall that the epidermis is the outermost layer of skin in mammals. It is relatively thin, is composed of keratin-filled cells, and has no blood supply. The epidermis serves as a barrier to water and to invasion by pathogens. Below this, the much thicker dermis contains blood vessels, sweat glands, hair follicles, lymph vessels, and lipid-secreting sebaceous glands ( Figure 36.4 ). Below the epidermis and dermis is the subcutaneous tissue, or hypodermis, the fatty layer that contains blood vessels, connective tissue, and the axons of sensory neurons. The hypodermis, which holds about 50 percent of the body\u00e2\u0080\u0099s fat, attaches the dermis to the bone and muscle, and supplies nerves and blood vessels to the dermis. Somatosensory receptors are classified into four categories: mechanoreceptors, thermoreceptors, pain receptors (nociceptors), and chemoreceptors. These categories are based on the nature of stimuli each receptor class transduces. What is commonly referred to as \u00e2\u0080\u009ctouch\u00e2\u0080\u009d involves more than one kind of stimulus and more than one kind of receptor. Mechanoreceptors in the skin are described as encapsulated (that is, surrounded by a capsule) or unencapsulated (a group that includes free nerve endings). A free nerve ending , as its name implies, is an unencapsulated dendrite of a sensory neuron. Free nerve endings are the most common nerve endings in skin, and they extend into the middle of the epidermis. Free nerve endings are sensitive to painful stimuli, to hot and cold, and to light touch. They are slow to adjust to a stimulus and so are less sensitive to abrupt changes in stimulation. There are three classes of mechanoreceptors: tactile, proprioceptors, and baroreceptors. Mechanoreceptors sense stimuli due to physical deformation of their plasma membranes. They contain mechanically gated ion channels whose gates open or close in response to pressure, touch, stretching, and sound. There are four primary tactile mechanoreceptors in human skin: Merkel\u00e2\u0080\u0099s disks, Meissner\u00e2\u0080\u0099s corpuscles, Ruffini endings, and Pacinian corpuscles; two are located toward the surface of the skin and two are located deeper. A fifth type of mechanoreceptor, Krause end bulbs, are found only in specialized regions. Merkel\u00e2\u0080\u0099s disks (shown in Figure 36.5 ) are found in the upper layers of skin near the base of the epidermis, both in skin that has hair and on glabrous skin, that is, the hairless skin found on the palms and fingers, the soles of the feet, and the lips of humans and other primates. Merkel\u00e2\u0080\u0099s disks are densely distributed in the fingertips and lips.",
+    "key_concepts": [
+      "skin",
+      "epidermis",
+      "mechanoreceptors",
+      "somatosensation",
+      "blood vessels",
+      "dermis",
+      "free nerve endings"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/biology-2e/pages/36-2-somatosensation",
+    "word_count": 498
+  },
+  {
+    "passage_id": "bio_013",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "39.2 Gas Exchange across Respiratory Surfaces",
+    "text": "By the end of this section, you will be able to do the following: The structure of the lung maximizes its surface area to increase gas diffusion. Because of the enormous number of alveoli (approximately 300 million in each human lung), the surface area of the lung is very large (75 m 2 ). Having such a large surface area increases the amount of gas that can diffuse into and out of the lungs. Gas exchange during respiration occurs primarily through diffusion. Diffusion is a process in which transport is driven by a concentration gradient. Gas molecules move from a region of high concentration to a region of low concentration. Blood that is low in oxygen concentration and high in carbon dioxide concentration undergoes gas exchange with air in the lungs. The air in the lungs has a higher concentration of oxygen than that of oxygen-depleted blood and a lower concentration of carbon dioxide. This concentration gradient allows for gas exchange during respiration. Partial pressure is a measure of the concentration of the individual components in a mixture of gases. The total pressure exerted by the mixture is the sum of the partial pressures of the components in the mixture. The rate of diffusion of a gas is proportional to its partial pressure within the total gas mixture. This concept is discussed further in detail below. Different animals have different lung capacities based on their activities. Cheetahs have evolved a much higher lung capacity than humans; it helps provide oxygen to all the muscles in the body and allows them to run very fast. Elephants also have a high lung capacity. In this case, it is not because they run fast but because they have a large body and must be able to take up oxygen in accordance with their body size. Human lung size is determined by genetics, sex, and height. At maximal capacity, the average adult male's lungs can hold almost six liters of air, but lungs do not usually operate at maximal capacity. Air in the lungs is measured in terms of lung volumes and lung capacities ( Figure 39.12 and Table 39.1 ). Volume measures the amount of air for one function (such as inhalation or exhalation). Capacity is any two or more volumes (for example, how much can be inhaled from the end of a maximal exhalation). The volume in the lungs can be divided into four units: tidal volume, expiratory reserve volume, inspiratory reserve volume, and residual volume. Tidal volume (TV) measures the amount of air that is inspired and expired during a normal breath. On average, this volume is around one-half liter, which is a little less than the capacity of a 20-ounce drink bottle. The expiratory reserve volume (ERV) is the additional amount of air that can be exhaled after a normal exhalation. It is the reserve amount that can be exhaled beyond what is normal.",
+    "key_concepts": [
+      "air",
+      "lungs",
+      "amount",
+      "gas exchange",
+      "diffusion",
+      "oxygen",
+      "mixture"
+    ],
+    "methods_principles": [
+      "diffusion is a"
+    ],
+    "url": "https://openstax.org/books/biology-2e/pages/39-2-gas-exchange-across-respiratory-surfaces",
+    "word_count": 484
+  },
+  {
+    "passage_id": "bio_014",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "42.3 Antibodies",
+    "text": "By the end of this section, you will be able to do the following: An antibody , also known as an immunoglobulin (Ig), is a protein that is produced by plasma cells after stimulation by an antigen. Antibodies are the functional basis of humoral immunity. Antibodies occur in the blood, in gastric and mucus secretions, and in breast milk. Antibodies in these bodily fluids can bind pathogens and mark them for destruction by phagocytes before they can infect cells. An antibody molecule is comprised of four polypeptides: two identical heavy chains (large peptide units) that are partially bound to each other in a \u00e2\u0080\u009cY\u00e2\u0080\u009d formation, which are flanked by two identical light chains (small peptide units), as illustrated in Figure 42.22 . Bonds between the cysteine amino acids in the antibody molecule attach the polypeptides to each other. The areas where the antigen is recognized on the antibody are variable domains and the antibody base is composed of constant domains. In germ-line B cells, the variable region of the light chain gene has 40 variable (V) and five joining (J) segments. An enzyme called DNA recombinase randomly excises most of these segments out of the gene, and splices one V segment to one J segment. During RNA processing, all but one V and J segment are spliced out. Recombination and splicing may result in over 10 6 possible VJ combinations. As a result, each differentiated B cell in the human body typically has a unique variable chain. The constant domain, which does not bind antibody, is the same for all antibodies. Similar to TCRs and BCRs, antibody diversity is produced by the mutation and recombination of approximately 300 different gene segments encoding the light and heavy chain variable domains in precursor cells that are destined to become B cells. The variable domains from the heavy and light chains interact to form the binding site through which an antibody can bind a specific epitope on an antigen. The numbers of repeated constant domains in Ig classes are the same for all antibodies corresponding to a specific class. Antibodies are structurally similar to the extracellular component of the BCRs, and B cell maturation to plasma cells can be visualized in simple terms as the cell acquires the ability to secrete the extracellular portion of its BCR in large quantities. Antibodies can be divided into five classes\u00e2\u0080\u0094IgM, IgG, IgA, IgD, IgE\u00e2\u0080\u0094based on their physiochemical, structural, and immunological properties. IgGs, which make up about 80 percent of all antibodies in the serum, have heavy chains that consist of one variable domain and three identical constant domains. IgA and IgD also have three constant domains per heavy chain, whereas IgM and IgE each have four constant domains per heavy chain. The variable domain determines binding specificity and the constant domain of the heavy chain determines the immunological mechanism of action of the corresponding antibody class.",
+    "key_concepts": [
+      "antibody",
+      "antibodies",
+      "antigen",
+      "all antibodies",
+      "heavy chain",
+      "plasma cells"
+    ],
+    "methods_principles": [
+      "of constant",
+      "the constant",
+      "repeated constant",
+      "identical constant",
+      "three constant",
+      "four constant"
+    ],
+    "url": "https://openstax.org/books/biology-2e/pages/42-3-antibodies",
+    "word_count": 480
+  },
+  {
+    "passage_id": "bio_015",
+    "subject": "biology",
+    "source": "openstax_biology-2e",
+    "section": "45.1 Population Demography",
+    "text": "By the end of this section, you will be able to do the following: Populations are dynamic entities. A population consists of all of the individuals of a particular species that occur in a particular area and have the potential to interact with one another. Populations fluctuate based on a number of factors: seasonal and yearly changes in the environment, natural disasters such as forest fires and volcanic eruptions, and competition for resources between and within species. The statistical study of population dynamics, demography , uses a series of mathematical tools to investigate how populations respond to changes in their biotic and abiotic environments. Many of these tools were originally designed to study human populations. For example, life tables , which detail the life expectancy of individuals within a population, were initially developed by life insurance companies to set insurance rates. In fact, while the term \u00e2\u0080\u009cdemographics\u00e2\u0080\u009d is commonly used when discussing humans, all living populations can be studied using this approach. The study of any population usually begins by determining how many individuals of a particular species exist, and how closely associated they are with each other. Within a particular habitat, a population can be characterized by its population size ( N ) , the total number of individuals, and its population density , the number of individuals within a specific area or volume. Population size and density are the two main characteristics used to describe and understand populations. For example, populations with more individuals may be more stable than smaller populations based on their genetic variability, and thus their potential to adapt to the environment. Alternatively, a member of a population with low population density (more spread out in the habitat), might have more difficulty finding a mate to reproduce compared to a population of higher density. As is shown in Figure 45.2 , smaller organisms tend to be more densely distributed than larger organisms. As this graph shows, population density typically decreases with increasing body size. Why do you think this is the case? The most accurate way to determine population size is to simply count all of the individuals within the habitat. However, this method is often not logistically or economically feasible, especially when studying large habitats. Thus, scientists usually study populations by sampling a representative portion of each habitat and using this data to make inferences about the habitat as a whole. A variety of methods can be used to sample populations to determine their size and density. For immobile organisms such as plants, or for very small and slow-moving organisms, a quadrat may be used ( Figure 45.3 ). A quadrat is a way of marking off square areas within a habitat, either by staking out an area with sticks and string, or by the use of a wood, plastic, or metal square placed on the ground. After setting the quadrats, researchers then count the number of individuals that lie within their boundaries.",
+    "key_concepts": [
+      "populations",
+      "individuals",
+      "habitat",
+      "population size",
+      "particular species"
+    ],
+    "methods_principles": [
+      "this method",
+      "of method",
+      "this",
+      "a variety of"
+    ],
+    "url": "https://openstax.org/books/biology-2e/pages/45-1-population-demography",
+    "word_count": 489
+  }
+]

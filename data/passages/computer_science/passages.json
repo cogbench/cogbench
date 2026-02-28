@@ -1,0 +1,345 @@
+[
+  {
+    "passage_id": "com_001",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "1.1 Computer Science",
+    "text": "The field of computer science (CS) is the study of computing , which includes all phenomena related to computers, such as the Internet. With foundations in engineering and mathematics, computer science focuses on studying algorithms. An algorithm is a sequence of precise instructions that enables computing. This includes components computers use to process information. By studying and applying algorithms, computer science creates applications and solutions that impact all areas of society. For example, computer science developed the programs that enable online shopping, texting with friends, streaming music, and other technological processes. While computers are common today, they weren\u00e2\u0080\u0099t always this pervasive. For those whose lives have been shaped by computer technology, it can sometimes seem like computer technology is ahistorical: computing often focuses on rapid innovation and improvement, wasting no time looking back and reflecting on the past. Yet the foundations of computer science defined over 50, and as much as 100, years ago very much shape what is possible with computing today. The first computing devices were not at all like the computers we know today. They were physical calculation devices such as the abacus , which first appeared in many societies across the world thousands of years ago. They allowed people to tally, count, or add numbers ( Figure 1.2 ). Today, abaci are still used in some situations, such as helping small children learn basic arithmetic, keeping score in games, and as a calculating tool for people with visual impairments. However, abaci are not common today because of the invention of number systems such as the Arabic number system (0, 1, 2, 3, . . .), which included zero and place values that cannot be computed with abaci. The concept of an algorithm was also invented around this time. Algorithms use inputs and a finite number of steps to carry out arithmetic operations like addition, subtraction, multiplication, and division, and produce outputs used in computing. Today\u00e2\u0080\u0099s computers still rely on the same foundations of numbers, calculations, and algorithms, except at the scale of billions of numbers and billions of calculations per second. To introduce a concrete example of an algorithm, let us consider binary search algorithm , which is used to locate a number in a sorted array of integers efficiently. The algorithm operates by repeatedly dividing the search interval in half to perform the search. If the number being searched is less than the integer in the middle of the interval, the interval is narrowed to the lower half. In the alternative, the interval is narrowed to the upper half. The algorithm repeatedly checks until the number is found or the interval is empty. Algorithms may sound complicated, but they can be quite simple. For example, recipes to prepare food are algorithms with precise directions for ingredient amounts, the process to combine these, and the temperatures and cooking methods needed to transform the combined ingredients into a specific dish. The dish is the output produced by following the algorithm of a recipe.",
+    "key_concepts": [
+      "algorithm",
+      "computer science",
+      "today",
+      "computing",
+      "computers"
+    ],
+    "methods_principles": [
+      "cooking method",
+      "computer science focuses on studying",
+      "by studying and applying",
+      "and other technological",
+      "the concept of an",
+      "let us consider binary search"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/1-1-computer-science",
+    "word_count": 496
+  },
+  {
+    "passage_id": "com_002",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "2.1 Computational Thinking",
+    "text": "This chapter presents key aspects of computational thinking, including logical thinking, assessment, decomposition, pattern recognition, abstraction, generalization, componentization, and automation. These elements guide how computer scientists approach problems and create well-designed solution building blocks at both the business and technical levels. Computational thinking often involves a bottom-up approach, focusing on computing in smaller contexts, and seeks to generate innovative solutions by utilizing data structures and algorithms. Additionally, it may make use of existing design building blocks like design patterns and abstract data types to expedite the development of optimal combinations of data structures and algorithms. The problem-solving and cognitive process, known as computational thinking , is rooted in principles derived from computer science. It involves breaking down complex problems into smaller, more manageable parts and devising systematic approaches to solve them. Complex problems are situations that are difficult because they involve many different interrelated parts or factors. These problems can be hard to understand and often don\u00e2\u0080\u0099t have simple solutions. While \u00e2\u0080\u009ccomputational thinking\u00e2\u0080\u009d is still perceived by some as an abstract concept without a universally accepted definition, its core value is to facilitate the application of separate strategies and tools to address complex problems. In problem-solving, computers play a central role, but their effectiveness centers on a prior comprehension of the problem and its potential solutions. Computational thinking serves as the bridge between the problem and its resolution. It empowers solution designers to navigate the complexity of a given problem, separate its components, and formulate possible solutions. These solutions, once developed, can be communicated in a manner that is comprehensible to both computers and humans, adopting effective problem-solving. Computational thinking serves as the intermediary that helps us read complex problems, formulate solutions, and then express those solutions in a manner that computers, humans, or a collaboration of both can implement. Read this article for a good introduction to computational thinking from the BBC. To further qualify computational thinking, Al Aho of the Columbia University Computer Science Department describes computational thinking as \u00e2\u0080\u009cthe thought processes involved in formulating problems so their solutions can be represented as computational steps and algorithms.\u00e2\u0080\u009d Jeannette Wing, also of Columbia University, brought the idea of computational thinking to prominence in a paper she wrote in 2006 while at Carnegie Mellon University. She believes that computational thinking details the mental acts needed to compute a solution to a problem either by human actions or machine. Computational thinking encompasses a collection of methods and approaches for resolving (and acquiring the skills to resolve) complex challenges, closely aligned with mathematical thinking through its utilization of abstraction, generalization, modeling, and measurement ( Figure 2.2 ). However, it differentiates itself by being more definitely aware than mathematics alone in its capacity for computation and the potential advantages it offers. Critical thinking is an important skill that can help with computational thinking. It boils down to understanding concepts rather than just mastering technical details for using software, prioritizing comprehension over rote learning.",
+    "key_concepts": [
+      "computational thinking",
+      "complex problems",
+      "problem",
+      "solutions",
+      "abstraction",
+      "generalization"
+    ],
+    "methods_principles": [
+      "in principle",
+      "their effect",
+      "adopting effect",
+      "of method",
+      "solving and cognitive",
+      "thought"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/2-1-computational-thinking",
+    "word_count": 490
+  },
+  {
+    "passage_id": "com_003",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "3.3 Formal Properties of Algorithms",
+    "text": "Beyond analyzing an algorithm by examining its outputs, computer scientists are also interested in examining its efficiency by performing an algorithmic runtime analysis , a study of how much time it takes to run an algorithm. If you have access to a runnable program, perhaps the most practical way to perform a runtime analysis is to time exactly how long it takes to run the program with a stopwatch. This approach, known as experimental analysis , evaluates an algorithm\u00e2\u0080\u0099s runtime by recording how long it takes to run a program implementation of it. Experimental analysis is particularly effective for identifying performance bugs or code that consumes unusually large amounts of computation time or system resources, even though it produces the correct output. In e-commerce, for example, performance bugs that result in slow website responsiveness can lead to millions of dollars in lost revenue. In the worst-case scenario, performance bugs can even bring down entire websites and networks when systems are overloaded and cannot handle incoming requests. As the Internet becomes more heavily used for information and services, performance bugs can have direct impacts on health and safety if the computer infrastructure cannot keep up with demand. While experimental analysis is useful for improving the efficiency of a program, it is hard to use if we do not already have a working program. Programming large systems can be expensive and time-consuming, so many organizations want to compare multiple algorithm designs and approaches to identify the most suitable design before implementing the system. Even with sample programs to represent each algorithm design, we can get different results depending on the processing power, amount of memory available, and other features of the computer that is running the program. Designing more efficient algorithms is not just about solving problems more quickly, but about building a more sustainable future. In this section, we will take a closer look at how to formally describe the efficiency of an algorithm without directly executing a working program. Modern computer systems are complicated. Algorithms are just one component in a much larger ecosystem that involves communication between many other subsystems, other computers in a data center, and other systems on the Internet. Algorithmic runtime analysis focuses on the properties of the algorithm rather than all the different ways the algorithm interacts with the rest of the world. But once an algorithm is implemented as a computer program, these interactions with the computing ecosystem play an important role in determining program performance. A profiler is a tool that measures the performance (runtime and memory usage) of a program. Profilers are commonly used to diagnose real-world performance issues by producing graphs of how computational resources are used in a program. A common graph is a flame graph ( Figure 3.12 ) that visualizes resource utilization by each part of a program to help identify the most resource-intensive parts of a program. Saving even a few percentage points of resources can lead to significantly reduced time, money, and energy expenditure.",
+    "key_concepts": [
+      "program",
+      "algorithm",
+      "performance bugs",
+      "efficiency",
+      "experimental analysis",
+      "algorithmic runtime analysis",
+      "internet"
+    ],
+    "methods_principles": [
+      "particularly effect",
+      "beyond analyzing an",
+      "evaluates an",
+      "designing more efficient",
+      "but once an"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/3-3-formal-properties-of-algorithms",
+    "word_count": 498
+  },
+  {
+    "passage_id": "com_004",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "4.1 Models of Computation",
+    "text": "Algorithms are used to solve computational problems and create computational models. A computational model is a system that defines what an algorithm does and how to run it. Examples of such computational models include physical devices that can run software, programming languages, or a design specification of such. A programming language is a linguistic application of an algorithm, which uses computational models focused on defining notations for writing code. Many computational models have been devised for a host of other applications. There are many different roles and perspectives within the worlds of computer science and software development. The end goal of software development is to create working software that can run on a hardware model , which itself uses a (hardware) realization of an algorithm that enables specific physical computers to execute software programs. A hardware model is designed for the convenience of a machine, not a human software author, so hardware models are poorly suited to writing code. Computer scientists have created programming languages which are designed specifically for programmers to develop practical applications. These languages are usually classified into high-level (Java, Python) and low-level languages (assembly language). A high-level programming language operates at a high level of abstraction, meaning that low-level details such as the management of memory are automated. In contrast, a low-level programming language operates at a low level of abstraction. Languages like C and C++ can perform both high-level and low-level tasks. Most software is designed, written, and discussed in terms of how a program should work. It is basically a series of steps that provide a direction of how the program must be executed. An example of this would be the \u00e2\u0080\u009cMap Reduce model\u00e2\u0080\u009d which is used in distributed systems like the Google search engine to produce search results for large data sets using a complex algorithm. Moving even further away from hardware models, computer scientists have also defined an abstract model , which is a technique that derives simpler high-level conceptual models for a computer while exploring the science of what new algorithms can or cannot do. Modern computers are equipped with a central processor, referred to as a central processing unit (CPU) , which is a computer chip capable of executing programs. A CPU\u00e2\u0080\u0099s hardware model relies on a specific CPU instruction set architecture (ISA) that defines a list of operations that the CPU can execute, such as storing the results of calculations ( Figure 4.2 ). With the advancements of technology, computer engineers have designed computer architectures with increasing sophistication and power. Examples of hardware models include the MOS Technology 6502 architecture used by the Nintendo Entertainment System, the ARM architecture used by mobile phones, and the x86-64 and AMD64 architectures used by modern personal computers. Computer engineers design architectures with hardware specifications, such as execution speed or energy use, in mind. Therefore, hardware models are not suitable for humans to use for communicating algorithms. A programming model is designed for humans to read and write.",
+    "key_concepts": [
+      "hardware models",
+      "algorithm",
+      "computational models",
+      "examples",
+      "programming languages"
+    ],
+    "methods_principles": [
+      "computational model",
+      "hardware model",
+      "reduce model",
+      "abstract model",
+      "conceptual model",
+      "programming model"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/4-1-models-of-computation",
+    "word_count": 495
+  },
+  {
+    "passage_id": "com_005",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "5.1 Computer Systems Organization",
+    "text": "At its core, a computer system is an electronic device that does computations. These computations appear to the outside world as executing programs. When you play a game, listen to a song, or browse the web, you are instructing your computer to do computations. You may wonder how does the computer function and how do the computations performed such as browsing the web or listening to a song relate to one another? Let us start with the second part of that question: the relationship between computation and executing a program. A song that has been digitized for storage is actually a bunch of numbers that the computer reads; it produces sound based on those numbers. The computer must calculate (i.e., compute) the frequency and volume of the sound based on the numbers read. Another example is when you open a browser and type the address of a website. The computer reads what you typed on the keyboard and leverages network capabilities to translate it to a long number called an Internet Protocol (IP) address ( Figure 5.2 ). The IP address consists of several digits, similar to your phone number, that allow the data to reach your computer over the Internet and for other computers over the Internet to recognize your computer. Your computer passes that IP address over the Internet to another big computer asking for the content of the required website, receives the content from that big computer, and executes browser software that translates it to content such as pictures, sounds, and animations on the screen. All these steps involve computations. But how does the computer do all this? To answer this question, we first need to know the components of a computer system. A computer system consists of two major parts: hardware and software. The hardware includes the physical components of the computer system, such as hard drives, motherboards, and processor chips. The software consists of the programs you execute, such as media players or web browsers, and the data needed for these programs to function. For example, the media player is a program, and the songs that you listen to using the media player are data. So, the hardware executes programs that are fed with data. Computers come in different shapes, from the small ones in your smartwatch, for example, to big supercomputers. Different computers may have different components besides the components that exist in all computer shapes. Bigger computers, datacenters, and supercomputers need extra components for getting data from multiple sources, more sophisticated parts to connect to the Internet, and cooling equipment. Mainframes that were created a few decades ago are big computers used for a different purpose. You don\u00e2\u0080\u0099t need those in your smartphone. All programs and their corresponding data are stored inside a computer or downloaded from the Internet.",
+    "key_concepts": [
+      "computations",
+      "computer",
+      "data",
+      "internet",
+      "computer system",
+      "programs",
+      "your computer"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/5-1-computer-systems-organization",
+    "word_count": 466
+  },
+  {
+    "passage_id": "com_006",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "5.5 Memory Hierarchy",
+    "text": "For the processor to do its job, which is doing the calculations, it must be fed instructions and data. This means the overall performance depends on both the calculation\u00e2\u0080\u0099s speed and the speed by which data and instructions are received. No matter how fast your processor is, you do not get good performance if the stream of instructions and data is not fast enough. Everything worked well in the early days of computing, from the 1940s until the early 1990s, and then computing hit a wall\u00e2\u0080\u0094a memory wall. Researchers in industry and academia achieved good leaps in performance for processors by innovating ways to use transistors provided to them by Moore\u00e2\u0080\u0099s law. They used those transistors, which were doubling per chip on average every 18 months, to add more features to the processor leading to better processor performance. However, the same was not done with memory, which resulted in a speed up gap between memory and processor. The gap started small and then got wider until it became a bottleneck of performance. Figure 5.19 shows the trend in the processor-memory performance gap. In this section, we explore memory technology. We will discuss the different technologies by which memory is built, explain what we mean by memory hierarchy, and see what researchers have done to deal with the processor-memory gap. What is our wish list for the perfect memory? Probably speed\u00e2\u0080\u0094we want a fast memory. But be careful\u00e2\u0080\u0094memory speed is different from memory capacity. Memory capacity has increased throughout the years at a much faster rate than memory speed. We also want infinite capacity and persistence; that is, when the power is off, we want the memory to keep its content. Next, we want to be able to pack a large amount of storage in as small an area as possible via density, which comes in handy especially for portable devices such as your smartwatch or smartphone. And what about the cost? If the memory is very expensive, the whole computer system is very expensive which means that nobody buys it; designers then have to put a smaller memory size into the computer system to keep the price low. But smaller memory means less functionality to the computer system and lower overall performance. The reality is much less ideal. There is no single technology that excels in all these aspects. Some technologies are fast but more expensive, volatile, and less dense, while others are cheap and persistent but are relatively slower than other technologies. If we pick only one technology, we end up with a non-functional system. For example, if we pick the fast and volatile but expensive technology, the resulting computing system, which is probably very expensive, needs to be powered on indefinitely in order to retain the data. If we pick the persistent and cheap but slow technology, the system may be unusable due to its slow speed.",
+    "key_concepts": [
+      "memory",
+      "data",
+      "processor",
+      "instructions",
+      "researchers",
+      "performance"
+    ],
+    "methods_principles": [
+      "for the",
+      "no matter how fast your",
+      "or leading to better"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/5-5-memory-hierarchy",
+    "word_count": 479
+  },
+  {
+    "passage_id": "com_007",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "6.3 Processes and Concurrency",
+    "text": "As we mentioned before, the OS divides the tasks it needs to perform into processes. It would be a waste of time for every process to wait until the current process completes. Instead, the OS performs more than one task at the same time, or concurrently. The computing model that improves performance when multiple processors are executing instructions simultaneously is concurrent processing . In this module, we learn about processes and concurrency by digging down into process management and inter-process communication ( IPC ), threads, scheduling and dispatching, and synchronization . To review, a process is a fundamental concept in an OS that represents an instance of a program in execution. It\u00e2\u0080\u0099s an abstraction used by the OS to provide the environment a program needs to run. When we talk about a program, we are typically referring to a set of instructions stored on disk; these instructions are passive and don\u00e2\u0080\u0099t do anything by themselves. However, when the program is loaded into the memory of a computer and begins execution, it becomes an active entity known as a process. This transformation is crucial for any computational task, as it moves the program from a static state into an active one where it can perform actions, manipulate data, and interact with other processes. Most of the applications we use today on our smartphones or laptops use IPC and a client-server architecture. It is therefore important to understand what is under the cover in case these applications suddenly stop working. In an OS, client-server communication refers to the exchange of data and services among multiple machines or processes. One process or machine acts as a client requesting a service or data, and another machine or process acts like a server providing those services or data to the client machine. The communication between server and client uses various OS protocols and mechanisms for message passing, including sockets, remote procedure calls, and inter-process communication. A process consists of at least an address space , a CPU state, and a set of OS resources. A process\u00e2\u0080\u0099s address space is illustrated in Figure 6.15 . As you learned earlier in this chapter, the address space contains the instruction code for the corresponding running program and the data needed by the running program. The data can be static data , which does not change within the program, or heap data , which serves a collection of elements and uses a tree or stack data structure. A CPU state consists of the program counter, the stack pointer (SP), and general-purpose registers. The PC is a CPU register located in the processor that has the next instruction address. The stack pointer (SP) is a register that indicates the location of the last item that was added to the stack. A general-purpose register (GPR) is an extra register that is used for storing operands and pointers; GPRs are where the instructions can read and write the value of their parameters mostly when the program is interrupted.",
+    "key_concepts": [
+      "program",
+      "data",
+      "instructions",
+      "processes",
+      "inter-process communication",
+      "ipc",
+      "execution"
+    ],
+    "methods_principles": [
+      "computing model",
+      "to wait until the current",
+      "we learn about",
+      "and interact with other",
+      "and another machine or",
+      "remote"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/6-3-processes-and-concurrency",
+    "word_count": 496
+  },
+  {
+    "passage_id": "com_008",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "7.1 Programming Language Foundations",
+    "text": "A high-level programming language is designed to be easy for humans to read, write, and understand. It abstracts away most of the complexities of the underlying hardware and machine code, allowing programmers to focus on solving problems and designing software without needing to manage the low-level details of the computer\u00e2\u0080\u0099s architecture. High-level programming languages give humans the ability to direct computers to perform tasks and applications. There are many HLLs to choose from. Java is a popular choice for its ability to run on various operating systems (i.e., Windows, macOS, Linux) and mobile platforms (Android). This is called cross-platform compatibility. For development specifically targeting Windows systems, C# is another strong option. Additionally, to create the visual element s of a website, programmers can utilize HTML and CSS. HTML provides the structure and content of the web page, while CSS controls how web pages are styled and presented. Over time, many HLLs have evolved into a mature set of tools that are used to create modern applications ( Figure 7.2 ). There is a possibility that the widespread use of a variety of HLLs to develop networked and mobile applications at a global scale creates potential cybersecurity issues. Some HLLs are considered more secure than others. Read this article on the most secure programming languages for further information about the security\u00e2\u0080\u0094or lack thereof\u00e2\u0080\u0094of these languages. Studying the fundamental concepts provided by various HLLs is necessary to choose them correctly, employ them effectively, and program efficiently. From a user point of view, examining HLL concepts helps the user get better at thinking and expressing algorithms. From an implementor\u00e2\u0080\u0099s point of view, understanding HLL concepts helps programmers abstract away from (virtual) machines and become better at specifying what they want the hardware to do without getting down into the bits. In the end, studying HLL concepts helps programmers make better use of whatever HLL they use. One way to relate to abstraction is as a way of thinking and expressing algorithms to indicate what the programmer wants the hardware to do. For example, the following statement represents one form of abstraction in the Java programming language: It tells the computer\u00e2\u0080\u0099s operating system at a high-level of abstraction to output a string of characters, which practically consists of moving the pixels that form characters one by one to a hardware device. Implementing a high level of tasks would be impossible without abstraction. For example, you would not want to program an invoicing application in 1s and 0s (machine language); abstraction allows a programmer to build it in an English-like syntax. Abstraction may be taken to much higher levels. It is one of three central principles (along with encapsulation and inheritance ) in such object-oriented HLLs as C++, Java, C#, and Python.",
+    "key_concepts": [
+      "abstraction",
+      "programmers",
+      "hll concepts",
+      "humans",
+      "ability",
+      "tasks",
+      "many hlls",
+      "html"
+    ],
+    "methods_principles": [
+      "them effect",
+      "central principle"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/7-1-programming-language-foundations",
+    "word_count": 457
+  },
+  {
+    "passage_id": "com_009",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "8.1 Data Management Focus",
+    "text": "In the current digital world, collecting information and facts that are stored digitally by a computer, or data , is a straightforward process. There are many direct and indirect ways, such as social media, that support the data collection process. A large amount of data is collected every day, every hour, and every minute. But this amount of data is not useful unless benefits can be drawn from it, which requires knowing what to do with these data. In this context data are like the \"crude oil\" that needs to be stored digitally in order to allow extraction of information and knowledge via information and knowledge management systems. Related structured data is stored in a database management system. The knowledge supports the decision-makers in any organization in making important decisions, such as increasing the sales in some regions, changing the suppliers within the supply chain, decreasing the manufacture of a specific product, modifying the hiring process, studying the community culture, and identifying customer demand. It is clear that proper data management is required to support decision-makers. The study of managing data effectively, or data management , treats data as a corporate asset similar to physical assets such as plants and equipment. Data management requires having a strategy to analyze the data by collecting data, then storing the data, cleaning the data, preprocessing the data, and preparing the data for analytics, which will lead to decision-making. Facebook, Instagram, LinkedIn, Snapchat, Tik Tok, X, and many other social media applications are controlling your data. You are most likely posting too much information about your life, work, and school, but it is not only you\u00e2\u0080\u0094everyone is sharing data on social media. A supermassive Mother of all Breaches (MOAB) publicized discovered in early 2024 contains data from numerous previous breaches, comprising 12 TB of information from LinkedIn, X (formerly Twitter), Weibo, Tencent, and other platforms\u00e2\u0080\u0099 user data. Have you ever asked yourself how service providers are managing this data? How do they store the data? Where do they store it? Which database are they are using? And the big question: can we benefit from this data and manage our own data? Meta is offering the option to control your Facebook experience by managing your data; all you need to do is complete a form, which gives you multiple options such as downloading your data, managing ad preferences, and removing a tag from a post. 1 Computer science is the study of computing algorithms that receive data as inputs, process data, and produce outputs. Computer science applies the principles of mathematics, physics, and engineering. Hardware , software, operating systems, and applications are working together to perform computer science computations. Data science is the study of extracting knowledge from information using hypothesis analysis and algorithms. Information is the result of processing raw data. Figure 8.2 illustrates the skills and knowledge needed to be successful in data science. Data are the backbone of any enterprise because analyzing data improves performance and increases profit.",
+    "key_concepts": [
+      "data",
+      "information",
+      "knowledge",
+      "study",
+      "your data",
+      "social media"
+    ],
+    "methods_principles": [
+      "data effect",
+      "the principle",
+      "using hypothesis",
+      "is a straightforward",
+      "that support the data collection",
+      "modifying the hiring"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/8-1-data-management-focus",
+    "word_count": 496
+  },
+  {
+    "passage_id": "com_010",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "8.5 Data Warehousing, Data Lakes, and Business Intelligence",
+    "text": "With the proliferation of data, new techniques that store and handle the data are required. Data warehousing and data lakes are used for storing big data. Business intelligence analyzes gathered data in data warehouses and data lakes to improve strategic decision-making. In the late 1980s, the concept of data warehouse started at IBM when researchers Barry Devlin and Paul Murphy developed the first business warehouse. A data warehouse centralizes an enterprise\u00e2\u0080\u0099s data from its databases. It supports the flow of data from operational systems to analytics/decision systems by creating a single repository of data from various sources both internal and external. In most cases, a data warehouse is a relational database that stores processed data that are optimized for gathering business insights. It collects data with predetermined structures and schema coming from transaction al systems and business applications, and the data are typically used for operational reporting and analysis. A data warehouse is a collection of data designed to support management\u00e2\u0080\u0099s decision-making process and is meant to be: Data warehouse supports the types of decision-making at the operational, tactical, and strategic levels. Operational decisions happen frequently based on day-to-day operations and are structured based on a specific predefined role (i.e., limited). Tactical-level decisions occur with greater frequency (i.e., monthly) and are semistructured based on the data requirement. The strategic level has the highest level of organizational business decisions, and their decisions are unstructured and/or infrequent. In designing a data warehouse, many schemas can be adopted such as star schema, snowflake schema, and fact constellation. A star schema is a data model with one large fact table connected to smaller tables. The fact table contains keys referring to each dimension table as shown in Figure 8.19 . The snowflake schema is a data model that normalizes the dimension table ( Figure 8.20 ). It has one fact table, and it creates smaller tables with primary\u00e2\u0080\u0093foreign key relationships. A fact constellation has more than one fact table connected to other smaller dimension tables. After designing the schema, the next process to start is extraction, transformation, and loading (ETL) , which is data integration that combines data from multiple sources, fixes the data format, and loads the data into a data warehouse. The first step is extracting the data from the system, which can be full or incremental extraction. Extraction uses change data capture (CDC) , which is a technology that detects any data update event. The second step is transforming the data, which includes formatting the data to be consistent, cleansing the data to get rid of missing data, aggregating data by merging some attribute s, and enriching by adding external data. The last step is loading the data in parallel as fact and dimension tables to the data warehouse as shown in Figure 8.21 . ETL steps will make changes to the data, which should be documented for better understanding and future maintenance. The documentation includes structural metadata about the data structure and semantic metadata about the meaning.",
+    "key_concepts": [
+      "data",
+      "data warehouse",
+      "schema",
+      "star schema",
+      "snowflake schema",
+      "fact constellation"
+    ],
+    "methods_principles": [
+      "data model",
+      "making",
+      "the next"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/8-5-data-warehousing-data-lakes-and-business-intelligence",
+    "word_count": 497
+  },
+  {
+    "passage_id": "com_011",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "9.2 Software Engineering Process",
+    "text": "Imagine a recipe for building software. There are different ways to cook the same dish, but most recipes follow a basic structure with steps like gathering ingredients, preparing them, cooking, and serving. Software engineering processes are similar. They provide a structured approach to creating software applications. Various software engineering process models are typically used to support the software development life cycle (SDLC) . After years of research and refinements, software engineering researchers and practitioners have converged on defining a generic software engineering process model, or process framework, that can be used as a template. That process framework includes a set of process elements (e.g., framework activities, software engineering actions, task sets, work products, quality assurance, and change control mechanisms) that may differ for each process model and for each project. One common category of process models is known as the traditional process model . This process framework, as you learned earlier in the chapter, encompasses four framework (i.e., generic) activities that are also known as phases: inception, elaboration, construction, and deployment: These (generic) framework activities or phases are applicable regardless of the specific software engineering process model chosen for a project and may be elaborated differently depending on the organization and the problem area and project being developed. There are also umbrella activities that are important but tangential to framework activities. Returning to the recipe analogy, if generic framework activities represent cooking, then you can think of these activities as the things you would do alongside your cooking, like making sure you have the right pots and pans or keeping your kitchen clean. As you\u00e2\u0080\u0099ll learn later in the chapter, in software development, such activities are known as umbrella activities, and they include: Various software engineering actions are typically performed as part of the generic framework and umbrella activities. For example, the inception phase may call for requirements engineering actions such as requirements definition and requirements management; the elaboration phase may involve high-level and detail design actions. Each type of software engineering action corresponds to a process that may be represented as a workflow or a task set, and each task results in work products that are subject to specific quality assurance and change control mechanisms. Basically, a task set (or workflow) encompasses all the tasks that are required to accomplish a specific software engineering action within a framework activity. Task sets vary depending on the characteristics of a project, and activities within a given process model usually overlap instead of being performed independently. Software process models that adhere to the generic framework mentioned precedingly are sometimes referred to as SDLC methodologies. In general, software engineering process models are structured in this fashion to facilitate efficient development of quality software, reduce risk of failure, increase predictability, and capture best practices in software development. The software framework provides a template that allows software engineers to tailor their process model based on the specific project(s) on which they are working.",
+    "key_concepts": [
+      "project",
+      "umbrella activities",
+      "activities",
+      "cooking",
+      "years",
+      "template",
+      "process framework"
+    ],
+    "methods_principles": [
+      "process model",
+      "sdlc method",
+      "software engineering",
+      "various software engineering",
+      "that",
+      "framework includes a set of"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/9-2-software-engineering-process",
+    "word_count": 488
+  },
+  {
+    "passage_id": "com_012",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "10.3 Solution Architecture Management",
+    "text": "The process of managing, designing, and describing the solution engineering in relation to specific business problems is called solution architecture management . A solutions architect manager is responsible for building teams, establishing relationships, setting strategy, and measuring and delivering results for any problem or opportunity the enterprise may face. Solution architecture management is important in every industry today. It plays an especially crucial role in the health-care industry. Solution architecture is used to maintain electronic health records and ensure patient data privacy and security. As health-care systems become more complex and data becomes more sensitive, solution architecture can be used to engineer secure, scalable, and efficient systems. These framework s allow providers to access reliable information while maintaining compliance with data regulations. As we learned in Chapter 9 Software Engineering , the software process can be defined as a collection of pattern s that define a set of activities, actions, and tasks required to develop computer software. Software engineering is a detailed study of engineering to design, develop, and maintain software. Software engineering process patterns establish collaborative communication between customers and software engineers to guarantee the successful completion of task patterns within the project requirements and the project scope. As you may recall, various processes and related process patterns were discussed in Chapter 9 Software Engineering to explain how software solutions may be developed by refining an architecture model into a fully coded ready-to-deploy solution. Solution architecture management may not directly impact individuals in their everyday lives, but it indirectly influences their experiences through the development and management of various technological solutions. It ensures that systems like banking apps, online shopping platforms, and smart home devices function efficiently by managing how the different components of technology work together. When well-implemented, it improves the reliability and performance of these tools, making daily tasks more seamless. To learn more about enterprise architecture and how it is used in modern business and tech, explore the websites of industry publications like CIO Magazine for current insights and trends in technology management. Recall that a subsystem is a set of collaborating components that perform a given task included in software systems; it is considered a separate entity within a software architecture. A component is an encapsulated part of a software system, which has an interface and serves as a building block for the structure of a subsystem. Subsystems interact with other subsystems and components to perform their designated tasks. At a programming language level, components may be represented as modules, classes, objects, or as a set of related functions. When designing architectures for software systems, software designers typically start with a requirements model (either explicit or implied) that presents an abstract representation of the system. The requirements model is a model that describes the problem set, establishes the context, and identifies the system of forces that hold sway, such as design quality attributes. The method of hiding background details (i.e.",
+    "key_concepts": [
+      "solution architecture management",
+      "set",
+      "components",
+      "solution architecture",
+      "chapter 9 software engineering",
+      "subsystem",
+      "software systems"
+    ],
+    "methods_principles": [
+      "architecture model",
+      "requirements model",
+      "the method",
+      "the software",
+      "software engineering",
+      "various"
+    ],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/10-3-solution-architecture-management",
+    "word_count": 485
+  },
+  {
+    "passage_id": "com_013",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "11.4 Sample Responsive WAD with Bootstrap/React and Django",
+    "text": "Previously, you learned how to build a Todo web application using Bootstrap and Django and then using Bootstrap with React and Node . This section will review the steps required to update the Todo web application using Bootstrap with React and Django. In this section, the Todo web application implemented will build on the Django application covered in 11.2 Sample Responsive WAD with Bootstrap and Django , as well as the React application explored in 11.3 Sample Responsive WAD with Bootstrap/React and Node . For this version of the Todo web application, React serves as the front end handling the user interface to get and set data via HTTP requests. Django serves as the back end. To build this version of the Todo application, you need Python v3.9.4, PIP v21.3.1, Django v4.0.1, Django REST Framework v3.13.1, Bootstrap v4.5.0, Django-cors-headers v3.11.0, React v17.0.2, and Axios v0.21.0. To begin, complete the following steps: When using Django, Cross-Origin Resource Sharing (CORS) headers can be a valuable tool to allow a Django application to accept in-browser requests that come from other origins. With CORS headers, other domains can access your resources, but only if permitted. When used appropriately, this makes CORS an important tool to boost a website\u00e2\u0080\u0099s security. To create a Todo web application using React as a front end to the Django back end, the Django project requires a couple of configurations. Open TodoApp/settings.py and add \u00e2\u0080\u0098corsheaders\u00e2\u0080\u0099 to INSTALLED_APPS as in the following code. By configuring the Django project with CORS, the Django application will be allowed to accept in-browser requests that come from other origins. To add CORS, add the CORS middleware to MIDDLEWARE, as shown in the following code. After completing this step, scroll to the bottom of the settings.py file and add the following variable. Axios is an HTTP client for Node that manages asynchronous HTTP requests. Axios is free and open-source, with built-in security measures. Axios uses clean, efficient syntax to manage promises, and works well with Node, as well as browser environments. Visit this page on Axios to learn more. Next, the React application must be configured so it can make requests to the API endpoints of the Django application. The React application uses Axios to fetch data by making requests to a given endpoint. To install Axios, run the following command in the reactfrontend/ directory: Next, add a proxy to the Django application. The proxy will help tunnel API requests from the React application to http://localhost:8000, where the Django application will receive and handle the requests. To add the proxy, open the reactfrontend/package.json file and add the following code. After completing this step, open the reactfrontend/src/App.js file and import Axios, as shown in the following code. To update the reactfrontend/src/App.js file, add the following code. The handleSubmit() function will use Axios to make requests to the Django API endpoints to create and delete todo items. When these steps are complete, start up the Django server and then start up the React application, using the following commands, respectively. To access the Django REST API, navigate to http://localhost:8000/api/. This is similar to the steps completed in 11.2 Sample Responsive WAD with Bootstrap and Django . Click on the categories API path to enter two categories, as seen in Figure 11.35 . When the React application starts up, a browser page will automatically launch for navigating to http://localhost:3000 and the user interface should render. Figure 11.36 shows the page on which to create a todo item. At this point, revisit the Django REST API. Figure 11.37 shows that the todo item should be accessible via the todos API path.",
+    "key_concepts": [
+      "django",
+      "django application",
+      "react application",
+      "todo web application",
+      "bootstrap",
+      "following code",
+      "react",
+      "node"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/11-4-sample-responsive-wad-with-bootstrap-react-and-django",
+    "word_count": 600
+  },
+  {
+    "passage_id": "com_014",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "12.3 Example PaaS and FaaS Deployments of Cloud-Native Applications",
+    "text": "This module focuses on building sample applications that illustrate the steps taken to deploy sample applications using various cloud deployment technologies. The first section focuses on how to build a sample cloud-native application on a PaaS platform. The sample application provided illustrates the use of microservices, Docker containers, and Kubernetes orchestration. The second section focuses on how to set up a suite of products that are used to manage Kubernetes clusters and monitor applications that are deployed in Kubernetes clusters. Finally, the third section focuses on how to deploy FaaS functions that are parts of a distributed application on a serverless platform. The example provided illustrates the use of various metrics and performance dashboards used to monitor a distributed application. When working through these examples, keep in mind that they are based off tutorials that are made available by the cloud service providers. As the technologies used in these tutorials evolve, the tutorials may change. As a result, there may be differences in the configuration options in the cloud service provider consoles or some of the steps may have changed. Regardless, the underlying goals of these examples should remain achievable. These examples also require subscriptions to AWS and Microsoft Azure. All cloud services providers provide free-trial credits. These examples were completed without exceeding the free-trial credit and using as many free-tier services as possible. The example in this section illustrates PaaS deployment of a cloud-native application on Microsoft Azure. A subsidiary of Microsoft, Azure is a cloud computing platform that offers a wide range of services that allow customers to build, deploy, and manage applications and services in the cloud. The sample cloud-native application 13 includes two microservices. Both communicate with a single datastore. Each microservice is containerized and deployed in a Kubernetes environment illustrating Kubernetes orchestration. The PaaS deployment of this sample cloud-native application in Azure is illustrated in Figure 12.36 . One microservice implements a web service in JavaScript using Node . Express.js is used to implement the REST API for the web service. Express.js is a back-end Node web application framework used to implement RESTful APIs. This microservice pushes data updates to a datastore via the REST API. The other microservice implements a web service using Next.js. Next.js is an open-source React framework used to create full-stack web applications. React is a library used to create components to render to certain environments including web and mobile applications. This microservice reads data from the same datastore. Docker images are created for each microservice and pushed to an image registry. Azure\u00e2\u0080\u0099s Container Registry Service (ACR) is used for this purpose. Each microservice is self-contained and encapsulated into Docker containers that are pulled from ACR and deployed into worker nodes in a Kubernetes cluster . Scaling the microservices is managed by Kubernetes. The Azure Kubernetes Service (AKS) is used for this purpose. Both microservices communicate with a single datastore. The datastore used is a PostgreSQL database hosted in Azure.",
+    "key_concepts": [
+      "examples",
+      "sample cloud-native application",
+      "tutorials",
+      "azure",
+      "each microservice",
+      "web service",
+      "sample applications"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/12-3-example-paas-and-faas-deployments-of-cloud-native-applications",
+    "word_count": 489
+  },
+  {
+    "passage_id": "com_015",
+    "subject": "computer_science",
+    "source": "openstax_introduction-computer-science",
+    "section": "13.4 Towards Intelligent Autonomous Networked Super Systems",
+    "text": "Recent advances with superintelligent AI allow for the seamless vision of incorporating networked autonomous systems into reality. These systems, known as intelligent autonomous networked supersystems (IANS) , are becoming the next major development for chained computing, where intelligent chains of autonomous machines work together as a system to make decisions and take action. IANS are highly interconnected AIs, forming complex networks that collaborate while utilizing quick and extended exchange of data to promote growth. In this section, we will analyze current applications of IANS and supersystems that are implemented and traffic large-scale systems and businesses with their applications. By going through real-life examples, we can evaluate the potential and critically examine the current challenges and limitations in the development and deployment of extensive IANS and similar supersystems that use intelligence to improve industries such as health care. Today\u00e2\u0080\u0099s web incorporates hybrid multiclouds that continuously evolve. As shown in Figure 13.15 , these hybrid multiclouds power myriad innovative technology components that make it possible to create innovative solutions as the Web continues to evolve. In particular, recent advances in mobility and networking, such as 5G, have made it possible to minimize the latency of traditional web and mobile applications. This has led to a proliferation of social networks that enable efficient access to various types of content and global instant communication and collaboration. In addition, virtualization technology has made it possible to create powerful cloud platforms that facilitate access to infrastructure and platform services, as described earlier in this chapter. This progress is leading to global acceptance of the next-generation hybrid Web 3.0, which makes it possible to combine traditional Web 2.0 applications with blockchain 2.0 capabilities. Blockchain is characterized by real-time transactions, scalability, and unlimited decentralized storage. Further improvements are on the horizon to provide a more scalable, fast, unlimited, and completely secure blockchain infrastructure via Blockchain 3.0/4.0. To build on this, Web 4.0 and 5.0 are already on the way as the metaverse is being positioned as the successor to today\u00e2\u0080\u0099s Internet. Metaverse is a concept that originated in the 1992 novel Snow Crash, in which people use the metaverse as an escape from a dystopian world (an idea also later explored in the novel and film Ready Player One ). Metaverse embodies a unified immersive digital world that is tightly connected to the physical world. In the metaverse, people can interact without physical or geographic constraints and enjoy a compelling sense of social presence. The metaverse is characterized by two key features. It is persistent, with its collective network of 3-D-rendered virtual elements and spaces available throughout the world 24/7. It is also shared, giving a vast number of users simultaneous access and the ability to use the metaverse to interact.",
+    "key_concepts": [
+      "metaverse",
+      "ians",
+      "recent advances",
+      "web",
+      "blockchain"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/introduction-computer-science/pages/13-4-towards-intelligent-autonomous-networked-super-systems",
+    "word_count": 453
+  }
+]

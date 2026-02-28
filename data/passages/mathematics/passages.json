@@ -1,0 +1,347 @@
+[
+  {
+    "passage_id": "mat_001",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "1.1 Review of Functions",
+    "text": "In this section, we provide a formal definition of a function and examine several ways in which functions are represented\u00e2\u0080\u0094namely, through tables, formulas, and graphs. We study formal notation and terms related to functions. We also define composition of functions and symmetry properties. Most of this material will be a review for you, but it serves as a handy reference to remind you of some of the algebraic techniques useful for working with functions. Given two sets and a set with elements that are ordered pairs where is an element of and is an element of is a relation from to A relation from to defines a relationship between those two sets. A function is a special type of relation in which each element of the first set is related to exactly one element of the second set. The element of the first set is called the input ; the element of the second set is called the output . Functions are used all the time in mathematics to describe relationships between two sets. For any function, when we know the input, the output is determined, so we say that the output is a function of the input. For example, the area of a square is determined by its side length, so we say that the area (the output) is a function of its side length (the input). The velocity of a ball thrown in the air can be described as a function of the amount of time the ball is in the air. The cost of mailing a package is a function of the weight of the package. Since functions have so many uses, it is important to have precise definitions and terminology to study them. A function consists of a set of inputs, a set of outputs, and a rule for assigning each input to exactly one output. The set of inputs is called the domain of the function. The set of outputs is called the range of the function. For example, consider the function where the domain is the set of all real numbers and the rule is to square the input. Then, the input is assigned to the output Since every nonnegative real number has a real-value square root, every nonnegative number is an element of the range of this function. Since there is no real number with a square that is negative, the negative real numbers are not elements of the range. We conclude that the range is the set of nonnegative real numbers. For a general function with domain we often use to denote the input and to denote the output associated with When doing so, we refer to as the independent variable and as the dependent variable , because it depends on Using function notation, we write and we read this equation as equals of For the squaring function described earlier, we write The concept of a function can be visualized using Figure 1.2 , Figure 1.3 , and Figure 1.4 .",
+    "key_concepts": [
+      "function",
+      "set",
+      "input",
+      "output",
+      "element",
+      "range",
+      "two sets"
+    ],
+    "methods_principles": [
+      "the rule",
+      "this equation"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/1-1-review-of-functions",
+    "word_count": 499
+  },
+  {
+    "passage_id": "mat_002",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "1.3 Trigonometric Functions",
+    "text": "Trigonometric functions are used to model many phenomena, including sound waves, vibrations of strings, alternating electrical current, and the motion of pendulums. In fact, almost any repetitive, or cyclical, motion can be modeled by some combination of trigonometric functions. In this section, we define the six basic trigonometric functions and look at some of the main identities involving these functions. To use trigonometric functions, we first must understand how to measure the angles. Although we can use both radians and degrees, radians are a more natural measurement because they are related directly to the unit circle, a circle with radius 1. The radian measure of an angle is defined as follows. Given an angle let be the length of the corresponding arc on the unit circle ( Figure 1.30 ). We say the angle corresponding to the arc of length 1 has radian measure 1. Since an angle of corresponds to the circumference of a circle, or an arc of length we conclude that an angle with a degree measure of has a radian measure of Similarly, we see that is equivalent to radians. Table 1.8 shows the relationship between common degree and radian values. Trigonometric functions allow us to use angle measures, in radians or degrees, to find the coordinates of a point on any circle\u00e2\u0080\u0094not only on a unit circle\u00e2\u0080\u0094or to find an angle given a point on a circle. They also define the relationship among the sides and angles of a triangle. To define the trigonometric functions, first consider the unit circle centered at the origin and a point on the unit circle. Let be an angle with an initial side that lies along the positive -axis and with a terminal side that is the line segment An angle in this position is said to be in standard position ( Figure 1.31 ). We can then define the values of the six trigonometric functions for in terms of the coordinates and Let be a point on the unit circle centered at the origin Let be an angle with an initial side along the positive -axis and a terminal side given by the line segment The trigonometric functions are then defined as If and are undefined. If then and are undefined. We can see that for a point on a circle of radius with a corresponding angle the coordinates and satisfy The values of the other trigonometric functions can be expressed in terms of and ( Figure 1.32 ). As mentioned earlier, the ratios of the side lengths of a right triangle can be expressed in terms of the trigonometric functions evaluated at either of the acute angles of the triangle. Let be one of the acute angles. Let be the length of the adjacent leg, be the length of the opposite leg, and be the length of the hypotenuse. By inscribing the triangle into a circle of radius as shown in Figure 1.",
+    "key_concepts": [
+      "angle",
+      "trigonometric functions",
+      "length",
+      "unit circle",
+      "circle",
+      "radians",
+      "radius",
+      "radian measure"
+    ],
+    "methods_principles": [
+      "to model",
+      "be model"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/1-3-trigonometric-functions",
+    "word_count": 486
+  },
+  {
+    "passage_id": "mat_003",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "2.1 A Preview of Calculus",
+    "text": "As we embark on our study of calculus, we shall see how its development arose from common solutions to practical problems in areas such as engineering physics\u00e2\u0080\u0094like the space travel problem posed in the chapter opener. Two key problems led to the initial formulation of calculus: (1) the tangent problem, or how to determine the slope of a line tangent to a curve at a point; and (2) the area problem, or how to determine the area under a curve. Rate of change is one of the most critical concepts in calculus. We begin our investigation of rates of change by looking at the graphs of the three lines and shown in Figure 2.2 . As we move from left to right along the graph of we see that the graph decreases at a constant rate. For every 1 unit we move to the right along the x -axis, the y -coordinate decreases by 2 units. This rate of change is determined by the slope (\u00e2\u0088\u00922) of the line. Similarly, the slope of 1/2 in the function tells us that for every change in x of 1 unit there is a corresponding change in y of 1/2 unit. The function has a slope of zero, indicating that the values of the function remain constant. We see that the slope of each linear function indicates the rate of change of the function. Compare the graphs of these three functions with the graph of ( Figure 2.3 ). The graph of starts from the left by decreasing rapidly, then begins to decrease more slowly and level off, and then finally begins to increase\u00e2\u0080\u0094slowly at first, followed by an increasing rate of increase as it moves toward the right. Unlike a linear function, no single number represents the rate of change for this function. We quite naturally ask: How do we measure the rate of change of a nonlinear function? We can approximate the rate of change of a function at a point on its graph by taking another point on the graph of drawing a line through the two points, and calculating the slope of the resulting line. Such a line is called a secant line. Figure 2.4 shows a secant line to a function at a point We formally define a secant line as follows: The secant to the function through the points and is the line passing through these points. Its slope is given by The accuracy of approximating the rate of change of the function with a secant line depends on how close x is to a . As we see in Figure 2.5 , if x is closer to a , the slope of the secant line is a better measure of the rate of change of at a . The secant lines themselves approach a line that is called the tangent to the function at a ( Figure 2.6 ).",
+    "key_concepts": [
+      "function",
+      "change",
+      "slope",
+      "rate",
+      "graph",
+      "secant line",
+      "line",
+      "calculus"
+    ],
+    "methods_principles": [
+      "remain constant"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/2-1-a-preview-of-calculus",
+    "word_count": 483
+  },
+  {
+    "passage_id": "mat_004",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "2.4 Continuity",
+    "text": "Many functions have the property that their graphs can be traced with a pencil without lifting the pencil from the page. Such functions are called continuous . Other functions have points at which a break in the graph occurs, but satisfy this property over intervals contained in their domains. They are continuous on these intervals and are said to have a discontinuity at a point where a break occurs. We begin our investigation of continuity by exploring what it means for a function to have continuity at a point . Intuitively, a function is continuous at a particular point if there is no break in its graph at that point. Before we look at a formal definition of what it means for a function to be continuous at a point, let\u00e2\u0080\u0099s consider various functions that fail to meet our intuitive notion of what it means to be continuous at a point. We then create a list of conditions that prevent such failures. Our first function of interest is shown in Figure 2.32 . We see that the graph of has a hole at a . In fact, is undefined. At the very least, for to be continuous at a , we need the following condition: However, as we see in Figure 2.33 , this condition alone is insufficient to guarantee continuity at the point a . Although is defined, the function has a gap at a . In this example, the gap exists because does not exist. We must add another condition for continuity at a \u00e2\u0080\u0094namely, However, as we see in Figure 2.34 , these two conditions by themselves do not guarantee continuity at a point. The function in this figure satisfies both of our first two conditions, but is still not continuous at a . We must add a third condition to our list: Now we put our list of conditions together and form a definition of continuity at a point. A function is continuous at a point a if and only if the following three conditions are satisfied: A function is discontinuous at a point a if it fails to be continuous at a . The following procedure can be used to analyze the continuity of a function at a point using this definition. The next three examples demonstrate how to apply this definition to determine whether a function is continuous at a given point. These examples illustrate situations in which each of the conditions for continuity in the definition succeed or fail. By applying the definition of continuity and previously established theorems concerning the evaluation of limits, we can state the following theorem. Polynomials and rational functions are continuous at every point in their domains. Previously, we showed that if and are polynomials, for every polynomial and as long as Therefore, polynomials and rational functions are continuous on their domains. We now apply Continuity of Polynomials and Rational Functions to determine the points at which a given rational function is continuous.",
+    "key_concepts": [
+      "continuity",
+      "function",
+      "definition",
+      "polynomials",
+      "graph",
+      "domains"
+    ],
+    "methods_principles": [
+      "established theorem",
+      "following theorem",
+      "the following"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/2-4-continuity",
+    "word_count": 495
+  },
+  {
+    "passage_id": "mat_005",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "3.2 The Derivative as a Function",
+    "text": "As we have seen, the derivative of a function at a given point gives us the rate of change or slope of the tangent line to the function at that point. If we differentiate a position function at a given time, we obtain the velocity at that time. It seems reasonable to conclude that knowing the derivative of the function at every point would produce valuable information about the behavior of the function. However, the process of finding the derivative at even a handful of values using the techniques of the preceding section would quickly become quite tedious. In this section we define the derivative function and learn a process for finding it. The derivative function gives the derivative of a function at each point in the domain of the original function for which the derivative is defined. We can formally define a derivative function as follows. Let be a function. The derivative function , denoted by is the function whose domain consists of those values of such that the following limit exists: A function is said to be differentiable at if exists. More generally, a function is said to be differentiable on if it is differentiable at every point in an open set and a differentiable function is one in which exists on its domain. In the next few examples we use Equation 3.9 to find the derivative of a function. We use a variety of different notations to express the derivative of a function. In Example 3.12 we showed that if then If we had expressed this function in the form we could have expressed the derivative as or We could have conveyed the same information by writing Thus, for the function each of the following notations represents the derivative of In place of we may also use Use of the notation (called Leibniz notation) is quite common in engineering and physics. To understand this notation better, recall that the derivative of a function at a point is the limit of the slopes of secant lines as the secant lines approach the tangent line. The slopes of these secant lines are often expressed in the form where is the difference in the values corresponding to the difference in the values, which are expressed as ( Figure 3.11 ). Thus the derivative, which can be thought of as the instantaneous rate of change of with respect to is expressed as We have already discussed how to graph a function, so given the equation of a function or the equation of a derivative function, we could graph it. Given both, we would expect to see a correspondence between the graphs of these two functions, since gives the rate of change of a function (or slope of the tangent line to In Example 3.11 we found that for If we graph these functions on the same axes, as in Figure 3.12 , we can use the graphs to understand the relationship between these two functions.",
+    "key_concepts": [
+      "function",
+      "derivative",
+      "derivative function",
+      "values",
+      "change",
+      "tangent line",
+      "equation"
+    ],
+    "methods_principles": [
+      "use equation",
+      "the equation",
+      "so given the",
+      "of a function or the"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/3-2-the-derivative-as-a-function",
+    "word_count": 494
+  },
+  {
+    "passage_id": "mat_006",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "3.5 Derivatives of Trigonometric Functions",
+    "text": "One of the most important types of motion in physics is simple harmonic motion, which is associated with such systems as an object with mass oscillating on a spring. Simple harmonic motion can be described by using either sine or cosine functions. In this section we expand our knowledge of derivative formulas to include derivatives of these and other trigonometric functions. We begin with the derivatives of the sine and cosine functions and then use them to obtain formulas for the derivatives of the remaining four trigonometric functions. Being able to calculate the derivatives of the sine and cosine functions will enable us to find the velocity and acceleration of simple harmonic motion. We begin our exploration of the derivative for the sine function by using the formula to make a reasonable guess at its derivative. Recall that for a function Consequently, for values of very close to 0, We see that by using By setting and using a graphing utility, we can get a graph of an approximation to the derivative of ( Figure 3.25 ). Upon inspection, the graph of appears to be very close to the graph of the cosine function. Indeed, we will show that If we were to follow the same steps to approximate the derivative of the cosine function, we would find that The derivative of the sine function is the cosine and the derivative of the cosine function is the negative sine. Because the proofs for and use similar techniques, we provide only the proof for Before beginning, recall two important trigonometric limits we learned in Introduction to Limits : The graphs of and are shown in Figure 3.26 . We also recall the following trigonometric identity for the sine of the sum of two angles: Now that we have gathered all the necessary equations and identities, we proceed with the proof. Since the remaining four trigonometric functions may be expressed as quotients involving sine, cosine, or both, we can use the quotient rule to find formulas for their derivatives. The derivatives of the remaining trigonometric functions may be obtained by using similar techniques. We provide these formulas in the following theorem. The derivatives of the remaining trigonometric functions are as follows: The higher-order derivatives of and follow a repeating pattern. By following the pattern, we can find any higher-order derivative of and Once we recognize the pattern of derivatives, we can find any higher-order derivative by determining the step in the pattern to which it corresponds. For example, every fourth derivative of sin x equals sin x , so",
+    "key_concepts": [
+      "derivatives",
+      "simple harmonic motion",
+      "formulas",
+      "graph",
+      "cosine function",
+      "pattern"
+    ],
+    "methods_principles": [
+      "necessary equation",
+      "quotient rule",
+      "following theorem",
+      "we provide these"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/3-5-derivatives-of-trigonometric-functions",
+    "word_count": 427
+  },
+  {
+    "passage_id": "mat_007",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "3.8 Implicit Differentiation",
+    "text": "We have already studied how to find equations of tangent lines to functions and the rate of change of a function at a specific point. In all these cases we had the explicit equation for the function and differentiated these functions explicitly. Suppose instead that we want to determine the equation of a tangent line to an arbitrary curve or the rate of change of an arbitrary curve at a point. In this section, we solve these problems by finding the derivatives of functions that define implicitly in terms of In most discussions of math, if the dependent variable is a function of the independent variable we express y in terms of If this is the case, we say that is an explicit function of For example, when we write the equation we are defining y explicitly in terms of On the other hand, if the relationship between the function and the variable is expressed by an equation where is not expressed entirely in terms of we say that the equation defines y implicitly in terms of For example, the equation defines the function implicitly. Implicit differentiation allows us to find slopes of tangents to curves that are clearly not functions (they fail the vertical line test). We are using the idea that portions of are functions that satisfy the given equation, but that is not actually a function of In general, an equation defines a function implicitly if the function satisfies that equation. An equation may define many different functions implicitly. For example, the functions and which are illustrated in Figure 3.30 , are just three of the many functions defined implicitly by the equation If we want to find the slope of the line tangent to the graph of at the point we could evaluate the derivative of the function at On the other hand, if we want the slope of the tangent line at the point we could use the derivative of However, it is not always easy to solve for a function defined implicitly by an equation. Fortunately, the technique of implicit differentiation allows us to find the derivative of an implicitly defined function without ever solving for the function explicitly. The process of finding using implicit differentiation is described in the following problem-solving strategy. Note that the resulting expression for is in terms of both the independent variable and the dependent variable Although in some cases it may be possible to express in terms of only, it is generally not possible to do so. Now that we have seen the technique of implicit differentiation, we can apply it to the problem of finding equations of tangent lines to curves described by equations.",
+    "key_concepts": [
+      "function",
+      "equation",
+      "terms",
+      "implicit differentiation",
+      "derivative"
+    ],
+    "methods_principles": [
+      "find equation",
+      "explicit equation",
+      "the equation",
+      "an equation",
+      "given equation",
+      "that equation"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/3-8-implicit-differentiation",
+    "word_count": 447
+  },
+  {
+    "passage_id": "mat_008",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "4.2 Linear Approximations and Differentials",
+    "text": "We have just seen how derivatives allow us to compare related quantities that are changing over time. In this section, we examine another application of derivatives: the ability to approximate functions locally by linear functions. Linear functions are the easiest functions with which to work, so they provide a useful tool for approximating function values. In addition, the ideas presented in this section are generalized later in the text when we study how to approximate functions by higher-degree polynomials Introduction to Power Series and Functions . Consider a function that is differentiable at a point Recall that the tangent line to the graph of at is given by the equation For example, consider the function at Since is differentiable at and we see that Therefore, the tangent line to the graph of at is given by the equation Therefore, the tangent line gives us a fairly good approximation of ( Figure 4.7 (b)). However, note that for values of far from 2, the equation of the tangent line does not give us a good approximation. For example, if the -value of the corresponding point on the tangent line is In general, for a differentiable function the equation of the tangent line to at can be used to approximate for near Therefore, we can write the linear approximation , or tangent line approximation , of at This function is also known as the linearization of at To show how useful the linear approximation can be, we look at how to find the linear approximation for at Using a calculator, the value of to four decimal places is 3.0166. The value given by the linear approximation, 3.0167, is very close to the value obtained with a calculator, so it appears that using this linear approximation is a good way to estimate at least for near At the same time, it may seem odd to use a linear approximation when we can just push a few buttons on a calculator to evaluate However, how does the calculator evaluate The calculator uses an approximation! In fact, calculators and computers use approximations all the time to evaluate mathematical expressions; they just use higher-degree approximations. Linear approximations may be used in estimating roots and powers. In the next example, we find the linear approximation for at which can be used to estimate roots and powers for real numbers near 1. The same idea can be extended to a function of the form to estimate roots and powers near a different number We have seen that linear approximations can be used to estimate function values. They can also be used to estimate the amount a function value changes as a result of a small change in the input. To discuss this more formally, we define a related concept: differentials . Differentials provide us with a way of estimating the amount a function changes as a result of a small change in input values.",
+    "key_concepts": [
+      "linear approximation",
+      "calculator",
+      "function",
+      "equation",
+      "tangent line",
+      "value",
+      "roots"
+    ],
+    "methods_principles": [
+      "the equation",
+      "for a differentiable function the"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/4-2-linear-approximations-and-differentials",
+    "word_count": 486
+  },
+  {
+    "passage_id": "mat_009",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "4.5 Derivatives and the Shape of a Graph",
+    "text": "Earlier in this chapter we stated that if a function has a local extremum at a point then must be a critical point of However, a function is not guaranteed to have a local extremum at a critical point. For example, has a critical point at since is zero at but does not have a local extremum at Using the results from the previous section, we are now able to determine whether a critical point of a function actually corresponds to a local extreme value. In this section, we also see how the second derivative provides information about the shape of a graph by describing whether the graph of a function curves upward or curves downward. Corollary of the Mean Value Theorem showed that if the derivative of a function is positive over an interval then the function is increasing over On the other hand, if the derivative of the function is negative over an interval then the function is decreasing over as shown in the following figure. A continuous function has a local maximum at point if and only if switches from increasing to decreasing at point Similarly, has a local minimum at if and only if switches from decreasing to increasing at If is a continuous function over an interval containing and differentiable over except possibly at the only way can switch from increasing to decreasing (or vice versa) at point is if changes sign as increases through If is differentiable at the only way that can change sign as increases through is if Therefore, for a function that is continuous over an interval containing and differentiable over except possibly at the only way can switch from increasing to decreasing (or vice versa) is if or is undefined. Consequently, to locate local extrema for a function we look for points in the domain of such that or is undefined. Recall that such points are called critical points of Note that need not have local extrema at a critical point. The critical points are candidates for local extrema only. In Figure 4.31 , we show that if a continuous function has a local extremum, it must occur at a critical point, but a function may not have a local extremum at a critical point. We show that if has a local extremum at a critical point, then the sign of switches as increases through that point. Using Figure 4.31 , we summarize the main results regarding local extrema. This result is known as the first derivative test . Suppose that is a continuous function over an interval containing a critical point If is differentiable over except possibly at point then satisfies one of the following descriptions: We can summarize the first derivative test as a strategy for locating local extrema. Now let\u00e2\u0080\u0099s look at how to use this strategy to locate all local extrema for particular functions. We now know how to determine where a function is increasing or decreasing.",
+    "key_concepts": [
+      "function",
+      "critical point",
+      "local extremum",
+      "interval",
+      "local extrema",
+      "continuous function",
+      "switches"
+    ],
+    "methods_principles": [
+      "value theorem"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph",
+    "word_count": 491
+  },
+  {
+    "passage_id": "mat_010",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "4.9 Newton\u2019s Method",
+    "text": "In many areas of pure and applied mathematics, we are interested in finding solutions to an equation of the form For most functions, however, it is difficult\u00e2\u0080\u0094if not impossible\u00e2\u0080\u0094to calculate their zeroes explicitly. In this section, we take a look at a technique that provides a very efficient way of approximating the zeroes of functions . This technique makes use of tangent line approximations and is behind the method used often by calculators and computers to find zeroes. Consider the task of finding the solutions of If is the first-degree polynomial then the solution of is given by the formula If is the second-degree polynomial the solutions of can be found by using the quadratic formula. However, for polynomials of degree or more, finding roots of becomes more complicated. Although formulas exist for third- and fourth-degree polynomials, they are quite complicated. Also, if is a polynomial of degree or greater, it is known that no such formulas exist. For example, consider the function No formula exists that allows us to find the solutions of Similar difficulties exist for nonpolynomial functions. For example, consider the task of finding solutions of No simple formula exists for the solutions of this equation. In cases such as these, we can use Newton\u00e2\u0080\u0099s method to approximate the roots. Newton\u00e2\u0080\u0099s method makes use of the following idea to approximate the solutions of By sketching a graph of we can estimate a root of Let\u00e2\u0080\u0099s call this estimate We then draw the tangent line to at If this tangent line intersects the -axis at some point Now let be the next approximation to the actual root. Typically, is closer than to an actual root. Next we draw the tangent line to at If this tangent line also intersects the -axis, producing another approximation, We continue in this way, deriving a list of approximations: Typically, the numbers quickly approach an actual root as shown in the following figure. Now let\u00e2\u0080\u0099s look at how to calculate the approximations If is our first approximation, the approximation is defined by letting be the -intercept of the tangent line to at The equation of this tangent line is given by Solving this equation for we conclude that Similarly, the point is the -intercept of the tangent line to at Therefore, satisfies the equation Next we see how to make use of this technique to approximate the root of the polynomial Newton\u00e2\u0080\u0099s method can also be used to approximate square roots. Here we show how to approximate This method can be modified to approximate the square root of any positive number. When using Newton\u00e2\u0080\u0099s method, each approximation after the initial guess is defined in terms of the previous approximation by using the same formula. In particular, by defining the function we can rewrite Equation 4.8 as This type of process, where each is defined in terms of by repeating the same function, is an example of an iterative process . Shortly, we examine other iterative processes.",
+    "key_concepts": [
+      "solutions",
+      "tangent line",
+      "equation",
+      "zeroes",
+      "technique",
+      "newton\u00e2\u0080\u0099s method",
+      "actual root"
+    ],
+    "methods_principles": [
+      "an equation",
+      "the method",
+      "this equation",
+      "the equation",
+      "this method",
+      "rewrite equation"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/4-9-newtons-method",
+    "word_count": 493
+  },
+  {
+    "passage_id": "mat_011",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "5.2 The Definite Integral",
+    "text": "In the preceding section we defined the area under a curve in terms of Riemann sums: However, this definition came with restrictions. We required to be continuous and nonnegative. Unfortunately, real-world problems don\u00e2\u0080\u0099t always meet these restrictions. In this section, we look at how to apply the concept of the area under the curve to a broader set of functions through the use of the definite integral. The definite integral generalizes the concept of the area under a curve. We lift the requirements that be continuous and nonnegative, and define the definite integral as follows. If is a function defined on an interval the definite integral of f from a to b is given by provided the limit exists. If this limit exists, the function is said to be integrable on or is an integrable function . The integral symbol in the previous definition should look familiar. We have seen similar notation in the chapter on Applications of Derivatives , where we used the indefinite integral symbol (without the a and b above and below) to represent an antiderivative. Although the notation for indefinite integrals may look similar to the notation for a definite integral, they are not the same. A definite integral is a number. An indefinite integral is a family of functions. Later in this chapter we examine how these concepts are related. However, close attention should always be paid to notation so we know whether we\u00e2\u0080\u0099re working with a definite integral or an indefinite integral. Integral notation goes back to the late seventeenth century and is one of the contributions of Gottfried Wilhelm Leibniz , who is often considered to be the codiscoverer of calculus, along with Isaac Newton. The integration symbol \u00e2\u0088\u00ab is an elongated S, suggesting sigma or summation. On a definite integral, above and below the summation symbol are the boundaries of the interval, The numbers a and b are x -values and are called the limits of integration ; specifically, a is the lower limit and b is the upper limit. To clarify, we are using the word limit in two different ways in the context of the definite integral. First, we talk about the limit of a sum as Second, the boundaries of the region are called the limits of integration . We call the function the integrand , and the dx indicates that is a function with respect to x , called the variable of integration . Note that, like the index in a sum, the variable of integration is a dummy variable , and has no impact on the computation of the integral. We could use any variable we like as the variable of integration: Previously, we discussed the fact that if is continuous on then the limit exists and is unique. This leads to the following theorem, which we state without proof. If is continuous on then f is integrable on Functions that are not continuous on may still be integrable, depending on the nature of the discontinuities.",
+    "key_concepts": [
+      "definite integral",
+      "integration",
+      "function",
+      "limit",
+      "area",
+      "curve"
+    ],
+    "methods_principles": [
+      "following theorem"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+    "word_count": 499
+  },
+  {
+    "passage_id": "mat_012",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "5.5 Substitution",
+    "text": "The Fundamental Theorem of Calculus gave us a method to evaluate integrals without using Riemann sums. The drawback of this method, though, is that we must be able to find an antiderivative, and this is not always easy. In this section we examine a technique, called integration by substitution , to help us find antiderivatives. Specifically, this method helps us find antiderivatives when the integrand is the result of a chain-rule derivative. At first, the approach to the substitution procedure may not appear very obvious. However, it is primarily a visual task\u00e2\u0080\u0094that is, the integrand shows you what to do; it is a matter of recognizing the form of the function. So, what are we supposed to see? We are looking for an integrand of the form For example, in the integral we have and Then, and we see that our integrand is in the correct form. The method is called substitution because we substitute part of the integrand with the variable u and part of the integrand with du . It is also referred to as change of variables because we are changing variables to obtain an expression that is easier to work with for applying the integration rules. Let where is continuous over an interval, let be continuous over the corresponding range of g , and let be an antiderivative of Then, Let f , g , u , and F be as specified in the theorem. Then Integrating both sides with respect to x , we see that Returning to the problem we looked at originally, we let and then Rewrite the integral in terms of u : Using the power rule for integrals, we have Substitute the original expression for x back into the solution: We can generalize the procedure in the following Problem-Solving Strategy. We can check our answer by taking the derivative of the result of integration. We should obtain the integrand. Picking a value for C of 1, we let We have This is exactly the expression we started with inside the integrand. Sometimes we need to adjust the constants in our integral if they don\u00e2\u0080\u0099t match up exactly with the expressions we are substituting. Sometimes we need to manipulate an integral in ways that are more complicated than just multiplying or dividing by a constant. We need to eliminate all the expressions within the integrand that are in terms of the original variable. When we are done, u should be the only variable in the integrand. In some cases, this means solving for the original variable in terms of u . This technique should become clear in the next example. Substitution can be used with definite integrals, too. However, using substitution to evaluate a definite integral requires a change to the limits of integration. If we change variables in the integrand, the limits of integration change as well. Let and let be continuous over an interval and let f be continuous over the range of Then, Although we will not formally prove this theorem, we justify it with some calculations here. From the substitution rule for indefinite integrals, if is an antiderivative of we have Substitution may be only one of the techniques needed to evaluate a definite integral. All of the properties and rules of integration apply independently, and trigonometric functions may need to be rewritten using a trigonometric identity before we can apply substitution. Also, we have the option of replacing the original expression for u after we find the antiderivative, which means that we do not have to change the limits of integration. These two approaches are shown in Example 5.36 .",
+    "key_concepts": [
+      "integrand",
+      "substitution",
+      "integration",
+      "method",
+      "antiderivative",
+      "integral",
+      "variables"
+    ],
+    "methods_principles": [
+      "fundamental theorem",
+      "this method",
+      "the method",
+      "integration rule",
+      "the theorem",
+      "power rule"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/5-5-substitution",
+    "word_count": 603
+  },
+  {
+    "passage_id": "mat_013",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "6.1 Areas between Curves",
+    "text": "In Introduction to Integration , we developed the concept of the definite integral to calculate the area below a curve on a given interval. In this section, we expand that idea to calculate the area of more complex regions. We start by finding the area between two curves that are functions of beginning with the simple case in which one function value is always greater than the other. We then look at cases when the graphs of the functions cross. Last, we consider how to calculate the area between two curves that are functions of Let and be continuous functions over an interval such that on We want to find the area between the graphs of the functions, as shown in the following figure. As we did before, we are going to partition the interval on the and approximate the area between the graphs of the functions with rectangles. So, for let be a regular partition of Then, for choose a point and on each interval construct a rectangle that extends vertically from to Figure 6.3 (a) shows the rectangles when is selected to be the left endpoint of the interval and Figure 6.3 (b) shows a representative rectangle in detail. Use this calculator to learn more about the areas between two curves. The height of each individual rectangle is and the width of each rectangle is Adding the areas of all the rectangles, we see that the area between the curves is approximated by This is a Riemann sum, so we take the limit as and we get These findings are summarized in the following theorem. Let and be continuous functions such that over an interval Let denote the region bounded above by the graph of below by the graph of and on the left and right by the lines and respectively. Then, the area of is given by We apply this theorem in the following example. In Example 6.1 , we defined the interval of interest as part of the problem statement. Quite often, though, we want to define our interval of interest based on where the graphs of the two functions intersect. This is illustrated in the following example. So far, we have required over the entire interval of interest, but what if we want to look at regions bounded by the graphs of functions that cross one another? In that case, we modify the process we just developed by using the absolute value function. Let and be continuous functions over an interval Let denote the region between the graphs of and and be bounded on the left and right by the lines and respectively. Then, the area of is given by In practice, applying this theorem requires us to break up the interval and evaluate several integrals, depending on which of the function values is greater over a given part of the interval. We study this process in the following example. In Example 6.",
+    "key_concepts": [
+      "area",
+      "interval",
+      "functions",
+      "graphs",
+      "two curves",
+      "continuous functions"
+    ],
+    "methods_principles": [
+      "following theorem",
+      "this theorem",
+      "we modify the",
+      "we study this"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/6-1-areas-between-curves",
+    "word_count": 488
+  },
+  {
+    "passage_id": "mat_014",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "6.4 Arc Length of a Curve and Surface Area",
+    "text": "In this section, we use definite integrals to find the arc length of a curve. We can think of arc length as the distance you would travel if you were walking along the path of the curve. Many real-world applications involve arc length. If a rocket is launched along a parabolic path, we might want to know how far the rocket travels. Or, if a curve on a map represents a road, we might want to know how far we have to drive to reach our destination. We begin by calculating the arc length of curves defined as functions of then we examine the same process for curves defined as functions of (The process is identical, with the roles of and reversed.) The techniques we use to find arc length can be extended to find the surface area of a surface of revolution, and we close the section with an examination of this concept. In previous applications of integration, we required the function to be integrable, or at most continuous. However, for calculating arc length we have a more stringent requirement for Here, we require to be differentiable, and furthermore we require its derivative, to be continuous. Functions like this, which have continuous derivatives, are called smooth . (This property comes up again in later chapters.) Let be a smooth function defined over We want to calculate the length of the curve from the point to the point We start by using line segments to approximate the length of the curve. For let be a regular partition of Then, for construct a line segment from the point to the point Although it might seem logical to use either horizontal or vertical line segments, we want our line segments to approximate the curve as closely as possible. Figure 6.37 depicts this construct for To help us find the length of each line segment, we look at the change in vertical distance as well as the change in horizontal distance over each interval. Because we have used a regular partition, the change in horizontal distance over each interval is given by The change in vertical distance varies from interval to interval, though, so we use to represent the change in vertical distance over the interval as shown in Figure 6.38 . Note that some (or all) may be negative. By the Pythagorean theorem, the length of the line segment is We can also write this as Now, by the Mean Value Theorem, there is a point such that Then the length of the line segment is given by Adding up the lengths of all the line segments, we get This is a Riemann sum. Taking the limit as we have We summarize these findings in the following theorem. Let be a smooth function over the interval Then the arc length of the portion of the graph of from the point to the point is given by Note that we are integrating an expression involving so we need to be sure is integrable.",
+    "key_concepts": [
+      "arc length",
+      "curve",
+      "length",
+      "change",
+      "interval",
+      "functions",
+      "line segment"
+    ],
+    "methods_principles": [
+      "pythagorean theorem",
+      "value theorem",
+      "following theorem"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/6-4-arc-length-of-a-curve-and-surface-area",
+    "word_count": 500
+  },
+  {
+    "passage_id": "mat_015",
+    "subject": "mathematics",
+    "source": "openstax_calculus-volume-1",
+    "section": "6.7 Integrals, Exponential Functions, and Logarithms",
+    "text": "We already examined exponential functions and logarithms in earlier chapters. However, we glossed over some key details in the previous discussions. For example, we did not study how to treat exponential functions with exponents that are irrational. The definition of the number e is another area where the previous development was somewhat incomplete. We now have the tools to deal with these concepts in a more mathematically rigorous way, and we do so in this section. For purposes of this section, assume we have not yet defined the natural logarithm, the number e , or any of the integration and differentiation formulas associated with these functions. By the end of the section, we will have studied these concepts in a mathematically rigorous way (and we will see they are consistent with the concepts we learned earlier). We begin the section by defining the natural logarithm in terms of an integral. This definition forms the foundation for the section. From this definition, we derive differentiation formulas, define the number and expand these concepts to logarithms and exponential functions of any base. Clearly, this does not work when as it would force us to divide by zero. So, what do we do with Recall from the Fundamental Theorem of Calculus that is an antiderivative of Therefore, we can make the following definition. For define the natural logarithm function by For this is just the area under the curve from to For we have so in this case it is the negative of the area under the curve from (see the following figure). Notice that Furthermore, the function for Therefore, by the properties of integrals, it is clear that is increasing for Because of the way we defined the natural logarithm, the following differentiation formula falls out immediately as a result of to the Fundamental Theorem of Calculus. For the derivative of the natural logarithm is given by The function is differentiable; therefore, it is continuous. A graph of is shown in Figure 6.76 . Notice that it is continuous throughout its domain of Note that if we use the absolute value function and create a new function we can extend the domain of the natural logarithm to include Then This gives rise to the familiar integration formula. The natural logarithm is the antiderivative of the function Although we have called our function a \u00e2\u0080\u009clogarithm,\u00e2\u0080\u009d we have not actually proved that any of the properties of logarithms hold for this function. We do so here. Use on the last integral in this expression. Let Then Furthermore, when and when So we get Since the derivatives of these two functions are the same, by the Fundamental Theorem of Calculus, they must differ by a constant. So we have Thus and the proof is complete. Note that we can extend this property to irrational values of later in this section. Part iii. follows from parts ii. and iv. and the proof is left to you.",
+    "key_concepts": [
+      "natural logarithm",
+      "function",
+      "concepts",
+      "exponential functions",
+      "logarithms",
+      "definition"
+    ],
+    "methods_principles": [
+      "fundamental theorem",
+      "calculus that",
+      "calculus",
+      "we derive differentiation",
+      "the following differentiation"
+    ],
+    "url": "https://openstax.org/books/calculus-volume-1/pages/6-7-integrals-exponential-functions-and-logarithms",
+    "word_count": 490
+  }
+]

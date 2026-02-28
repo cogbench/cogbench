@@ -1,0 +1,317 @@
+[
+  {
+    "passage_id": "eco_001",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "1.1 What Is Economics, and Why Is It Important?",
+    "text": "By the end of this section, you will be able to: Economics is the study of how humans make decisions in the face of scarcity. These can be individual decisions, family decisions, business decisions or societal decisions. If you look around carefully, you will see that scarcity is a fact of life. Scarcity means that human wants for goods, services and resources exceed what is available. Resources, such as labor, tools, land, and raw materials are necessary to produce the goods and services we want but they exist in limited supply. Of course, the ultimate scarce resource is time- everyone, rich or poor, has just 24 expendable hours in the day to earn income to acquire goods and services, for leisure time, or for sleep. At any point in time, there is only a finite amount of resources available. Think about it this way: In 2015 the labor force in the United States contained over 158 million workers, according to the U.S. Bureau of Labor Statistics. The total land area was 3,794,101 square miles. While these are certainly large numbers, they are not infinite. Because these resources are limited, so are the numbers of goods and services we produce with them. Combine this with the fact that human wants seem to be virtually infinite, and you can see why scarcity is a problem. Data is very important in economics because it describes and measures the issues and problems that economics seek to understand. A variety of government agencies publish economic and social data. For this course, we will generally use data from the St. Louis Federal Reserve Bank's FRED database. FRED is very user friendly. It allows you to display data in tables or charts, and you can easily download it into spreadsheet form if you want to use the data for other purposes. The FRED website includes data on nearly 400,000 domestic and international variables over time, in the following broad categories: For more information about how to use FRED, see the variety of videos on YouTube starting with this introduction. If you still do not believe that scarcity is a problem, consider the following: Does everyone require food to eat? Does everyone need a decent place to live? Does everyone have access to healthcare? In every country in the world, there are people who are hungry, homeless (for example, those who call park benches their beds, as Figure 1.2 shows), and in need of healthcare, just to focus on a few critical goods and services. Why is this the case? It is because of scarcity. Let\u00e2\u0080\u0099s delve into the concept of scarcity a little deeper, because it is crucial to understanding economics. Think about all the things you consume: food, shelter, clothing, transportation, healthcare, and entertainment. How do you acquire those items? You do not produce them yourself. You buy them. How do you afford the things you buy? You work for pay. If you do not, someone else does on your behalf.",
+    "key_concepts": [
+      "scarcity",
+      "services",
+      "data",
+      "economics",
+      "goods",
+      "resources",
+      "everyone",
+      "them"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/1-1-what-is-economics-and-why-is-it-important",
+    "word_count": 495
+  },
+  {
+    "passage_id": "eco_002",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "3.3 Changes in Equilibrium Price and Quantity: The Four-Step Process",
+    "text": "By the end of this section, you will be able to: Let\u00e2\u0080\u0099s begin this discussion with a single economic event. It might be an event that affects demand, like a change in income, population, tastes, prices of substitutes or complements, or expectations about future prices. It might be an event that affects supply, like a change in natural conditions, input prices, or technology, or government policies that affect production. How does this economic event affect equilibrium price and quantity? We will analyze this question using a four-step process. Step 1. Draw a demand and supply model before the economic change took place. To establish the model requires four standard pieces of information: The law of demand, which tells us the slope of the demand curve is negative; the law of supply, which tells us that the slope of the supply curve is positive; the shift variables for demand; and the shift variables for supply. From this model, find the initial equilibrium values for price and quantity. Step 2. Decide whether the economic change you are analyzing affects demand or supply. In other words, does the event refer to something in the list of demand factors or supply factors? Step 3. Decide whether the effect on demand or supply causes the curve to shift to the right or to the left, and sketch the new demand or supply curve on the diagram. In other words, does the event increase or decrease the amount consumers want to buy or producers want to sell? Step 4. Identify the new equilibrium and then compare the original equilibrium price and quantity to the new equilibrium price and quantity. Let\u00e2\u0080\u0099s consider one example that involves a shift in supply and one that involves a shift in demand. Then we will consider an example where both supply and demand shift. Suppose that during the summer of 2015, weather conditions were excellent for commercial salmon fishing off the California coast. Heavy rains meant higher than normal levels of water in the rivers, which helps the salmon to breed. Slightly cooler ocean temperatures stimulated the growth of plankton, the microscopic organisms at the bottom of the ocean food chain, providing everything in the ocean with a hearty food supply. The ocean stayed calm during fishing season, so commercial fishing operations did not lose many days to bad weather. How did these climate conditions affect the quantity and price of salmon? Figure 3.16 illustrates the four-step approach, which we explain below, to work through this problem. Table 3.6 also provides the information to work the problem. Step 1. Draw a demand and supply model to illustrate the market for salmon in the year before the good weather conditions began. The demand curve D 0 and the supply curve S 0 show that the original equilibrium price is $3.25 per pound and the original equilibrium quantity is 250,000 fish. (This price per pound is what commercial buyers pay at the fishing docks. What consumers pay at the grocery is higher.",
+    "key_concepts": [
+      "demand",
+      "supply",
+      "quantity",
+      "step",
+      "event",
+      "price"
+    ],
+    "methods_principles": [
+      "supply model",
+      "the model",
+      "the law",
+      "this model",
+      "the effect",
+      "demand"
+    ],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/3-3-changes-in-equilibrium-price-and-quantity-the-four-step-process",
+    "word_count": 499
+  },
+  {
+    "passage_id": "eco_003",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "5.4 Elasticity in Areas Other Than Price",
+    "text": "By the end of this section, you will be able to: The basic idea of elasticity\u00e2\u0080\u0094how a percentage change in one variable causes a percentage change in another variable\u00e2\u0080\u0094does not just apply to the responsiveness of quantity supplied and quantity demanded to changes in the price of a product. Recall that quantity demanded (Qd) depends on income, tastes and preferences, the prices of related goods, and so on, as well as price. Similarly, quantity supplied (Qs) depends on factors such as the cost of production, as well as price. We can measure elasticity for any determinant of quantity supplied and quantity demanded, not just the price. The income elasticity of demand is the percentage change in quantity demanded divided by the percentage change in income. For most products, most of the time, the income elasticity of demand is positive: that is, a rise in income will cause an increase in the quantity demanded. This pattern is common enough that we refer to these goods as normal goods . However, for a few goods, an increase in income means that one might purchase less of the good. For example, those with a higher income might buy fewer hamburgers, because they are buying more steak instead, or those with a higher income might buy less cheap wine and more imported beer. When the income elasticity of demand is negative, we call the good an inferior good . We introduced the concepts of normal and inferior goods in Demand and Supply . A higher level of income causes a demand curve to shift to the right for a normal good, which means that the income elasticity of demand is positive. How far the demand shifts depends on the income elasticity of demand. A higher income elasticity means a larger shift. However, for an inferior good, that is, when the income elasticity of demand is negative, a higher level of income would cause the demand curve for that good to shift to the left. Again, how much it shifts depends on how large the (negative) income elasticity is. A change in the price of one good can shift the quantity demanded for another good. If the two goods are complements, like bread and peanut butter, then a drop in the price of one good will lead to an increase in the quantity demanded of the other good. However, if the two goods are substitutes, like plane tickets and train tickets, then a drop in the price of one good will cause people to substitute toward that good, and to reduce consumption of the other good. Cheaper plane tickets lead to fewer train tickets, and vice versa. The cross-price elasticity of demand puts some meat on the bones of these ideas. The term \u00e2\u0080\u009ccross-price\u00e2\u0080\u009d refers to the idea that the price of one good is affecting the quantity demanded of a different good.",
+    "key_concepts": [
+      "quantity",
+      "demand",
+      "price",
+      "income",
+      "income elasticity",
+      "good",
+      "percentage change",
+      "increase"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/5-4-elasticity-in-areas-other-than-price",
+    "word_count": 478
+  },
+  {
+    "passage_id": "eco_004",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "8.2 How Perfectly Competitive Firms Make Output Decisions",
+    "text": "A perfectly competitive firm has only one major decision to make\u00e2\u0080\u0094namely, what quantity to produce. To understand this, consider a different way of writing out the basic definition of profit : Since a perfectly competitive firm must accept the price for its output as determined by the product\u00e2\u0080\u0099s market demand and supply, it cannot choose the price it charges. This is already determined in the profit equation, and so the perfectly competitive firm can sell any number of units at exactly the same price. It implies that the firm faces a perfectly elastic demand curve for its product: buyers are willing to buy any number of units of output from the firm at the market price. When the perfectly competitive firm chooses what quantity to produce, then this quantity\u00e2\u0080\u0094along with the prices prevailing in the market for output and inputs\u00e2\u0080\u0094will determine the firm\u00e2\u0080\u0099s total revenue, total costs, and ultimately, level of profits. A perfectly competitive firm can sell as large a quantity as it wishes, as long as it accepts the prevailing market price. The formula above shows that total revenue depends on the quantity sold and the price charged. If the firm sells a higher quantity of output, then total revenue will increase. If the market price of the product increases, then total revenue also increases whatever the quantity of output sold. As an example of how a perfectly competitive firm decides what quantity to produce, consider the case of a small farmer who produces raspberries and sells them frozen for $4 per pack. Sales of one pack of raspberries will bring in $4, two packs will be $8, three packs will be $12, and so on. If, for example, the price of frozen raspberries doubles to $8 per pack, then sales of one pack of raspberries will be $8, two packs will be $16, three packs will be $24, and so on. Based on its total revenue and total cost curves, a perfectly competitive firm like the raspberry farm can calculate the quantity of output that will provide the highest level of profit. At any given quantity, total revenue minus total cost will equal profit. One way to determine the most profitable quantity to produce is to see at what quantity total revenue exceeds total cost by the largest amount. Figure 8.2 shows total revenue, total cost and profit using the data from Table 8.1 . The vertical gap between total revenue and total cost is profit, for example, at Q = 60, TR = 240 and TC = 165. The difference is 75, which is the height of the profit curve at that output level. The firm doesn\u00e2\u0080\u0099t make a profit at every level of output. In this example, total costs will exceed total revenues at output levels from 0 to approximately 30, and so over this range of output, the firm will be making losses. At output levels from 40 to 100, total revenues exceed total costs, so the firm is earning profits.",
+    "key_concepts": [
+      "output",
+      "perfectly competitive firm",
+      "profit",
+      "firm",
+      "quantity",
+      "total revenue",
+      "price"
+    ],
+    "methods_principles": [
+      "profit equation"
+    ],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+    "word_count": 497
+  },
+  {
+    "passage_id": "eco_005",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "11.3 Regulating Natural Monopolies",
+    "text": "By the end of this section, you will be able to: Most true monopolies today in the U.S. are regulated, natural monopolies. A natural monopoly poses a difficult challenge for competition policy, because the structure of costs and demand makes competition unlikely or costly. A natural monopoly arises when average costs are declining over the range of production that satisfies market demand. This typically happens when fixed costs are large relative to variable costs. As a result, one firm is able to supply the total quantity demanded in the market at lower cost than two or more firms\u00e2\u0080\u0094so splitting up the natural monopoly would raise the average cost of production and force customers to pay more. Public utilities, the companies that have traditionally provided water and electrical service across much of the United States, are leading examples of natural monopoly. It would make little sense to argue that a local water company should be divided into several competing companies, each with its own separate set of pipes and water supplies. Installing four or five identical sets of pipes under a city, one for each water company, so that each household could choose its own water provider, would be terribly costly. The same argument applies to the idea of having many competing companies for delivering electricity to homes, each with its own set of wires. Before the advent of wireless phones, the argument also applied to the idea of many different phone companies, each with its own set of phone wires running through the neighborhood. What then is the appropriate competition policy for a natural monopoly? Figure 11.3 illustrates the case of natural monopoly, with a market demand curve that cuts through the downward-sloping portion of the average cost curve . Points A, B, C, and F illustrate four of the main choices for regulation. Table 11.3 outlines the regulatory choices for dealing with a natural monopoly. The first possibility is to leave the natural monopoly alone. In this case, the monopoly will follow its normal approach to maximizing profits. It determines the quantity where MR = MC, which happens at point P at a quantity of 4. The firm then looks to point A on the demand curve to find that it can charge a price of 9.3 for that profit-maximizing quantity. Since the price is above the average cost curve, the natural monopoly would earn economic profits. While unlikely, a second outcome may arise if antitrust authorities decide to divide the company, so that the new firms can compete. As a simple example, imagine that the company is cut in half. Thus, instead of one large firm producing a quantity of 4, two half-size firms each produce a quantity of 2. Because of the declining average cost curve (AC), the average cost of production for each of the half-size companies producing 2, as point B shows, would be 9.75, while the average cost of production for a larger firm producing 4 would only be 7.75.",
+    "key_concepts": [
+      "natural monopoly",
+      "production",
+      "quantity",
+      "average cost",
+      "half",
+      "pipes"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/11-3-regulating-natural-monopolies",
+    "word_count": 496
+  },
+  {
+    "passage_id": "eco_006",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "13.2 How Governments Can Encourage Innovation",
+    "text": "A number of different government policies can increase the incentives to innovate, including: guaranteeing intellectual property rights, government assistance with the costs of research and development, and cooperative research ventures between universities and companies. One way to increase new technology is to guarantee the innovator an exclusive right to that new product or process. Intellectual property rights include patents, which give the inventor the exclusive legal right to make, use, or sell the invention for a limited time, and copyright laws, which give the author an exclusive legal right over works of literature, music, film/video, and pictures. For example, if a pharmaceutical firm has a patent on a new drug, then no other firm can manufacture or sell that drug for 20 years, unless the firm with the patent grants permission. Without a patent, the pharmaceutical firm would have to face competition for any successful products, and could earn no more than a normal rate of profit. With a patent, a firm is able to earn monopoly profits on its product for a period of time\u00e2\u0080\u0094which offers an incentive for research and development. In general, how long can \u00e2\u0080\u009ca period of time\u00e2\u0080\u009d be? The Clear It Up discusses patent and copyright protection timeframes for some works you might know. All patents and copyrights are scheduled to end someday. In 2003, copyright protection for Mickey Mouse was scheduled to run out. Once the copyright had expired, anyone would be able to copy Mickey Mouse cartoons or draw and sell new ones. In 1998, however, Congress passed the Sonny Bono Copyright Term Extension Act. For copyrights owned by companies or other entities, it increased or extended the copyright from 75 years to 95 years after publication. For copyrights owned by individuals, it increased or extended the copyright coverage from 50 years to 70 years after death. Along with protecting Mickey for another 20 years, the copyright extension affected about 400,000 books, movies, and songs. While patents provide an incentive to innovate by protecting the innovator, they are not perfect. For example: Because patents are imperfect and do not apply well to all situations, alternative methods of improving the rate of return for inventors of new technology are desirable. The following sections describe some of these possible alternative policies. If the private sector does not have sufficient incentive to carry out research and development, one possibility is for the government to fund such work directly. Government spending can provide direct financial support for research and development (R&D) conducted at colleges and universities, nonprofit research entities, and sometimes by private firms, as well as at government-run laboratories. While government spending on research and development produces technology that is broadly available for firms to use, it costs taxpayers money and can sometimes be directed more for political than for scientific or economic reasons. Visit the NASA website and the USDA website to read about government research that would not take place were it left to firms, due to the externalities.",
+    "key_concepts": [
+      "research",
+      "development",
+      "patents",
+      "copyrights",
+      "intellectual property rights",
+      "universities",
+      "companies"
+    ],
+    "methods_principles": [
+      "copyright law",
+      "alternative method",
+      "alternative"
+    ],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/13-2-how-governments-can-encourage-innovation",
+    "word_count": 495
+  },
+  {
+    "passage_id": "eco_007",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "15.3 The Safety Net",
+    "text": "The U.S. government has implemented a number of programs to assist those below the poverty line and those who have incomes just above the poverty line. Such programs are called the safety net , to recognize that they offer some protection for those who find themselves without jobs or income. From the Great Depression until 1996, the United States\u00e2\u0080\u0099 most visible antipoverty program was Aid to Families with Dependent Children (AFDC) , which provided cash payments to mothers with children who were below the poverty line. Many just called this program \u00e2\u0080\u009cwelfare.\u00e2\u0080\u009d In 1996, Congress passed and President Bill Clinton signed into law the Personal Responsibility and Work Opportunity Reconciliation Act, more commonly called the \u00e2\u0080\u009cwelfare reform act.\u00e2\u0080\u009d The new law replaced AFDC with Temporary Assistance for Needy Families (TANF) . Visit this website to watch a video of President Bill Clinton\u00e2\u0080\u0099s Welfare Reform speech. TANF brought several dramatic changes in how welfare operated. Under the old AFDC program, states set the level of welfare benefits that they would pay to people experiencing poverty, and the federal government guaranteed it would chip in some of the money as well. The federal government\u00e2\u0080\u0099s welfare spending would rise or fall depending on the number of people in need, and on how each state set its own welfare contribution. Under TANF, however, the federal government gives a fixed amount of money to each state. The state can then use the money for almost any program with an antipoverty component: for example, the state might use the money to give funds to families with low income, or to reduce teenage pregnancy, or even to raise the high school graduation rate. However, the federal government imposed two key requirements. First, if states are to keep receiving the TANF grants, they must impose work requirements so that most of those receiving TANF benefits are working (or attending school). Second, no one can receive TANF benefits with federal money for more than a total of five years over their lifetime. The old AFDC program had no such work requirements or time limits. TANF attempts to avoid the poverty trap by requiring that welfare recipients work and by limiting the length of time they can receive benefits. In its first few years, the program was quite successful. The number of families receiving payments in 1995, the last year of AFDC, was 4.8 million. November 2020, according to the Congressional Research Service, the number of families receiving payments under TANF was 1.0 million\u00e2\u0080\u0094a decline of nearly 80%. TANF benefits to poor families vary considerably across states. For example, again according to the Congressional Research Service, in July 2020 the highest monthly payment in New Hampshire to a single mother with one child was $862, while in Mississippi the highest monthly payment to that family was $146. In part, these payments reflect differences in states\u00e2\u0080\u0099 cost of living. As reported by the Department of Health and Human Services, in 1995 total spending on TANF was approximately $19 billion.",
+    "key_concepts": [
+      "tanf",
+      "families",
+      "money",
+      "poverty line",
+      "afdc",
+      "states"
+    ],
+    "methods_principles": [
+      "into law",
+      "new law"
+    ],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/15-3-the-safety-net",
+    "word_count": 498
+  },
+  {
+    "passage_id": "eco_008",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "18.2 Special Interest Politics",
+    "text": "By the end of this section, you will be able to: Many political issues are of intense interest to a relatively small group, as we noted above. For example, many U.S. drivers do not much care where their car tires were made\u00e2\u0080\u0094they just want good quality as inexpensively as possible. In September 2009, President Obama and Congress enacted a tariff (taxes added on imported goods) on tires imported from China that would increase the price by 35 percent in its first year, 30 percent in its second year, and 25 percent in its third year. Interestingly, the U.S. companies that make tires did not favor this step, because most of them also import tires from China and other countries. (See Globalization and Protectionism for more on tariffs.) However, the United Steelworkers union, which had seen jobs in the tire industry fall by 5,000 over the previous five years, lobbied fiercely for the tariff. With this tariff, the cost of all tires increased significantly. (See the closing Bring It Home feature at the end of this chapter for more information on the tire tariff.) Special interest groups are groups that are small in number relative to the nation, but quite well organized and focused on a specific issue. A special interest group can pressure legislators to enact public policies that do not benefit society as a whole. Imagine an environmental rule to reduce air pollution that will cost 10 large companies $8 million each, for a total cost of $80 million. The social benefits from enacting this rule provide an average benefit of $10 for every person in the United States, for a total of about $3 trillion. Even though the benefits are far higher than the costs for society as a whole, the 10 companies are likely to lobby much more fiercely to avoid $8 million in costs than the average person is to argue for $10 worth of benefits. As this example suggests, we can relate the problem of special interests in politics to an issue we raised in Environmental Protection and Negative Externalities about economic policy with respect to negative externalities and pollution\u00e2\u0080\u0094the problem called regulatory capture (which we defined in Monopoly and Antitrust Policy ). In legislative bodies and agencies that write laws and regulations about how much corporations will pay in taxes, or rules for safety in the workplace, or instructions on how to satisfy environmental regulations, you can be sure the specific industry affected has lobbyists who study every word and every comma. They talk with the legislators who are writing the legislation and suggest alternative wording. They contribute to the campaigns of legislators on the key committees\u00e2\u0080\u0094and may even offer those legislators high-paying jobs after they have left office. As a result, it often turns out that those regulated can exercise considerable influence over the regulators. Visit this website to read about lobbying.",
+    "key_concepts": [
+      "legislators",
+      "tariff",
+      "tires",
+      "taxes",
+      "china",
+      "35 percent",
+      "30 percent"
+    ],
+    "methods_principles": [
+      "environmental rule",
+      "this rule",
+      "write law",
+      "or rule"
+    ],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/18-2-special-interest-politics",
+    "word_count": 479
+  },
+  {
+    "passage_id": "eco_009",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "20.3 Components of Economic Growth",
+    "text": "By the end of this section, you will be able to: Over decades and generations, seemingly small differences of a few percentage points in the annual rate of economic growth make an enormous difference in GDP per capita. In this module, we discuss some of the components of economic growth, including physical capital, human capital, and technology. The category of physical capital includes the plant and equipment that firms use as well as things like roads (also called infrastructure ). Again, greater physical capital implies more output. Physical capital can affect productivity in two ways: (1) an increase in the quantity of physical capital (for example, more computers of the same quality); and (2) an increase in the quality of physical capital (same number of computers but the computers are faster, and so on). Human capital refers to the skills and knowledge that make workers productive. Human capital and physical capital accumulation are similar: In both cases, investment now pays off in higher productivity in the future. The category of technology is the \u00e2\u0080\u009cjoker in the deck.\u00e2\u0080\u009d Earlier we described it as the combination of invention and innovation. When most people think of new technology, the invention of new products like the laser, the smartphone, or some new wonder drug come to mind. In food production, developing more drought-resistant seeds is another example of technology. Technology, as economists use the term, however, includes still more. It includes new ways of organizing work, like the invention of the assembly line, new methods for ensuring better quality of output in factories, and innovative institutions that facilitate the process of converting inputs into output. In short, technology comprises all the advances that make the existing machines and other inputs produce more, and at higher quality, as well as altogether new products. It may not make sense to compare the GDPs of China and say, Benin, simply because of the great difference in population size. To understand economic growth, which is really concerned with the growth in living standards of an average person, it is often useful to focus on GDP per capita . Using GDP per capita also makes it easier to compare countries with smaller numbers of people, like Belgium, Uruguay, or Zimbabwe, with countries that have larger populations, like the United States, the Russian Federation, or Nigeria. To obtain a per capita production function, divide each input in Figure 20.2 (a) by the population. This creates a second aggregate production function where the output is GDP per capita (that is, GDP divided by population). The inputs are the average level of human capital per person, the average level of physical capital per person, and the level of technology per person\u00e2\u0080\u0094see Figure 20.2 (b). The result of having population in the denominator is mathematically appealing. Increases in population lower per capita income. However, increasing population is important for the average person only if the rate of income growth exceeds population growth.",
+    "key_concepts": [
+      "physical capital",
+      "technology",
+      "gdp",
+      "capita",
+      "population",
+      "economic growth",
+      "human capital"
+    ],
+    "methods_principles": [
+      "new method"
+    ],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/20-3-components-of-economic-growth",
+    "word_count": 489
+  },
+  {
+    "passage_id": "eco_010",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "23.1 Measuring Trade Balances",
+    "text": "By the end of this section, you will be able to: A few decades ago, it was common to track the solid or physical items that planes, trains, and trucks transported between countries as a way of measuring the balance of trade. Economists call this measurement the merchandise trade balance . In most high-income economies, including the United States, goods comprise less than half of a country\u00e2\u0080\u0099s total production, while services comprise more than half. The last two decades have seen a surge in international trade in services, powered by technological advances in telecommunications and computers that have made it possible to export or import customer services, finance, law, advertising, management consulting, software, construction engineering, and product design. Most global trade still takes the form of goods rather than services, and the government announces and the media prominently report the merchandise trade balance. Old habits are hard to break. Economists, however, typically rely on broader measures such as the balance of trade or the current account balance which includes other international flows of income and foreign aid. Do not confuse the balance of trade (which tracks imports and exports), with the current account balance, which includes not just exports and imports , but also income from investment and transfers. The Bureau of Economic Analysis (BEA) within the U.S. Department of Commerce compiles statistics on the balance of trade using a variety of different sources. Merchandise importers and exporters must file monthly documents with the Census Bureau, which provides the basic data for tracking trade. To measure international trade in services\u00e2\u0080\u0094which can happen over a telephone line or computer network without shipping any physical goods\u00e2\u0080\u0094the BEA carries out a set of surveys. Another set of BEA surveys tracks investment flows, and there are even specific surveys to collect travel information from U.S. residents visiting Canada and Mexico. For measuring unilateral transfers, the BEA has access to official U.S. government spending on aid, and then also carries out a survey of charitable organizations that make foreign donations. The BEA then cross-checks this information on international flows of goods and capital against other available data. For example, the Census Bureau also collects data from the shipping industry, which it can use to check the data on trade in goods. All companies involved in international flows of capital\u00e2\u0080\u0094including banks and companies making financial investments like stocks\u00e2\u0080\u0094must file reports, which the U.S. Department of the Treasury ultimately checks. The BEA also can cross check information on foreign trade by looking at data collected by other countries on their foreign trade with the United States, and also at the data collected by various international organizations. Take these data sources, stir carefully, and you have the U.S. balance of trade statistics. Much of the statistics that we cite in this chapter come from these sources. The second row of Table 23.1 provides data on trade in services. Here, the U.S. economy is running a surplus .",
+    "key_concepts": [
+      "trade",
+      "data",
+      "balance",
+      "goods",
+      "services",
+      "bea"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/23-1-measuring-trade-balances",
+    "word_count": 489
+  },
+  {
+    "passage_id": "eco_011",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "24.4 Shifts in Aggregate Demand",
+    "text": "As we mentioned previously, the components of aggregate demand are consumption spending (C), investment spending (I), government spending (G), and spending on exports (X) minus imports (M). (Read the following Clear It Up feature for explanation of why imports are subtracted from exports and what this means for aggregate demand.) A shift of the AD curve to the right means that at least one of these components increased so that a greater amount of total spending would occur at every price level. A shift of the AD curve to the left means that at least one of these components decreased so that a lesser amount of total spending would occur at every price level. The Keynesian Perspective will discuss the components of aggregate demand and the factors that affect them. Here, the discussion will sketch two broad categories that could cause AD curves to shift: changes in consumer or firm behavior and changes in government tax or spending policy. We have seen that the formula for aggregate demand is AD = C + I + G + X - M, where M is the total value of imported goods. Why is there a minus sign in front of imports? Does this mean that more imports will result in a lower level of aggregate demand? The short answer is yes, because aggregate demand is defined as total demand for domestically produced goods and services. When an American buys a foreign product, for example, it gets counted along with all the other consumption. Thus, the income generated does not go to American producers, but rather to producers in another country. It would be wrong to count this as part of domestic demand. Therefore, imports added in consumption are subtracted back out in the M term of the equation. Because of the way in which we write the demand equation, it is easy to make the mistake of thinking that imports are bad for the economy. Just keep in mind that every negative number in the M term has a corresponding positive number in the C or I or G term, and they always cancel out. When consumers feel more confident about the future of the economy, they tend to consume more. If business confidence is high, then firms tend to spend more on investment, believing that the future payoff from that investment will be substantial. Conversely, if consumer or business confidence drops, then consumption and investment spending decline. The University of Michigan publishes a survey of consumer confidence and constructs an index of consumer confidence each month. The survey results are then reported at http://www.sca.isr.umich.edu , which break down the change in consumer confidence among different income levels. According to that index, consumer confidence averaged around 90 prior to the Great Recession, and then it fell to below 60 in late 2008, which was the lowest it had been since 1980. During the 2010s, confidence has climbed from a 2011 low of 55.",
+    "key_concepts": [
+      "aggregate demand",
+      "components",
+      "imports",
+      "consumer confidence",
+      "exports",
+      "shift"
+    ],
+    "methods_principles": [
+      "the equation",
+      "demand equation",
+      "we have seen that the"
+    ],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/24-4-shifts-in-aggregate-demand",
+    "word_count": 491
+  },
+  {
+    "passage_id": "eco_012",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "26.3 Balancing Keynesian and Neoclassical Models",
+    "text": "We can compare finding the balance between Keynesian and Neoclassical models to the challenge of riding two horses simultaneously. When a circus performer stands on two horses, with a foot on each one, much of the excitement for the viewer lies in contemplating the gap between the two. As modern macroeconomists ride into the future on two horses\u00e2\u0080\u0094with one foot on the short-term Keynesian perspective and one foot on the long-term neoclassical perspective\u00e2\u0080\u0094the balancing act may look uncomfortable, but there does not seem to be any way to avoid it. Each approach, Keynesian and neoclassical, has its strengths and weaknesses. The short-term Keynesian model, built on the importance of aggregate demand as a cause of business cycles and a degree of wage and price rigidity, does a sound job of explaining many recessions and why cyclical unemployment rises and falls. By focusing on the short-run aggregate demand adjustments, Keynesian economics risks overlooking the long-term causes of economic growth or the natural rate of unemployment that exist even when the economy is producing at potential GDP. The neoclassical model, with its emphasis on aggregate supply, focuses on the underlying determinants of output and employment in markets, and thus tends to put more emphasis on economic growth and how labor markets work. However, the neoclassical view is not especially helpful in explaining why unemployment moves up and down over short time horizons of a few years. Nor is the neoclassical model especially helpful when the economy is mired in an especially deep and long-lasting recession, like the 1930s Great Depression . Keynesian economics tends to view inflation as a price that might sometimes be paid for lower unemployment; neoclassical economics tends to view inflation as a cost that offers no offsetting gains in terms of lower unemployment. Macroeconomics cannot, however, be summed up as an argument between one group of economists who are pure Keynesians and another group who are pure neoclassicists. Instead, many mainstream economists believe both the Keynesian and neoclassical perspectives. Robert Solow , the Nobel laureate in economics in 1987, described the dual approach in this way: At short time scales, I think, something sort of \u00e2\u0080\u0098Keynesian\u00e2\u0080\u0099 is a good approximation, and surely better than anything straight \u00e2\u0080\u0098neoclassical.\u00e2\u0080\u0099 At very long time scales, the interesting questions are best studied in a neoclassical framework, and attention to the Keynesian side of things would be a minor distraction. At the five-to-ten-year time scale, we have to piece things together as best we can, and look for a hybrid model that will do the job. Many modern macroeconomists spend considerable time and energy trying to construct models that blend the most attractive aspects of the Keynesian and neoclassical approaches. It is possible to construct a somewhat complex mathematical model where aggregate demand and sticky wages and prices matter in the short run, but wages, prices, and aggregate supply adjust in the long run. However, creating an overall model that encompasses both short-term Keynesian and long-term neoclassical models is not easy.",
+    "key_concepts": [
+      "two horses",
+      "two horses\u00e2\u0080\u0094with one foot",
+      "one foot",
+      "aggregate demand",
+      "economic growth",
+      "unemployment"
+    ],
+    "methods_principles": [
+      "neoclassical model",
+      "keynesian model",
+      "hybrid model",
+      "construct model",
+      "mathematical model",
+      "overall model"
+    ],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/26-3-balancing-keynesian-and-neoclassical-models",
+    "word_count": 498
+  },
+  {
+    "passage_id": "eco_013",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "29.1 How the Foreign Exchange Market Works",
+    "text": "By the end of this section, you will be able to: Most countries have different currencies, but not all. Sometimes small economies use an economically larger neighbor's currency. For example, Ecuador, El Salvador, and Panama have decided to dollarize \u00e2\u0080\u0094that is, to use the U.S. dollar as their currency. Sometimes nations share a common currency. A large-scale example of a common currency is the decision by 17 European nations\u00e2\u0080\u0094including some very large economies such as France, Germany, and Italy\u00e2\u0080\u0094to replace their former currencies with the euro at the start of 1999. With these exceptions, most of the international economy takes place in a situation of multiple national currencies in which both people and firms need to convert from one currency to another when selling, buying, hiring, borrowing, traveling, or investing across national borders. We call the market in which people or firms use one currency to purchase another currency the foreign exchange market . You have encountered the basic concept of exchange rates in earlier chapters. In The International Trade and Capital Flows , for example, we discussed how economists use exchange rates to compare GDP statistics from countries where they measure GDP in different currencies. These earlier examples, however, took the actual exchange rate as given, as if it were a fact of nature. In reality, the exchange rate is a price\u00e2\u0080\u0094the price of one currency expressed in terms of units of another currency. The key framework for analyzing prices, whether in this course, any other economics course, in public policy, or business examples, is the operation of supply and demand in markets. Visit this website for an exchange rate calculator. If you travel to a foreign country that uses a different currency, you will undoubtedly need to make a trip to a bank or foreign currency office to exchange whatever currency you\u00e2\u0080\u0099re holding for that country\u00e2\u0080\u0099s currency. Even though this is a simple transaction, it is part of a very large market. The quantities traded in foreign exchange markets are breathtaking. A 2019 Bank of International Settlements survey found that $5.3 trillion per day was traded on foreign exchange markets, which makes the foreign exchange market the largest market in the world economy. In contrast, 2019 U.S. real GDP was $21.4 trillion per year . Your transaction is simple enough. Suppose you carry a $100 bill. You bring it into the foreign currency office and look up, and you see a bunch of different numbers on a digital board. For example, if you are traveling to Turkey, whose national currency is the Turkish Lira, one line of the board might read: \u00e2\u0080\u009cU.S. DOLLARS: BUY 5.50; SELL 5.80.\u00e2\u0080\u009d This means that the office will give you 5.50 Turkish Lira in exchange for 1 U.S. dollar. If you have $100, the office will give you 550 Turkish Lira. If you want to sell Turkish Lira for U.S.",
+    "key_concepts": [
+      "one currency",
+      "different currencies",
+      "common currency",
+      "firms",
+      "another currency",
+      "foreign exchange market",
+      "exchange rates"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/29-1-how-the-foreign-exchange-market-works",
+    "word_count": 477
+  },
+  {
+    "passage_id": "eco_014",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "30.7 The Question of a Balanced Budget",
+    "text": "By the end of this section, you will be able to: For many decades, going back to the 1930s, various legislators have put forward proposals to require that the U.S. government balance its budget every year. In 1995, a proposed constitutional amendment that would require a balanced budget passed the U.S. House of Representatives by a wide margin, and failed in the U.S. Senate by only a single vote. (For the balanced budget to have become an amendment to the Constitution would have required a two-thirds vote by Congress and passage by three-quarters of the state legislatures.) Most economists view the proposals for a perpetually balanced budget with bemusement. After all, in the short term, economists would expect the budget deficits and surpluses to fluctuate up and down with the economy and the automatic stabilizers. Economic recessions should automatically lead to larger budget deficits or smaller budget surpluses, while economic booms lead to smaller deficits or larger surpluses. A requirement that the budget be balanced each and every year would prevent these automatic stabilizers from working and would worsen the severity of economic fluctuations. Some supporters of the balanced budget amendment like to argue that, since households must balance their own budgets, the government should too. However, this analogy between household and government behavior is severely flawed. Most households do not balance their budgets every year. Some years households borrow to buy houses or cars or to pay for medical expenses or college tuition. Other years they repay loans and save funds in retirement accounts. After retirement, they withdraw and spend those savings. Also, the government is not a household for many reasons, one of which is that the government has macroeconomic responsibilities. The argument of Keynesian macroeconomic policy is that the government needs to lean against the wind, spending when times are hard and saving when times are good, for the sake of the overall economy. There is also no particular reason to expect a government budget to be balanced in the medium term of a few years. For example, a government may decide that by running large budget deficits, it can make crucial long-term investments in human capital and physical infrastructure that will build the country's long-term productivity. These decisions may work out well or poorly, but they are not always irrational. Such policies of ongoing government budget deficits may persist for decades. As the U.S. experience from the end of World War II up to about 1980 shows, it is perfectly possible to run budget deficits almost every year for decades, but as long as the percentage increases in debt are smaller than the percentage growth of GDP, the debt/GDP ratio will decline at the same time. Nothing in this argument is a claim that budget deficits are always a wise policy. In the short run, a government that runs a very large budget deficit can shift aggregate demand to the right and trigger severe inflation. Additionally, governments may borrow for foolish or impractical reasons. The Impacts of Government Borrowing will discuss how large budget deficits, by reducing national saving, can in certain cases reduce economic growth and even contribute to international financial crises. A requirement that the budget be balanced in each calendar year, however, is a misguided overreaction to the fear that in some cases, budget deficits can become too large. The 2013 federal budget shutdown illustrated the many sides to fiscal policy and the federal budget. In 2013, Republicans and Democrats could not agree on which spending policies to fund and how large the government debt should be. Due to the severity of the 2008-2009 recession, the fiscal stimulus, and previous policies, the federal budget deficit and debt was historically high. One way to try to cut federal spending and borrowing was to refuse to raise the legal federal debt limit, or tie on conditions to appropriation bills to stop the Affordable Health Care Act. This disagreement led to a two-week federal government shutdown and got close to the deadline where the federal government would default on its Treasury bonds. Finally, however, a compromise emerged and the government avoided default. This shows clearly how closely fiscal policies are tied to politics.",
+    "key_concepts": [
+      "government",
+      "budget deficits",
+      "budget",
+      "every year",
+      "decades",
+      "many decades",
+      "proposals"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/30-7-the-question-of-a-balanced-budget",
+    "word_count": 697
+  },
+  {
+    "passage_id": "eco_015",
+    "subject": "economics",
+    "source": "openstax_principles-economics-3e",
+    "section": "32.5 Balance of Trade Concerns",
+    "text": "In the 1950s and 1960s, and even into the 1970s, low- and middle-income countries often viewed openness to global flows of goods, services, and financial capital in a negative light. These countries feared that foreign trade would mean both economic losses as high-income trading partners \"exploited\" their economy and they lost domestic political control to powerful business interests and multinational corporations. These negative feelings about international trade have evolved. After all, the great economic success stories of recent years like Japan, the East Asian Tiger economies, China, and India, all took advantage of opportunities to sell in global markets. European economies thrive with high levels of trade. In the North American Free Trade Agreement (NAFTA) , 1 the United States, Canada, and Mexico pledged themselves to reduce trade barriers. Many countries have clearly learned that reducing barriers to trade is at least potentially beneficial to the economy. Many smaller world economies have learned an even tougher lesson: if they do not participate actively in world trade, they are unlikely to join the success stories among the converging economies. There are no examples in world history of small economies that remained apart from the global economy but still attained a high standard of living. Although almost every country now claims that its goal is to participate in global trade, the possible negative consequences have remained highly controversial. It is useful to divide these possible negative consequences into issues involving trade of goods and services and issues involving international capital flows. These issues are related, but not the same. An economy may have a high level of trade in goods and services relative to GDP, but if exports and imports are balanced, the net flow of foreign investment in and out of the economy will be zero. Conversely, an economy may have only a moderate level of trade relative to GDP, but find that it has a substantial current account trade imbalance. Thus, it is useful to consider the concerns over international trade of goods and services and international flows of financial capital separately. There is a long list of worries about foreign trade in goods and services: fear of job loss, environmental dangers, unfair labor practices, and many other concerns. We discuss these arguments at some length in the chapter on The International Trade and Capital Flows . Of all of the arguments for limitations on trade, perhaps the most controversial one among economists is the infant industry argument ; that is, subsidizing or protecting new industries for a time until they become established. ( Globalization and Protectionism explains this concept in more detail.) Countries have used such policies with some success at certain points in time, but in the world as a whole, support for key industries is far more often directed at long-established industries with substantial political power that are suffering losses and laying off workers, rather than potentially vibrant new industries that are not yet established.",
+    "key_concepts": [
+      "trade",
+      "goods",
+      "services",
+      "economy",
+      "issues",
+      "financial capital",
+      "countries"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/principles-economics-3e/pages/32-5-balance-of-trade-concerns",
+    "word_count": 488
+  }
+]

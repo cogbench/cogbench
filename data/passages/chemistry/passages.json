@@ -1,0 +1,329 @@
+[
+  {
+    "passage_id": "che_001",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "1.1 Chemistry in Context",
+    "text": "By the end of this section, you will be able to: Throughout human history, people have tried to convert matter into more useful forms. Our Stone Age ancestors chipped pieces of flint into useful tools and carved wood into statues and toys. These endeavors involved changing the shape of a substance without changing the substance itself. But as our knowledge increased, humans began to change the composition of the substances as well\u00e2\u0080\u0094clay was converted into pottery, hides were cured to make garments, copper ores were transformed into copper tools and weapons, and grain was made into bread. Humans began to practice chemistry when they learned to control fire and use it to cook, make pottery, and smelt metals. Subsequently, they began to separate and use specific components of matter. A variety of drugs such as aloe, myrrh, and opium were isolated from plants. Dyes, such as indigo and Tyrian purple, were extracted from plant and animal matter. Metals were combined to form alloys\u00e2\u0080\u0094for example, copper and tin were mixed together to make bronze\u00e2\u0080\u0094and more elaborate smelting techniques produced iron. Alkalis were extracted from ashes, and soaps were prepared by combining these alkalis with fats. Alcohol was produced by fermentation and purified by distillation. Attempts to understand the behavior of matter extend back for more than 2500 years. As early as the sixth century BC, Greek philosophers discussed a system in which water was the basis of all things. You may have heard of the Greek postulate that matter consists of four elements: earth, air, fire, and water. Subsequently, an amalgamation of chemical technologies and philosophical speculations was spread from Egypt, China, and the eastern Mediterranean by alchemists, who endeavored to transform \u00e2\u0080\u009cbase metals\u00e2\u0080\u009d such as lead into \u00e2\u0080\u009cnoble metals\u00e2\u0080\u009d like gold, and to create elixirs to cure disease and extend life ( Figure 1.2 ). From alchemy came the historical progressions that led to modern chemistry: the isolation of drugs from natural sources, such as plants and animals. But while many of the substances extracted or processed from those natural sources were critical in the treatment of diseases, many were scarce. For example, progesterone, which is critical to women's health, became available as a medicine in 1935, but its animal sources produced extremely small quantities, limiting its availability and increasing its expense. Likewise, in the 1940s, cortisone came into use to treat arthritis and other disorders and injuries, but it took a 36-step process to synthesize. Chemist Percy Lavon Julian turned to a more plentiful source: soybeans. Previously, Julian had developed a lab to isolate soy protein, which was used in firefighting among other applications. He focused on using the soy sterols\u00e2\u0080\u0094substances mostly used in plant membranes\u00e2\u0080\u0094and was able to quickly produce progesterone and later testosterone and other hormones. He later developed a process to do the same for cortisone, and laid the groundwork for modern drug design. Since soybeans and similar plant sources were extremely plentiful, the drugs soon became widely available, saving many lives.",
+    "key_concepts": [
+      "matter",
+      "drugs",
+      "substance",
+      "humans",
+      "pottery",
+      "fire"
+    ],
+    "methods_principles": [
+      "and more elaborate smelting",
+      "step",
+      "he later developed a"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/1-1-chemistry-in-context",
+    "word_count": 496
+  },
+  {
+    "passage_id": "che_002",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "2.2 Evolution of Atomic Theory",
+    "text": "By the end of this section, you will be able to: If matter is composed of atoms, what are atoms composed of? Are they the smallest particles, or is there something smaller? In the late 1800s, a number of scientists interested in questions like these investigated the electrical discharges that could be produced in low-pressure gases, with the most significant discovery made by English physicist J. J. Thomson using a cathode ray tube. This apparatus consisted of a sealed glass tube from which almost all the air had been removed; the tube contained two metal electrodes. When high voltage was applied across the electrodes, a visible beam called a cathode ray appeared between them. This beam was deflected toward the positive charge and away from the negative charge, and was produced in the same way with identical properties when different metals were used for the electrodes. In similar experiments, the ray was simultaneously deflected by an applied magnetic field, and measurements of the extent of deflection and the magnetic field strength allowed Thomson to calculate the charge-to-mass ratio of the cathode ray particles. The results of these measurements indicated that these particles were much lighter than atoms ( Figure 2.6 ). Based on his observations, here is what Thomson proposed and why: The particles are attracted by positive (+) charges and repelled by negative (\u00e2\u0088\u0092) charges, so they must be negatively charged (like charges repel and unlike charges attract); they are less massive than atoms and indistinguishable, regardless of the source material, so they must be fundamental, subatomic constituents of all atoms. Although controversial at the time, Thomson\u00e2\u0080\u0099s idea was gradually accepted, and his cathode ray particle is what we now call an electron , a negatively charged, subatomic particle with a mass more than one thousand-times less that of an atom. The term \u00e2\u0080\u009celectron\u00e2\u0080\u009d was coined in 1891 by Irish physicist George Stoney, from \u00e2\u0080\u009c electr ic i on .\u00e2\u0080\u009d Click here to hear Thomson describe his discovery in his own voice. In 1909, more information about the electron was uncovered by American physicist Robert A. Millikan via his \u00e2\u0080\u009coil drop\u00e2\u0080\u009d experiments. Millikan created microscopic oil droplets, which could be electrically charged by friction as they formed or by using X-rays. These droplets initially fell due to gravity, but their downward progress could be slowed or even reversed by an electric field lower in the apparatus. By adjusting the electric field strength and making careful measurements and appropriate calculations, Millikan was able to determine the charge on individual drops ( Figure 2.7 ). Looking at the charge data that Millikan gathered, you may have recognized that the charge of an oil droplet is always a multiple of a specific charge, 1.6 10 \u00e2\u0088\u009219 C. Millikan concluded that this value must therefore be a fundamental charge\u00e2\u0080\u0094the charge of a single electron\u00e2\u0080\u0094with his measured charges due to an excess of one electron (1 times 1.6 10 \u00e2\u0088\u009219 C), two electrons (2 times 1.6 10 \u00e2\u0088\u009219 C), three electrons (3 times 1.",
+    "key_concepts": [
+      "atoms",
+      "thomson",
+      "charges",
+      "millikan",
+      "1.6 10",
+      "apparatus"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/chemistry-2e/pages/2-2-evolution-of-atomic-theory",
+    "word_count": 500
+  },
+  {
+    "passage_id": "che_003",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "3.3 Molarity",
+    "text": "By the end of this section, you will be able to: Preceding sections of this chapter focused on the composition of substances: samples of matter that contain only one type of element or compound. However, mixtures\u00e2\u0080\u0094samples of matter containing two or more substances physically combined\u00e2\u0080\u0094are more commonly encountered in nature than are pure substances. Similar to a pure substance, the relative composition of a mixture plays an important role in determining its properties. The relative amount of oxygen in a planet\u00e2\u0080\u0099s atmosphere determines its ability to sustain aerobic life. The relative amounts of iron, carbon, nickel, and other elements in steel (a mixture known as an \u00e2\u0080\u009calloy\u00e2\u0080\u009d) determine its physical strength and resistance to corrosion. The relative amount of the active ingredient in a medicine determines its effectiveness in achieving the desired pharmacological effect. The relative amount of sugar in a beverage determines its sweetness (see Figure 3.14 ). This section will describe one of the most common ways in which the relative compositions of mixtures may be quantified. Solutions have previously been defined as homogeneous mixtures, meaning that the composition of the mixture (and therefore its properties) is uniform throughout its entire volume. Solutions occur frequently in nature and have also been implemented in many forms of manmade technology. A more thorough treatment of solution properties is provided in the chapter on solutions and colloids, but provided here is an introduction to some of the basic properties of solutions. The relative amount of a given solution component is known as its concentration . Often, though not always, a solution contains one component with a concentration that is significantly greater than that of all other components. This component is called the solvent and may be viewed as the medium in which the other components are dispersed, or dissolved . Solutions in which water is the solvent are, of course, very common on our planet. A solution in which water is the solvent is called an aqueous solution . A solute is a component of a solution that is typically present at a much lower concentration than the solvent. Solute concentrations are often described with qualitative terms such as dilute (of relatively low concentration) and concentrated (of relatively high concentration). Concentrations may be quantitatively assessed using a wide variety of measurement units, each convenient for particular applications. Molarity ( M ) is a useful concentration unit for many applications in chemistry. Molarity is defined as the number of moles of solute in exactly 1 liter (1 L) of the solution: Finally, this molar amount is used to derive the mass of NaCl: When performing calculations stepwise, as in Example 3.17 , it is important to refrain from rounding any intermediate calculation results, which can lead to rounding errors in the final result. In Example 3.17 , the molar amount of NaCl computed in the first step, 1.325 mol, would be properly rounded to 1.",
+    "key_concepts": [
+      "solutions",
+      "relative amount",
+      "solvent",
+      "mixture",
+      "composition"
+    ],
+    "methods_principles": [
+      "its effect",
+      "pharmacological effect"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/3-3-molarity",
+    "word_count": 483
+  },
+  {
+    "passage_id": "che_004",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "5.1 Energy Basics",
+    "text": "By the end of this section, you will be able to: Chemical changes and their accompanying changes in energy are important parts of our everyday world ( Figure 5.2 ). The macronutrients in food (proteins, fats, and carbohydrates) undergo metabolic reactions that provide the energy to keep our bodies functioning. We burn a variety of fuels (gasoline, natural gas, coal) to produce energy for transportation, heating, and the generation of electricity. Industrial chemical reactions use enormous amounts of energy to produce raw materials (such as iron and aluminum). Energy is then used to manufacture those raw materials into useful products, such as cars, skyscrapers, and bridges. Over 90% of the energy we use comes originally from the sun. Every day, the sun provides the earth with almost 10,000 times the amount of energy necessary to meet all of the world\u00e2\u0080\u0099s energy needs for that day. Our challenge is to find ways to convert and store incoming solar energy so that it can be used in reactions or chemical processes that are both convenient and nonpolluting. Plants and many bacteria capture solar energy through photosynthesis. We release the energy stored in plants when we burn wood or plant products such as ethanol. We also use this energy to fuel our bodies by eating food that comes directly from plants or from animals that got their energy by eating plants. Burning coal and petroleum also releases stored solar energy: These fuels are fossilized plant and animal matter. This chapter will introduce the basic ideas of an important area of science concerned with the amount of heat absorbed or released during chemical and physical changes\u00e2\u0080\u0094an area called thermochemistry . The concepts introduced in this chapter are widely used in almost all scientific and technical fields. Food scientists use them to determine the energy content of foods. Biologists study the energetics of living organisms, such as the metabolic combustion of sugar into carbon dioxide and water. The oil, gas, and transportation industries, renewable energy providers, and many others endeavor to find better methods to produce energy for our commercial and personal needs. Engineers strive to improve energy efficiency, find better ways to heat and cool our homes, refrigerate our food and drinks, and meet the energy and cooling needs of computers and electronics, among other applications. Understanding thermochemical principles is essential for chemists, physicists, biologists, geologists, every type of engineer, and just about anyone who studies or does any kind of science. Energy can be defined as the capacity to supply heat or do work. One type of work ( w ) is the process of causing matter to move against an opposing force. For example, we do work when we inflate a bicycle tire\u00e2\u0080\u0094we move matter (the air in the pump) against the opposing force of the air already in the tire. Like matter, energy comes in different types.",
+    "key_concepts": [
+      "energy",
+      "plants",
+      "food",
+      "work",
+      "bodies",
+      "fuels",
+      "raw materials"
+    ],
+    "methods_principles": [
+      "better method",
+      "thermochemical principle",
+      "is the"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics",
+    "word_count": 476
+  },
+  {
+    "passage_id": "che_005",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "7.1 Ionic Bonding",
+    "text": "By the end of this section, you will be able to: As you have learned, ions are atoms or molecules bearing an electrical charge. A cation (a positive ion) forms when a neutral atom loses one or more electrons from its valence shell, and an anion (a negative ion) forms when a neutral atom gains one or more electrons in its valence shell. Compounds composed of ions are called ionic compounds (or salts), and their constituent ions are held together by ionic bonds : electrostatic forces of attraction between oppositely charged cations and anions. The properties of ionic compounds shed some light on the nature of ionic bonds. Ionic solids exhibit a crystalline structure and tend to be rigid and brittle; they also tend to have high melting and boiling points, which suggests that ionic bonds are very strong. Ionic solids are also poor conductors of electricity for the same reason\u00e2\u0080\u0094the strength of ionic bonds prevents ions from moving freely in the solid state. Most ionic solids, however, dissolve readily in water. Once dissolved or melted, ionic compounds are excellent conductors of electricity and heat because the ions can move about freely. Neutral atoms and their associated ions have very different physical and chemical properties. Sodium atoms form sodium metal, a soft, silvery-white metal that burns vigorously in air and reacts explosively with water. Chlorine atoms form chlorine gas, Cl 2 , a yellow-green gas that is extremely corrosive to most metals and very poisonous to animals and plants. The vigorous reaction between the elements sodium and chlorine forms the white, crystalline compound sodium chloride, common table salt, which contains sodium cations and chloride anions ( Figure 7.2 ). The compound composed of these ions exhibits properties entirely different from the properties of the elements sodium and chlorine. Chlorine is poisonous, but sodium chloride is essential to life; sodium atoms react vigorously with water, but sodium chloride simply dissolves in water. Binary ionic compounds are composed of just two elements: a metal (which forms the cations) and a nonmetal (which forms the anions). For example, NaCl is a binary ionic compound. We can think about the formation of such compounds in terms of the periodic properties of the elements. Many metallic elements have relatively low ionization potentials and lose electrons easily. These elements lie to the left in a period or near the bottom of a group on the periodic table. Nonmetal atoms have relatively high electron affinities and thus readily gain electrons lost by metal atoms, thereby filling their valence shells. Nonmetallic elements are found in the upper-right corner of the periodic table. As all substances must be electrically neutral, the total number of positive charges on the cations of an ionic compound must equal the total number of negative charges on its anions. The formula of an ionic compound represents the simplest ratio of the numbers of ions necessary to give identical numbers of positive and negative charges.",
+    "key_concepts": [
+      "ions",
+      "ionic bonds",
+      "water",
+      "ionic compounds",
+      "anions",
+      "properties",
+      "one or more electrons"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+    "word_count": 490
+  },
+  {
+    "passage_id": "che_006",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "8.3 Multiple Bonds",
+    "text": "By the end of this section, you will be able to: The hybrid orbital model appears to account well for the geometry of molecules involving single covalent bonds. Is it also capable of describing molecules containing double and triple bonds? We have already discussed that multiple bonds consist of \u00cf\u0083 and \u00cf\u0080 bonds. Next we can consider how we visualize these components and how they relate to hybrid orbitals. The Lewis structure of ethene, C 2 H 4 , shows us that each carbon atom is surrounded by one other carbon atom and two hydrogen atoms. The three bonding regions form a trigonal planar electron-pair geometry. Thus we expect the \u00cf\u0083 bonds from each carbon atom are formed using a set of sp 2 hybrid orbitals that result from hybridization of two of the 2 p orbitals and the 2 s orbital ( Figure 8.22 ). These orbitals form the C\u00e2\u0080\u0093H single bonds and the \u00cf\u0083 bond in the double bond ( Figure 8.23 ) . The \u00cf\u0080 bond in the double bond results from the overlap of the third (remaining) 2 p orbital on each carbon atom that is not involved in hybridization. This unhybridized p orbital (lobes shown in red and blue in Figure 8.23 ) is perpendicular to the plane of the sp 2 hybrid orbitals. Thus the unhybridized 2 p orbitals overlap in a side-by-side fashion, above and below the internuclear axis ( Figure 8.23 ) and form a \u00cf\u0080 bond . In an ethene molecule, the four hydrogen atoms and the two carbon atoms are all in the same plane. If the two planes of sp 2 hybrid orbitals tilted relative to each other, the p orbitals would not be oriented to overlap efficiently to create the \u00cf\u0080 bond. The planar configuration for the ethene molecule occurs because it is the most stable bonding arrangement. This is a significant difference between \u00cf\u0083 and \u00cf\u0080 bonds; rotation around single (\u00cf\u0083) bonds occurs easily because the end-to-end orbital overlap does not depend on the relative orientation of the orbitals on each atom in the bond. In other words, rotation around the internuclear axis does not change the extent to which the \u00cf\u0083 bonding orbitals overlap because the bonding electron density is symmetric about the axis. Rotation about the internuclear axis is much more difficult for multiple bonds since this would drastically decrease the off-axis overlap of the \u00cf\u0080 bonding orbitals, essentially breaking the \u00cf\u0080 bond. In molecules with sp hybrid orbitals, two unhybridized p orbitals remain on the atom ( Figure 8.24 ). We find this situation in acetylene, which is a linear molecule. The sp hybrid orbitals of the two carbon atoms overlap end to end to form a \u00cf\u0083 bond between the carbon atoms ( Figure 8.25 ). The remaining sp orbitals form \u00cf\u0083 bonds with hydrogen atoms. The two unhybridized p orbitals per carbon are positioned such that they overlap side by side and, hence, form two \u00cf\u0080 bonds. The two carbon atoms of acetylene are thus bound together by one \u00cf\u0083 bond and two \u00cf\u0080 bonds, giving a triple bond. Hybridization involves only \u00cf\u0083 bonds, lone pairs of electrons, and single unpaired electrons (radicals). Structures that account for these features describe the correct hybridization of the atoms. However, many structures also include resonance forms. Remember that resonance forms occur when various arrangements of \u00cf\u0080 bonds are possible. Since the arrangement of \u00cf\u0080 bonds involves only the unhybridized orbitals, resonance does not influence the assignment of hybridization. For example, molecule benzene has two resonance forms ( Figure 8.26 ). We can use either of these forms to determine that each of the carbon atoms is bonded to three other atoms with no lone pairs, so the correct hybridization is sp 2 . The electrons in the unhybridized p orbitals form \u00cf\u0080 bonds. Neither resonance structure completely describes the electrons in the \u00cf\u0080 bonds. They are not located in one position or the other, but in reality are delocalized throughout the ring. Valence bond theory does not easily address delocalization. Bonding in molecules with resonance forms is better described by molecular orbital theory. (See the next module.) The sulfur atom is surrounded by two bonds and one lone pair of electrons in either resonance structure. Therefore, the electron-pair geometry is trigonal planar, and the hybridization of the sulfur atom is sp 2 .",
+    "key_concepts": [
+      "hybridization",
+      "molecules",
+      "\u00ef\u0080 bond",
+      "electrons",
+      "each carbon atom",
+      "sp 2 hybrid orbitals"
+    ],
+    "methods_principles": [
+      "orbital model",
+      "bond theory",
+      "orbital theory"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/8-3-multiple-bonds",
+    "word_count": 728
+  },
+  {
+    "passage_id": "che_007",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "9.6 Non-Ideal Gas Behavior",
+    "text": "By the end of this section, you will be able to: Thus far, the ideal gas law, PV = nRT , has been applied to a variety of different types of problems, ranging from reaction stoichiometry and empirical and molecular formula problems to determining the density and molar mass of a gas. As mentioned in the previous modules of this chapter, however, the behavior of a gas is often non-ideal, meaning that the observed relationships between its pressure, volume, and temperature are not accurately described by the gas laws. In this section, the reasons for these deviations from ideal gas behavior are considered. One way in which the accuracy of PV = nRT can be judged is by comparing the actual volume of 1 mole of gas (its molar volume, V m ) to the molar volume of an ideal gas at the same temperature and pressure. This ratio is called the compressibility factor (Z) with: Ideal gas behavior is therefore indicated when this ratio is equal to 1, and any deviation from 1 is an indication of non-ideal behavior. Figure 9.35 shows plots of Z over a large pressure range for several common gases. As is apparent from Figure 9.35 , the ideal gas law does not describe gas behavior well at relatively high pressures. To determine why this is, consider the differences between real gas properties and what is expected of a hypothetical ideal gas. Particles of a hypothetical ideal gas have no significant volume and do not attract or repel each other. In general, real gases approximate this behavior at relatively low pressures and high temperatures. However, at high pressures, the molecules of a gas are crowded closer together, and the amount of empty space between the molecules is reduced. At these higher pressures, the volume of the gas molecules themselves becomes appreciable relative to the total volume occupied by the gas. The gas therefore becomes less compressible at these high pressures, and although its volume continues to decrease with increasing pressure, this decrease is not proportional as predicted by Boyle\u00e2\u0080\u0099s law. At relatively low pressures, gas molecules have practically no attraction for one another because they are (on average) so far apart, and they behave almost like particles of an ideal gas. At higher pressures, however, the force of attraction is also no longer insignificant. This force pulls the molecules a little closer together, slightly decreasing the pressure (if the volume is constant) or decreasing the volume (at constant pressure) ( Figure 9.36 ). This change is more pronounced at low temperatures because the molecules have lower KE relative to the attractive forces, and so they are less effective in overcoming these attractions after colliding with one another. There are several different equations that better approximate gas behavior than does the ideal gas law. The first, and simplest, of these was developed by the Dutch scientist Johannes van der Waals in 1879.",
+    "key_concepts": [
+      "gas",
+      "volume",
+      "molecules",
+      "ideal gas law",
+      "pressure",
+      "nrt",
+      "behavior",
+      "ideal gas behavior"
+    ],
+    "methods_principles": [
+      "gas law",
+      "is constant",
+      "at constant",
+      "less effect",
+      "different equation",
+      "there are several different"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/9-6-non-ideal-gas-behavior",
+    "word_count": 486
+  },
+  {
+    "passage_id": "che_008",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "11.2 Electrolytes",
+    "text": "By the end of this section, you will be able to: When some substances are dissolved in water, they undergo either a physical or a chemical change that yields ions in solution. These substances constitute an important class of compounds called electrolytes . Substances that do not yield ions when dissolved are called nonelectrolytes . If the physical or chemical process that generates the ions is essentially 100% efficient (all of the dissolved compound yields ions), then the substance is known as a strong electrolyte . If only a relatively small fraction of the dissolved substance undergoes the ion-producing process, it is called a weak electrolyte . Substances may be identified as strong, weak, or nonelectrolytes by measuring the electrical conductance of an aqueous solution containing the substance. To conduct electricity, a substance must contain freely mobile, charged species. Most familiar is the conduction of electricity through metallic wires, in which case the mobile, charged entities are electrons. Solutions may also conduct electricity if they contain dissolved ions, with conductivity increasing as ion concentration increases. Applying a voltage to electrodes immersed in a solution permits assessment of the relative concentration of dissolved ions, either quantitatively, by measuring the electrical current flow, or qualitatively, by observing the brightness of a light bulb included in the circuit ( Figure 11.6 ). Water and other polar molecules are attracted to ions, as shown in Figure 11.7 . The electrostatic attraction between an ion and a molecule with a dipole is called an ion-dipole attraction . These attractions play an important role in the dissolution of ionic compounds in water. When ionic compounds dissolve in water, the ions in the solid separate and disperse uniformly throughout the solution because water molecules surround and solvate the ions, reducing the strong electrostatic forces between them. This process represents a physical change known as dissociation . Under most conditions, ionic compounds will dissociate nearly completely when dissolved, and so they are classified as strong electrolytes. Even sparingly, soluble ionic compounds are strong electrolytes, since the small amount that does dissolve will dissociate completely. Consider what happens at the microscopic level when solid KCl is added to water. Ion-dipole forces attract the positive (hydrogen) end of the polar water molecules to the negative chloride ions at the surface of the solid, and they attract the negative (oxygen) ends to the positive potassium ions. The water molecules surround individual K + and Cl \u00e2\u0088\u0092 ions, reducing the strong interionic forces that bind the ions together and letting them move off into solution as solvated ions, as Figure 11.7 shows. Overcoming the electrostatic attraction permits the independent motion of each hydrated ion in a dilute solution as the ions transition from fixed positions in the undissolved compound to widely dispersed, solvated ions in solution. Pure water is an extremely poor conductor of electricity because it is only very slightly ionized\u00e2\u0080\u0094only about two out of every 1 billion molecules ionize at 25 \u00c2\u00b0C. Water ionizes when one molecule of water gives up a proton (H + ion) to another molecule of water, yielding hydronium and hydroxide ions. In some cases, solutions prepared from covalent compounds conduct electricity because the solute molecules react chemically with the solvent to produce ions. For example, pure hydrogen chloride is a gas consisting of covalent HCl molecules. This gas contains no ions. However, an aqueous solution of HCl is a very good conductor, indicating that an appreciable concentration of ions exists within the solution. Because HCl is an acid , its molecules react with water, transferring H + ions to form hydronium ions (H 3 O + ) and chloride ions (Cl \u00e2\u0088\u0092 ): This reaction is essentially 100% complete for HCl (i.e., it is a strong acid and, consequently, a strong electrolyte). Likewise, weak acids and bases that only react partially generate relatively low concentrations of ions when dissolved in water and are classified as weak electrolytes. The reader may wish to review the discussion of strong and weak acids provided in the earlier chapter of this text on reaction classes and stoichiometry.",
+    "key_concepts": [
+      "ions",
+      "water",
+      "solution",
+      "electricity",
+      "substances",
+      "ionic compounds"
+    ],
+    "methods_principles": [
+      "if the physical or chemical",
+      "producing",
+      "this"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes",
+    "word_count": 678
+  },
+  {
+    "passage_id": "che_009",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "12.4 Integrated Rate Laws",
+    "text": "By the end of this section, you will be able to: The rate laws discussed thus far relate the rate and the concentrations of reactants. We can also determine a second form of each rate law that relates the concentrations of reactants and time. These are called integrated rate laws . We can use an integrated rate law to determine the amount of reactant or product present after a period of time or to estimate the time required for a reaction to proceed to a certain extent. For example, an integrated rate law is used to determine the length of time a radioactive material must be stored for its radioactivity to decay to a safe level. Using calculus, the differential rate law for a chemical reaction can be integrated with respect to time to give an equation that relates the amount of reactant or product present in a reaction mixture to the elapsed time of the reaction. This process can either be very straightforward or very complex, depending on the complexity of the differential rate law. For purposes of discussion, we will focus on the resulting integrated rate laws for first-, second-, and zero-order reactions. Integration of the rate law for a simple first-order reaction (rate = k [ A ]) results in an equation describing how the reactant concentration varies with time: where [ A ] t is the concentration of A at any time t , [ A ] 0 is the initial concentration of A , and k is the first-order rate constant. For mathematical convenience, this equation may be rearranged to other formats, including direct and indirect proportionalities: and a format showing a linear dependence of concentration in time: How long will it take for 80.0% of a sample of C 4 H 8 to decompose? The initial concentration of C 4 H 8 , [ A ] 0 , is not provided, but the provision that 80.0% of the sample has decomposed is enough information to solve this problem. Let x be the initial concentration, in which case the concentration after 80.0% decomposition is 20.0% of x or 0.200 x. Rearranging the rate law to isolate t and substituting the provided quantities yields: The decay is first-order with a rate constant of 0.138 d \u00e2\u0088\u00921 . How many days will it take for 90% of the iodine\u00e2\u0088\u0092131 in a 0.500 M solution of this substance to decay to Xe-131? In the next example exercise, a linear format for the integrated rate law will be convenient: A plot of ln[ A ] t versus t for a first-order reaction is a straight line with a slope of \u00e2\u0088\u0092 k and a y -intercept of ln[ A ] 0 . If a set of rate data are plotted in this fashion but do not result in a straight line, the reaction is not first order in A .",
+    "key_concepts": [
+      "80.0%",
+      "first",
+      "integrated rate law",
+      "reaction",
+      "equation",
+      "concentration",
+      "initial concentration"
+    ],
+    "methods_principles": [
+      "rate law",
+      "an equation",
+      "rate constant",
+      "this equation",
+      "this",
+      "results in an"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/12-4-integrated-rate-laws",
+    "word_count": 481
+  },
+  {
+    "passage_id": "che_010",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "14.1 Br\u00f8nsted-Lowry Acids and Bases",
+    "text": "By the end of this section, you will be able to: The acid-base reaction class has been studied for quite some time. In 1680, Robert Boyle reported traits of acid solutions that included their ability to dissolve many substances, to change the colors of certain natural dyes, and to lose these traits after coming in contact with alkali (base) solutions. In the eighteenth century, it was recognized that acids have a sour taste, react with limestone to liberate a gaseous substance (now known to be CO 2 ), and interact with alkalis to form neutral substances. In 1815, Humphry Davy contributed greatly to the development of the modern acid-base concept by demonstrating that hydrogen is the essential constituent of acids. Around that same time, Joseph Louis Gay-Lussac concluded that acids are substances that can neutralize bases and that these two classes of substances can be defined only in terms of each other. The significance of hydrogen was reemphasized in 1884 when Svante Arrhenius defined an acid as a compound that dissolves in water to yield hydrogen cations (now recognized to be hydronium ions) and a base as a compound that dissolves in water to yield hydroxide anions. Johannes Br\u00c3\u00b8nsted and Thomas Lowry proposed a more general description in 1923 in which acids and bases were defined in terms of the transfer of hydrogen ions, H + . (Note that these hydrogen ions are often referred to simply as protons , since that subatomic particle is the only component of cations derived from the most abundant hydrogen isotope, 1 H.) A compound that donates a proton to another compound is called a Br\u00c3\u00b8nsted-Lowry acid , and a compound that accepts a proton is called a Br\u00c3\u00b8nsted-Lowry base . An acid-base reaction is, thus, the transfer of a proton from a donor (acid) to an acceptor (base). The concept of conjugate pairs is useful in describing Br\u00c3\u00b8nsted-Lowry acid-base reactions (and other reversible reactions, as well). When an acid donates H + , the species that remains is called the conjugate base of the acid because it reacts as a proton acceptor in the reverse reaction. Likewise, when a base accepts H + , it is converted to its conjugate acid . The reaction between water and ammonia illustrates this idea. In the forward direction, water acts as an acid by donating a proton to ammonia and subsequently becoming a hydroxide ion, OH \u00e2\u0088\u0092 , the conjugate base of water. The ammonia acts as a base in accepting this proton, becoming an ammonium ion, the conjugate acid of ammonia. In the reverse direction, a hydroxide ion acts as a base in accepting a proton from ammonium ion, which acts as an acid. The reaction between a Br\u00c3\u00b8nsted-Lowry acid and water is called acid ionization .",
+    "key_concepts": [
+      "acid",
+      "water",
+      "proton",
+      "compound",
+      "base",
+      "ammonia"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+    "word_count": 462
+  },
+  {
+    "passage_id": "che_011",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "15.2 Lewis Acids and Bases",
+    "text": "By the end of this section, you will be able to: In 1923, G. N. Lewis proposed a generalized definition of acid-base behavior in which acids and bases are identified by their ability to accept or to donate a pair of electrons and form a coordinate covalent bond. A coordinate covalent bond (or dative bond) occurs when one of the atoms in the bond provides both bonding electrons. For example, a coordinate covalent bond occurs when a water molecule combines with a hydrogen ion to form a hydronium ion. A coordinate covalent bond also results when an ammonia molecule combines with a hydrogen ion to form an ammonium ion. Both of these equations are shown here. Reactions involving the formation of coordinate covalent bonds are classified as Lewis acid-base chemistry . The species donating the electron pair that compose the bond is a Lewis base , the species accepting the electron pair is a Lewis acid , and the product of the reaction is a Lewis acid-base adduct . As the two examples above illustrate, Br\u00c3\u00b8nsted-Lowry acid-base reactions represent a subcategory of Lewis acid reactions, specifically, those in which the acid species is H + . A few examples involving other Lewis acids and bases are described below. The boron atom in boron trifluoride, BF 3 , has only six electrons in its valence shell. Being short of the preferred octet, BF 3 is a very good Lewis acid and reacts with many Lewis bases; a fluoride ion is the Lewis base in this reaction, donating one of its lone pairs: In the following reaction, each of two ammonia molecules, Lewis bases, donates a pair of electrons to a silver ion, the Lewis acid: Nonmetal oxides act as Lewis acids and react with oxide ions, Lewis bases, to form oxyanions: Many Lewis acid-base reactions are displacement reactions in which one Lewis base displaces another Lewis base from an acid-base adduct, or in which one Lewis acid displaces another Lewis acid: Another type of Lewis acid-base chemistry involves the formation of a complex ion (or a coordination complex) comprising a central atom, typically a transition metal cation, surrounded by ions or molecules called ligands . These ligands can be neutral molecules like H 2 O or NH 3 , or ions such as CN \u00e2\u0080\u0093 or OH \u00e2\u0080\u0093 . Often, the ligands act as Lewis bases, donating a pair of electrons to the central atom. These types of Lewis acid-base reactions are examples of a broad subdiscipline called coordination chemistry \u00e2\u0080\u0094the topic of another chapter in this text. The equilibrium constant for the reaction of a metal ion with one or more ligands to form a coordination complex is called a formation constant ( K f ) (sometimes called a stability constant). For example, the complex ion The formation constant for this reaction is Alternatively, the reverse reaction (decomposition of the complex ion) can be considered, in which case the equilibrium constant is a dissociation constant ( K d ) . Per the relation between equilibrium constants for reciprocal reactions described, the dissociation constant is the mathematical inverse of the formation constant, K d = K f \u00e2\u0080\u00931 . A tabulation of formation constants is provided in Appendix K . As an example of dissolution by complex ion formation, let us consider what happens when we add aqueous ammonia to a mixture of silver chloride and water. Silver chloride dissolves slightly in water, giving a small concentration of Ag + ([Ag + ] = 1.3 10 \u00e2\u0080\u00935 M ): However, if NH 3 is present in the water, the complex ion, can form according to the equation: The large size of this formation constant indicates that most of the free silver ions produced by the dissolution of AgCl combine with NH 3 to form As a consequence, the concentration of silver ions, [Ag + ], is reduced, and the reaction quotient for the dissolution of silver chloride, [Ag + ][Cl \u00e2\u0080\u0093 ], falls below the solubility product of AgCl: More silver chloride then dissolves. If the concentration of ammonia is great enough, all of the silver chloride dissolves. Substituting these equilibrium concentration terms into the K f expression gives The very large equilibrium constant means the amount of the complex ion that will dissociate, x , will be very small. Assuming x << 0.1 permits simplifying the above equation: Because only 1.1% of the dissociates into Ag + and NH 3 , the assumption that x is small is justified. Using this value of x and the relations in the above ICE table allows calculation of all species\u00e2\u0080\u0099 equilibrium concentrations: The concentration of free silver ion in the solution is 0.0011 M .",
+    "key_concepts": [
+      "complex ion",
+      "coordinate covalent bond",
+      "reaction",
+      "pair",
+      "electrons",
+      "formation",
+      "lewis acid"
+    ],
+    "methods_principles": [
+      "these equation",
+      "equilibrium constant",
+      "formation constant",
+      "stability constant",
+      "dissociation constant",
+      "the equation"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/15-2-lewis-acids-and-bases",
+    "word_count": 782
+  },
+  {
+    "passage_id": "che_012",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "17.2 Galvanic Cells",
+    "text": "By the end of this section, you will be able to: As demonstration of spontaneous chemical change, Figure 17.2 shows the result of immersing a coiled wire of copper into an aqueous solution of silver nitrate. A gradual but visually impressive change spontaneously occurs as the initially colorless solution becomes increasingly blue, and the initially smooth copper wire becomes covered with a porous gray solid. These observations are consistent with (i) the oxidation of elemental copper to yield copper(II) ions, Cu 2+ (aq) , which impart a blue color to the solution, and (ii) the reduction of silver(I) ions to yield elemental silver, which deposits as a fluffy solid on the copper wire surface. And so, the direct transfer of electrons from the copper wire to the aqueous silver ions is spontaneous under the employed conditions. A summary of this redox system is provided by these equations: Consider the construction of a device that contains all the reactants and products of a redox system like the one here, but prevents physical contact between the reactants. Direct transfer of electrons is, therefore, prevented; transfer, instead, takes place indirectly through an external circuit that contacts the separated reactants. Devices of this sort are generally referred to as electrochemical cells , and those in which a spontaneous redox reaction takes place are called galvanic cells (or voltaic cells ). A galvanic cell based on the spontaneous reaction between copper and silver(I) is depicted in Figure 17.3 . The cell is comprised of two half-cells , each containing the redox conjugate pair (\u00e2\u0080\u009ccouple\u00e2\u0080\u009d) of a single reactant. The half-cell shown at the left contains the Cu(0)/Cu(II) couple in the form of a solid copper foil and an aqueous solution of copper nitrate. The right half-cell contains the Ag(I)/Ag(0) couple as solid silver foil and an aqueous silver nitrate solution. An external circuit is connected to each half-cell at its solid foil, meaning the Cu and Ag foil each function as an electrode . By definition, the anode of an electrochemical cell is the electrode at which oxidation occurs (in this case, the Cu foil) and the cathode is the electrode where reduction occurs (the Ag foil). The redox reactions in a galvanic cell occur only at the interface between each half-cell\u00e2\u0080\u0099s reaction mixture and its electrode. To keep the reactants separate while maintaining charge-balance, the two half-cell solutions are connected by a tube filled with inert electrolyte solution called a salt bridge . The spontaneous reaction in this cell produces Cu 2+ cations in the anode half-cell and consumes Ag + ions in the cathode half-cell, resulting in a compensatory flow of inert ions from the salt bridge that maintains charge balance. Increasing concentrations of Cu 2+ in the anode half-cell are balanced by an influx of NO 3 \u00e2\u0088\u0092 from the salt bridge, while a flow of Na + into the cathode half-cell compensates for the decreasing Ag + concentration.",
+    "key_concepts": [
+      "half",
+      "electrode",
+      "salt bridge",
+      "copper",
+      "aqueous solution",
+      "oxidation"
+    ],
+    "methods_principles": [
+      "these equation"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells",
+    "word_count": 487
+  },
+  {
+    "passage_id": "che_013",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "18.3 Structure and General Properties of the Metalloids",
+    "text": "By the end of this section, you will be able to: A series of six elements called the metalloids separate the metals from the nonmetals in the periodic table. The metalloids are boron, silicon, germanium, arsenic, antimony, and tellurium. These elements look metallic; however, they do not conduct electricity as well as metals so they are semiconductors. They are semiconductors because their electrons are more tightly bound to their nuclei than are those of metallic conductors. Their chemical behavior falls between that of metals and nonmetals. For example, the pure metalloids form covalent crystals like the nonmetals, but like the metals, they generally do not form monatomic anions. This intermediate behavior is in part due to their intermediate electronegativity values. In this section, we will briefly discuss the chemical behavior of metalloids and deal with two of these elements\u00e2\u0080\u0094boron and silicon\u00e2\u0080\u0094in more detail. The metalloid boron exhibits many similarities to its neighbor carbon and its diagonal neighbor silicon. All three elements form covalent compounds. However, boron has one distinct difference in that its 2 s 2 2 p 1 outer electron structure gives it one less valence electron than it has valence orbitals. Although boron exhibits an oxidation state of +3 in most of its stable compounds, this electron deficiency provides boron with the ability to form other, sometimes fractional, oxidation states, which occur, for example, in the boron hydrides. Silicon has the valence shell electron configuration 3 s 2 3 p 2 , and it commonly forms tetrahedral structures in which it is sp 3 hybridized with a formal oxidation state of +4. The major differences between the chemistry of carbon and silicon result from the relative strength of the carbon-carbon bond, carbon\u00e2\u0080\u0099s ability to form stable bonds to itself, and the presence of the empty 3 d valence-shell orbitals in silicon. Silicon\u00e2\u0080\u0099s empty d orbitals and boron\u00e2\u0080\u0099s empty p orbital enable tetrahedral silicon compounds and trigonal planar boron compounds to act as Lewis acids. Carbon, on the other hand, has no available valence shell orbitals; tetrahedral carbon compounds cannot act as Lewis acids. Germanium is very similar to silicon in its chemical behavior. Arsenic and antimony generally form compounds in which an oxidation state of +3 or +5 is exhibited; however, arsenic can form arsenides with an oxidation state of \u00e2\u0080\u00933. These elements tarnish only slightly in dry air but readily oxidize when warmed. Antimony reacts readily with stoichiometric amounts of fluorine, chlorine, bromine, or iodine, yielding trihalides or, with excess fluorine or chlorine, forming the pentahalides SbF 5 and SbCl 5 . Depending on the stoichiometry, it forms antimony(III) sulfide, Sb 2 S 3 , or antimony(V) sulfide, Sb 2 S 5 , when heated with sulfur. As expected, the metallic nature of the element is greater than that of arsenic, which lies immediately above it in group 15. Tellurium combines directly with most elements.",
+    "key_concepts": [
+      "metals",
+      "boron",
+      "metalloids",
+      "nonmetals",
+      "silicon",
+      "antimony",
+      "chemical behavior"
+    ],
+    "methods_principles": [],
+    "url": "https://openstax.org/books/chemistry-2e/pages/18-3-structure-and-general-properties-of-the-metalloids",
+    "word_count": 478
+  },
+  {
+    "passage_id": "che_014",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "18.10 Occurrence, Preparation, and Properties of Sulfur",
+    "text": "By the end of this section, you will be able to: Sulfur exists in nature as elemental deposits as well as sulfides of iron, zinc, lead, and copper, and sulfates of sodium, calcium, barium, and magnesium. Hydrogen sulfide is often a component of natural gas and occurs in many volcanic gases, like those shown in Figure 18.58 . Sulfur is a constituent of many proteins and is essential for life. The Frasch process , illustrated in Figure 18.59 , is important in the mining of free sulfur from enormous underground deposits in Texas and Louisiana. Superheated water (170 \u00c2\u00b0C and 10 atm pressure) is forced down the outermost of three concentric pipes to the underground deposit. The hot water melts the sulfur. The innermost pipe conducts compressed air into the liquid sulfur. The air forces the liquid sulfur, mixed with air, to flow up through the outlet pipe. Transferring the mixture to large settling vats allows the solid sulfur to separate upon cooling. This sulfur is 99.5% to 99.9% pure and requires no purification for most uses. Larger amounts of sulfur also come from hydrogen sulfide recovered during the purification of natural gas. Sulfur exists in several allotropic forms. The stable form at room temperature contains eight-membered rings, and so the true formula is S 8 . However, chemists commonly use S to simplify the coefficients in chemical equations; we will follow this practice in this book. Like oxygen, which is also a member of group 16, sulfur exhibits a distinctly nonmetallic behavior. It oxidizes metals, giving a variety of binary sulfides in which sulfur exhibits a negative oxidation state (2\u00e2\u0088\u0092). Elemental sulfur oxidizes less electronegative nonmetals, and more electronegative nonmetals, such as oxygen and the halogens, will oxidize it. Other strong oxidizing agents also oxidize sulfur. For example, concentrated nitric acid oxidizes sulfur to the sulfate ion, with the concurrent formation of nitrogen(IV) oxide: The chemistry of sulfur with an oxidation state of 2\u00e2\u0088\u0092 is similar to that of oxygen. Unlike oxygen, however, sulfur forms many compounds in which it exhibits positive oxidation states.",
+    "key_concepts": [
+      "sulfur",
+      "oxygen",
+      "2\u00e2\u0088\u0092",
+      "air",
+      "hydrogen sulfide",
+      "natural gas",
+      "liquid sulfur"
+    ],
+    "methods_principles": [
+      "chemical equation",
+      "the frasch",
+      "and so the true"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/18-10-occurrence-preparation-and-properties-of-sulfur",
+    "word_count": 345
+  },
+  {
+    "passage_id": "che_015",
+    "subject": "chemistry",
+    "source": "openstax_chemistry-2e",
+    "section": "20.3 Aldehydes, Ketones, Carboxylic Acids, and Esters",
+    "text": "By the end of this section, you will be able to: Another class of organic molecules contains a carbon atom connected to an oxygen atom by a double bond, commonly called a carbonyl group. The trigonal planar carbon in the carbonyl group can attach to two other substituents leading to several subfamilies (aldehydes, ketones, carboxylic acids and esters) described in this section. Both aldehydes and ketones contain a carbonyl group , a functional group with a carbon-oxygen double bond. The names for aldehyde and ketone compounds are derived using similar nomenclature rules as for alkanes and alcohols, and include the class-identifying suffixes -al and -one , respectively: In an aldehyde, the carbonyl group is bonded to at least one hydrogen atom. In a ketone, the carbonyl group is bonded to two carbon atoms: As text, an aldehyde group is represented as \u00e2\u0080\u0093CHO; a ketone is represented as \u00e2\u0080\u0093C(O)\u00e2\u0080\u0093 or \u00e2\u0080\u0093CO\u00e2\u0080\u0093. In both aldehydes and ketones, the geometry around the carbon atom in the carbonyl group is trigonal planar; the carbon atom exhibits sp 2 hybridization. Two of the sp 2 orbitals on the carbon atom in the carbonyl group are used to form \u00cf\u0083 bonds to the other carbon or hydrogen atoms in a molecule. The remaining sp 2 hybrid orbital forms a \u00cf\u0083 bond to the oxygen atom. The unhybridized p orbital on the carbon atom in the carbonyl group overlaps a p orbital on the oxygen atom to form the \u00cf\u0080 bond in the double bond. Like the bond in carbon dioxide, the bond of a carbonyl group is polar (recall that oxygen is significantly more electronegative than carbon, and the shared electrons are pulled toward the oxygen atom and away from the carbon atom). Many of the reactions of aldehydes and ketones start with the reaction between a Lewis base and the carbon atom at the positive end of the polar bond to yield an unstable intermediate that subsequently undergoes one or more structural rearrangements to form the final product ( Figure 20.14 ). The importance of molecular structure in the reactivity of organic compounds is illustrated by the reactions that produce aldehydes and ketones. We can prepare a carbonyl group by oxidation of an alcohol\u00e2\u0080\u0094for organic molecules, oxidation of a carbon atom is said to occur when a carbon-hydrogen bond is replaced by a carbon-oxygen bond. The reverse reaction\u00e2\u0080\u0094replacing a carbon-oxygen bond by a carbon-hydrogen bond\u00e2\u0080\u0094is a reduction of that carbon atom. Recall that oxygen is generally assigned a \u00e2\u0080\u00932 oxidation number unless it is elemental or attached to a fluorine. Hydrogen is generally assigned an oxidation number of +1 unless it is attached to a metal. Since carbon does not have a specific rule, its oxidation number is determined algebraically by factoring the atoms it is attached to and the overall charge of the molecule or ion.",
+    "key_concepts": [
+      "carbonyl group",
+      "carbon atom",
+      "ketones",
+      "oxygen atom",
+      "aldehydes",
+      "double bond",
+      "both aldehydes"
+    ],
+    "methods_principles": [
+      "nomenclature rule",
+      "specific rule"
+    ],
+    "url": "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters",
+    "word_count": 472
+  }
+]

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Results (too large for git — 140MB+)
+data/results/gen_*.json
+data/results/eval_*.json
+data/results/benchmark_summary.json
+data/results/*.log
+data/results/submission_*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+
+# Environment
+.env
