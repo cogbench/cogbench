@@ -960,40 +960,40 @@
             </thead>
             <tbody>
               <tr><td rowspan="4" style="font-weight:700;">Universal</td>
-                <td>U1</td><td>IsQuestion</td><td>Output ends with "?"</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
-              <tr><td>U2</td><td>WordCount</td><td>Question is 10-150 words</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
-              <tr><td>U3</td><td>PassageRelevance</td><td>&ge;3 key terms from passage in question</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+                <td>U1</td><td>IsQuestion</td><td>Output is a question or task prompt (ends with "?" or uses interrogative/task structure)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>U2</td><td>WordCount</td><td>Question is 5&ndash;150 words (5 for Remember, 10 for others)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>U3</td><td>PassageRelevance</td><td>&ge;1 key term (Remember) or &ge;2 (others) from passage in Q+A</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
               <tr><td>U4</td><td>NoDegenerateOutput</td><td>No word repeated &gt;3&times;, not empty</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
 
               <tr><td rowspan="4" style="font-weight:700; color:#2563EB;">L1 Remember</td>
-                <td>R1</td><td>Vocabulary</td><td>Uses recall verbs (define, list, identify&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
-              <tr><td>R2</td><td>SingleConcept</td><td>Targets exactly 1 key concept</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+                <td>R1</td><td>Vocabulary</td><td>Uses recall verbs (define, list, identify&hellip;) or natural recall patterns (What is, How many, When did&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>R2</td><td>SingleConcept</td><td>Targets &le;2 key concepts (deduplicated: cell/cell cycle = 1)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
               <tr><td>R3</td><td>ShortAnswer</td><td>Reference answer &le;20 words</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
               <tr><td>R4</td><td>Extractable</td><td>&ge;60% of answer words in passage</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
 
               <tr><td rowspan="4" style="font-weight:700; color:#7C3AED;">L2 Understand</td>
-                <td>D1</td><td>Vocabulary</td><td>Uses explain verbs (explain, describe, summarize&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
-              <tr><td>D2</td><td>NotCopied</td><td>&lt;40% word overlap between answer and passage</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
-              <tr><td>D3</td><td>Supported</td><td>NLI: passage entails answer (&gt;65%)</td><td><span class="tier-tag tier-2">Tier 2</span></td></tr>
-              <tr><td>D4</td><td>AsksMeaning</td><td>Contains "how", "why", "explain", or "describe"</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+                <td>D1</td><td>Vocabulary</td><td>Uses comprehension verbs (explain, describe&hellip;) or natural patterns (Why is, How does, What is the purpose&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>D2</td><td>NotCopied</td><td>&lt;70% trigram overlap between answer and passage</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>D3</td><td>Supported</td><td>NLI: answer not contradicted by passage (contradiction &lt;50%)</td><td><span class="tier-tag tier-2">Tier 2</span></td></tr>
+              <tr><td>D4</td><td>AsksMeaning</td><td>Contains meaning markers (how, why, explain, describe&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
 
               <tr><td rowspan="4" style="font-weight:700; color:#059669;">L3 Apply</td>
-                <td>P1</td><td>Vocabulary</td><td>Uses apply verbs (calculate, solve, apply&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+                <td>P1</td><td>Vocabulary</td><td>Uses apply verbs (calculate, solve&hellip;) or scenario framing (If a&hellip;, Given that&hellip;, A researcher&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
               <tr><td>P2</td><td>NewScenario</td><td>NLI: passage does NOT entail scenario (&gt;55%)</td><td><span class="tier-tag tier-2">Tier 2</span></td></tr>
-              <tr><td>P3</td><td>MethodReference</td><td>&ge;1 method/principle from passage in question</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
-              <tr><td>P4</td><td>SpecificResult</td><td>Answer has number, named outcome, or procedure</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>P3</td><td>MethodReference</td><td>Q+A references &ge;1 key concept or method from passage</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>P4</td><td>SpecificResult</td><td>Answer contains concrete reasoning (numbers, causal logic, outcomes, method application)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
 
               <tr><td rowspan="4" style="font-weight:700; color:#DC2626;">L4 Analyze</td>
-                <td>A1</td><td>Vocabulary</td><td>Uses analysis verbs (compare, contrast, examine&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
-              <tr><td>A2</td><td>MultipleConcepts</td><td>&ge;2 different key concepts from passage</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
-              <tr><td>A3</td><td>Relationship</td><td>Contains "between", "differ", "compare", etc.</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+                <td>A1</td><td>Vocabulary</td><td>Uses analysis verbs (compare, contrast&hellip;) or analytical patterns (How do X differ, What is the relationship&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>A2</td><td>MultipleConcepts</td><td>&ge;2 key concepts in Q+A (with acronym matching)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>A3</td><td>Relationship</td><td>Contains relationship markers (between, differ, compare&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
               <tr><td>A4</td><td>AnswerCoverage</td><td>Answer addresses all concepts from question</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
 
               <tr><td rowspan="4" style="font-weight:700; color:#EA580C;">L5 Evaluate</td>
                 <td>E1</td><td>Vocabulary</td><td>Uses judgment verbs (assess, critique, justify&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
-              <tr><td>E2</td><td>Claim</td><td>Presents a claim or position to evaluate</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>E2</td><td>Claim</td><td>Presents something to evaluate (should, justify, claim, position, strengths/weaknesses&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
               <tr><td>E3</td><td>EvidenceRequest</td><td>Asks for evidence-based reasoning</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
-              <tr><td>E4</td><td>Argumentation</td><td>Answer has contrastive markers (however, although&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
+              <tr><td>E4</td><td>Argumentation</td><td>Answer contains argumentation (contrastive, causal, evaluative, or structured reasoning)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
 
               <tr><td rowspan="4" style="font-weight:700; color:#9333EA;">L6 Create</td>
                 <td>C1</td><td>Vocabulary</td><td>Uses creation verbs (design, propose, develop&hellip;)</td><td><span class="tier-tag tier-1">Tier 1</span></td></tr>
