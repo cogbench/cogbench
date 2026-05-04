@@ -409,6 +409,13 @@
   .gap-positive { color: var(--red); font-weight: 600; }
   .gap-negative { color: var(--green); font-weight: 600; }
 
+  .ci {
+    font-size: 0.78em;
+    color: var(--muted, #64748B);
+    font-weight: 400;
+    margin-left: 0.25rem;
+  }
+
   /* ── Method / Info Cards ── */
   .method-grid {
     display: grid;
@@ -1177,12 +1184,13 @@ cd cogbench && pip install -e .</div>
       <h2 class="content-section__title">Citation</h2>
       <p class="content-section__subtitle">If you use CogBench in your research, please cite:</p>
       <div class="method-card fade-in" style="max-width:600px">
-        <div class="code-block">@misc{kunuku2026cogbench,
+        <div class="code-block">@misc{cogbench2026,
   title     = {CogBench: A Verifiable Constraint
                Benchmark for Cognitive-Level Control
                in LLM Question Generation},
-  author    = {Kunuku, Mourya Teja and Nasrin, Dena},
-  year      = {2026}
+  author    = {Anonymous},
+  year      = {2026},
+  note      = {NeurIPS 2026 Evaluations \&amp; Datasets Track submission}
 }</div>
       </div>
     </div>
@@ -1196,7 +1204,7 @@ cd cogbench && pip install -e .</div>
       <div class="footer__social">
         <a href="https://pypi.org/project/cogbench/" aria-label="PyPI" target="_blank" rel="noopener"><i class="fas fa-cube"></i></a>
         <a href="https://github.com/cogbench/cogbench" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
-        <a href="mailto:kunukumourya@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="mailto:anonymous@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
       </div>
       <p class="footer__copy">CogBench &mdash; Verifiable Cognitive Constraint Benchmark &mdash; <code style="font-size:0.7rem; background:rgba(255,255,255,0.1); padding:2px 6px; border-radius:3px;">pip install cogbench</code></p>
     </div>
@@ -1280,6 +1288,9 @@ cd cogbench && pip install -e .</div>
     });
 
     const tbody = document.getElementById('lb-body');
+    const fmtCi = (ci) => Array.isArray(ci) && ci.length === 2
+      ? `<span class="ci">[${(ci[0]*100).toFixed(1)}, ${(ci[1]*100).toFixed(1)}]</span>`
+      : '';
     tbody.innerHTML = rows.map((r, i) => {
       const rank = i + 1;
       const rankClass = rank <= 3 ? ` rank-${rank}` : '';
@@ -1293,9 +1304,9 @@ cd cogbench && pip install -e .</div>
         <td class="rank-cell${rankClass}">${rank}</td>
         <td><span class="model-name-link" onclick="openModal('${escapedName}')">${r.model_name}</span> ${typeTag}</td>
         <td>${r.model_params}</td>
-        <td style="font-variant-numeric:tabular-nums; font-weight:500;">${(r.standard_csr * 100).toFixed(1)}%</td>
-        <td style="font-variant-numeric:tabular-nums; font-weight:500;">${(r.adversarial_csr * 100).toFixed(1)}%</td>
-        <td class="${gapClass}" style="font-variant-numeric:tabular-nums;">${(r.gap * 100).toFixed(1)}pp</td>
+        <td style="font-variant-numeric:tabular-nums; font-weight:500;">${(r.standard_csr * 100).toFixed(1)}% ${fmtCi(r.standard_csr_ci)}</td>
+        <td style="font-variant-numeric:tabular-nums; font-weight:500;">${(r.adversarial_csr * 100).toFixed(1)}% ${fmtCi(r.adversarial_csr_ci)}</td>
+        <td class="${gapClass}" style="font-variant-numeric:tabular-nums;">${(r.gap * 100).toFixed(1)}pp ${fmtCi(r.gap_ci)}</td>
         <td style="font-variant-numeric:tabular-nums;">${(r.constraint_strict * 100).toFixed(1)}%</td>
         <td style="font-variant-numeric:tabular-nums;">${(r.prompt_strict * 100).toFixed(1)}%</td>
       </tr>`;
@@ -1334,20 +1345,26 @@ cd cogbench && pip install -e .</div>
     const body = document.getElementById('modal-body');
     const gapColor = details.gap > 0.15 ? 'var(--red)' : details.gap < 0.05 ? 'var(--green)' : 'var(--gold)';
 
+    const ciLine = (ci) => Array.isArray(ci) && ci.length === 2
+      ? `<div class="ci">95% CI [${(ci[0]*100).toFixed(1)}, ${(ci[1]*100).toFixed(1)}]</div>`
+      : '';
     body.innerHTML = `
       <!-- Summary Stats -->
       <div class="modal__stats-row">
         <div class="modal__stat-card">
           <div class="num" style="color:var(--primary);">${(details.prompt_strict * 100).toFixed(1)}%</div>
           <div class="label">Std CSR</div>
+          ${ciLine(details.prompt_strict_ci)}
         </div>
         <div class="modal__stat-card">
           <div class="num" style="color:var(--orange, #D55E00);">${(details.adversarial_csr * 100).toFixed(1)}%</div>
           <div class="label">Adv CSR</div>
+          ${ciLine(details.adversarial_csr_ci)}
         </div>
         <div class="modal__stat-card">
           <div class="num" style="color:${gapColor};">${(details.gap * 100).toFixed(1)}pp</div>
-          <div class="label">Gap</div>
+          <div class="label">Gap (passage-clustered)</div>
+          ${ciLine(details.gap_ci)}
         </div>
         <div class="modal__stat-card">
           <div class="num" style="color:var(--teal, #0D9488);">${(details.constraint_strict * 100).toFixed(1)}%</div>
